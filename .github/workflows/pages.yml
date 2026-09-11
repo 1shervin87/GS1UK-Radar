@@ -45,7 +45,8 @@ jobs:
 
       - uses: actions/configure-pages@v5
         with:
-          enablement: true   # tries to switch Pages on automatically; otherwise Settings -> Pages -> Source: GitHub Actions
+          # enablement needs a one-time owner click: Settings → Pages → Source: GitHub Actions
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist
