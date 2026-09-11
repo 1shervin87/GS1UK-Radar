@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:08:57.337177+00:00",
+  "generated_at": "2026-09-11T19:17:19.296129+00:00",
   "status": {
     "app": "GS1 UK Regulatory Radar",
     "environment": "static",
@@ -35,30 +35,30 @@
   "digests": [
     {
       "id": "2026-09-11",
-      "window_start": "2026-09-04T08:00:00",
-      "window_end": "2026-09-11T08:00:00",
-      "created_at": "2026-09-11T08:00:00",
-      "completed_at": "2026-09-11T08:00:00",
+      "window_start": "2026-09-07T08:00:00+01:00",
+      "window_end": "2026-09-11T20:15:00+01:00",
+      "created_at": "2026-09-11T20:15:00+01:00",
+      "completed_at": "2026-09-11T20:15:00+01:00",
       "status": "completed",
-      "trigger": "seed",
-      "headline": "Identification is becoming law: DRS barcodes, construction product QR labels and GB UDI all move closer",
-      "is_sample": true,
-      "item_count": 8,
+      "trigger": "automation",
+      "headline": "DRS barcode countdown, a construction-product data library and CBAM verification rules all move this week",
+      "is_sample": false,
+      "item_count": 4,
       "sector_counts": [
         {
           "sector": "retail",
-          "total": 4,
-          "high": 2
+          "total": 2,
+          "high": 1
         },
         {
           "sector": "construction",
-          "total": 4,
-          "high": 3
+          "total": 2,
+          "high": 1
         },
         {
           "sector": "healthcare",
-          "total": 3,
-          "high": 1
+          "total": 1,
+          "high": 0
         }
       ]
     }

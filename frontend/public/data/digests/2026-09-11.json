@@ -1,163 +1,79 @@
 {
-  "window_start": "2026-09-04T08:00:00",
-  "window_end": "2026-09-11T08:00:00",
+  "window_start": "2026-09-07T08:00:00+01:00",
+  "window_end": "2026-09-11T20:15:00+01:00",
   "status": "completed",
-  "trigger": "seed",
-  "is_sample": true,
-  "headline": "Identification is becoming law: DRS barcodes, construction product QR labels and GB UDI all move closer",
-  "executive_summary": "Across all three sectors this week's picture is consistent: regulators and scheme operators are writing unique identifiers, scannable data carriers and digital product records into binding requirements. In retail, Exchange for Change has confirmed that every in-scope drinks container will need a newly registered barcode before the October 2027 DRS launch, and the EU's DPP Registry and EUDR deadlines bear on UK exporters. In construction, MHCLG's White Paper and GSR consultation propose unique identifiers and QR-code labels on all construction products with regulations due by end-2026. In healthcare, MHRA's draft 2026 regulations would make UDI compulsory in Great Britain from mid-2027. For GS1 UK the priorities are to influence how 'unique identifier' and 'data carrier' are defined in each instrument, and to get members allocating GTINs and cleaning product master data now rather than in 2027.",
+  "trigger": "automation",
+  "is_sample": false,
+  "headline": "DRS barcode countdown, a construction-product data library and CBAM verification rules all move this week",
+  "executive_summary": "This first live week of the Regulatory Radar is quieter than the seeded sample, but the items that did land are operational rather than rhetorical. GS1 UK used 9 September to tell members that the one-year DRS countdown starts on 1 October 2026 and that barcode change, Scheme Article List registration and stock planning must now sit inside a single implementation programme. On 10 September MHCLG's Grenfell progress report confirmed that government responses to the Construction Products Reform White Paper and General Safety Requirement consultations will come later this year, with GSR legislation to follow when parliamentary time allows, and that a digital discovery for a construction-product information library is under way this quarter. HMRC laid the CBAM Emissions and Verification Regulations on 9 September, locking in how embodied-emissions data for aluminium, cement, fertiliser, hydrogen, iron and steel must be monitored and independently verified from 1 January 2027. In healthcare, DHSC published the Health Bill medical-device licensing impact assessment and fact sheet: the Bill itself creates no new UDI or labelling duty, but it does give MHRA the power to build a GB licensing route that will have to sit alongside the still-pending 2026 UDI regulations. For GS1 UK the practical task this week is to get drinks members allocating GTINs now, to put identifier and data-carrier language in front of MHCLG's digital-library discovery, and to keep the GB UDI designation question on MHRA's desk.",
   "cross_sector_themes": [
-    "Regulators are converging on 'unique identifier + scannable data carrier + digital record' as the traceability pattern",
-    "QR codes powered by GS1 can serve POS, DRS, DPP, construction labelling and UDI from a single symbol",
-    "2027 is the crunch year: DRS go-live, GB UDI entry into force, construction GSR commencement, first EU DPP obligations",
-    "Master data quality (GTIN, GLN, attributes) is the common readiness gap across sectors"
+    "Regulators are moving from consultation to implementation mechanics: DRS Article List barcodes, a construction-product data library, and verified CBAM emissions records",
+    "Unique identification is being specified as a scheme or tax data key (DRS GTIN/barcode; CBAM commodity-code goods) rather than as a named GS1 legal mandate",
+    "2027 remains the crunch year: DRS go-live 1 October, CBAM charge from 1 January, construction GSR still aimed at late 2027, GB UDI still planned for mid-2027",
+    "A live UK digital product record call for evidence closes on 21 September 2026 – the last chance this month to argue for a single data carrier interoperable with the EU DPP"
   ],
   "sector_overviews": [
     {
       "sector": "retail",
-      "headline": "DRS moves into its final year; EU digital product data rules keep tightening for UK exporters",
-      "summary": "The dominant retail signal is the deposit return scheme: with Exchange for Change confirming fees, readiness tracking and mandatory barcode changes, the 1 October 2026 countdown turns GTIN re-allocation into a board-level programme for drinks producers and own-label retailers. In parallel, the EU DPP Registry going live and EUDR's 30 December 2026 application date mean UK exporters need registry-ready identifiers and location-level traceability. The 2029 e-invoicing mandate is further out but reinforces the same master-data discipline.",
+      "headline": "DRS leaves the awareness phase: barcode change and retailer readiness are now a 12-month programme",
+      "summary": "GS1 UK's 9 September briefing is the clearest retail signal this week. With Exchange for Change already appointed across the four nations, intended producer fees published (0p from October 2027 to December 2028) and a monthly retailer readiness survey launched on 7 September, members no longer have an excuse to treat DRS as a 2027 artwork job. Existing barcodes on in-scope PET, steel and aluminium containers (and glass in Wales) still need to change and be registered on the Scheme Article List; RVMs must read EAN/UPC and 2D codes. Separately, HMRC laid the CBAM emissions-and-verification rules that importers of iron, steel, aluminium, cement, fertiliser and hydrogen will use from 1 January 2027. Nothing new landed this week on packaging EPR labelling, Windsor Framework 'Not for EU' marks, Sunrise 2027 POS readiness or the April 2029 e-invoicing mandate.",
       "top_priorities": [
-        "UK Deposit Return Scheme: one-year countdown starts 1 October 2026 – producer fees announced, barcodes must change",
-        "European Commission launches the Digital Product Passport Registry – batteries first from 18 February 2027",
-        "EU Deforestation Regulation applies from 30 December 2026"
+        "GS1 UK: one-year DRS countdown starts 1 October 2026 – barcodes must change and be registered",
+        "UK CBAM Emissions and Verification Regulations 2026 laid – verified emissions data from 1 January 2027"
       ],
       "watchlist": [
-        "Packaging EPR labelling obligations and fee modulation",
+        "UK digital product records call for evidence closes 21 September 2026",
+        "Exchange for Change certified RVM list expected early October 2026 and product-testing guidelines due by end-September",
+        "Packaging EPR labelling and fee modulation",
         "Windsor Framework 'Not for EU' labelling scope",
-        "Product Regulation and Metrology Act secondary legislation",
-        "Sunrise 2027 retailer POS readiness statements"
+        "Sunrise 2027 retailer POS readiness statements",
+        "HMRC e-invoicing implementation roadmap due at Budget 2026"
       ]
     },
     {
       "sector": "construction",
-      "headline": "Unique identifiers and QR data carriers are now written into the government's construction products plan",
-      "summary": "The Construction Products Reform White Paper and the General Safety Requirement consultation together define a regime in which every construction product must be uniquely identified and carry a digital label linking to a digital product record, enforced by OPSS with the Building Safety Regulator. With regulations targeted for end-2026 and commencement in late 2027, this is the window for GS1 UK to shape identifier definitions and for manufacturers to allocate GTINs and build product data.",
+      "headline": "Government will answer the GSR consultation later this year and is already designing a digital product library",
+      "summary": "The 10 September Grenfell Tower Inquiry progress report is this week's construction event. MHCLG says it is considering the White Paper and GSR consultation responses (closed May 2026) and intends to publish government responses later in 2026, then bring forward GSR legislation when parliamentary time allows. That keeps the late-2027 commencement window in play but slips the 'regulations by end-2026' ambition onto a parliamentary-time caveat. More immediately for GS1 UK, recommendation 24 records that an expert digital consultancy has been commissioned to run a digital discovery in Q3 2026 for a construction-product information library, with Alpha testing of viable solutions to follow. That is the live design conversation in which unique identifiers, QR/GS1 Digital Link data carriers and GDSN-style product records need to be tabled. No new SI on construction products, UKCA/CE or PAS 2000 was laid this week.",
       "top_priorities": [
-        "MHCLG General Safety Requirement for construction products: unique identifiers and QR-code data carriers proposed for all products",
-        "Construction Products Reform White Paper: digital product information by default, database of products and digital product records"
+        "Grenfell progress report: GSR response later this year; digital discovery for a construction-product information library is under way this quarter"
       ],
       "watchlist": [
-        "Government response to the GSR consultation",
-        "PAS 2000:2026 publication and uptake",
-        "EU DPP delegated act for construction products",
-        "UKCA/CE recognition arrangements for construction products"
+        "Government responses to the White Paper and GSR consultations",
+        "GSR secondary legislation and any unique-identifier / data-carrier definitions",
+        "UK digital product records call for evidence (closes 21 September 2026) and EU DPP interoperability",
+        "Approved Document B consultation recommendations expected by March 2027",
+        "PAS 2000:2026 uptake and CCPI alignment"
       ]
     },
     {
       "sector": "healthcare",
-      "headline": "Statutory UDI for Great Britain is on the horizon while Scan4Safety scales nationally",
-      "summary": "MHRA's draft Medical Devices (Amendment) Regulations 2026 would make UDI compulsory for GB, with adoption planned for December 2026 and entry into force in June 2027. This turns the NHS's GS1-based Scan4Safety and MDOR practice into a legal requirement for all manufacturers. NHS Supply Chain's IMS programme and the New Hospitals Programme's 2027 GS1 requirement give trusts the infrastructure to use that data at the point of care.",
+      "headline": "Health Bill papers give MHRA a future licensing power; statutory GB UDI is still the December 2026 instrument to watch",
+      "summary": "Healthcare had no new UDI, Scan4Safety or MDOR instrument this week. What did appear, on 9 September, is the Health Bill package on medicines and medical-devices regulatory reform: a fact sheet plus a final-stage impact assessment on a future MHRA device-licensing regime. The Bill, introduced in May, would let the Secretary of State establish through later regulations a route in which MHRA can assess and licence devices (and certain manufacturers, importers and wholesalers) directly, including with conditions. DHSC is explicit that the Bill itself creates no new requirements for manufacturers or providers. That still matters to GS1 UK because any GB licensing database will need to key devices consistently with the draft Medical Devices (Amendment) Regulations 2026, which would make UDI compulsory from mid-2027. The NHS Supply Chain Scan4Safety IMS framework (live since June 2026) and the New Hospitals Programme 2027 GS1 requirement were not updated this week.",
       "top_priorities": [
-        "MHRA draft Medical Devices (Amendment) Regulations 2026: UDI to become compulsory for devices placed on the GB market",
-        "NHS Scan4Safety: New Hospitals Programme requires GS1 standards from 2027; NHS Supply Chain IMS roll-out to 2031"
+        "Health Bill: powers for a future MHRA medical-device licensing regime – no new UDI duty this week"
       ],
       "watchlist": [
-        "MHRA designation of UDI issuing entities and GB UDI database design",
-        "Implant card format requirements",
-        "Medicines packaging barcode quality (post-FMD framework)",
-        "Devolved Scan4Safety programme milestones"
+        "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027",
+        "MHRA designation of UDI issuing entities and GB UDI database schema",
+        "NHS Supply Chain Scan4Safety IMS / point-of-care scanning framework uptake",
+        "NHS Scotland Event 21 September 2026",
+        "Implant-card format and medicines GS1 DataMatrix quality"
       ]
     }
   ],
   "stats": {
     "queries": 55,
-    "raw_hits": 412,
-    "unique": 168,
-    "triaged_relevant": 23,
-    "analysed": 8,
-    "note": "sample digest"
+    "pages_reviewed": 128,
+    "items_kept": 4,
+    "note": "First live automation run. Replaces the 4–11 September sample digest. Window is last Monday 08:00 Europe/London to publication (Friday 11 September), not a full Monday-to-Monday week."
   },
   "items": [
     {
-      "url": "https://www.gov.uk/government/news/mhra-invites-views-on-proposed-changes-to-medical-device-regulation",
-      "title": "MHRA draft Medical Devices (Amendment) Regulations 2026: UDI to become compulsory for devices placed on the GB market",
-      "publisher": "gov.uk",
-      "issuing_body": "Medicines and Healthcare products Regulatory Agency (MHRA)",
-      "published_at": "2026-05-08T09:00:00",
-      "change_type": "draft_legislation",
-      "jurisdiction": "GB",
-      "sectors": [
-        "healthcare"
-      ],
-      "primary_sector": "healthcare",
-      "impact": "high",
-      "relevance_score": 97,
-      "summary": "MHRA has notified the WTO of draft pre-market regulations for medical devices and IVDs in Great Britain. They make Unique Device Identification compulsory (Basic UDI-DI, UDI-DI and UDI-PI), require implant cards, introduce an international reliance route and align classification with IMDRF. Adoption is planned for December 2026 with entry into force in June 2027 and three- to five-year transitions.",
-      "what_changed": "On 8 May 2026 MHRA published the draft Medical Devices (Amendment) Regulations 2026 on the WTO notification portal, with a UK impact survey open until 19 June 2026. Manufacturers would need to assign a UDI before placing a device on the GB market, carry it on the device and packaging, and include it in registration records and technical documentation. Healthcare organisations implanting devices must give patients implant cards. The rules complement the post-market surveillance requirements already in force since 16 June 2025. Transitional periods of three years (general devices) and five years (IVDs) are proposed; the reliance pathway is expected in 2028.",
-      "why_it_matters_to_gs1": "GS1 is an accredited UDI issuing agency internationally and more than 95 per cent of devices used in the NHS already carry GS1 GTINs as their UDI-DI, with GS1 DataMatrix as the preferred carrier and GMN as the Basic UDI-DI. A statutory GB UDI requirement converts what has been NHS procurement policy (Scan4Safety, MDOR) into law for every manufacturer selling into GB, driving GS1 UK membership and Numberbank usage among MedTech companies and reinforcing the GTIN/GLN/GSRN model in trusts. Key watch-points for GS1 UK: that MHRA designates issuing entities compatible with GS1 (as the EU and FDA do), that the GB UDI database schema aligns with GDSN/GUDID attributes, and that implant-card requirements reference the UDI in scannable form. Members with EU MDR UDI already in place will largely reuse it; UK-only manufacturers and NHS trusts' IMS/EPR systems need to prepare.",
-      "gs1_standards_implicated": [
-        "GTIN as UDI-DI",
-        "GMN as Basic UDI-DI",
-        "GS1 DataMatrix / GS1-128 carrying AI(01)(10)(17)(21)",
-        "GLN",
-        "GSRN (patient)",
-        "GDSN attributes for device registration"
-      ],
-      "affected_stakeholders": [
-        "Medical device and IVD manufacturers and UK Responsible Persons",
-        "NHS trusts and Scan4Safety / MDOR programmes",
-        "NHS Supply Chain",
-        "Software and EPR vendors"
-      ],
-      "key_dates": [
-        {
-          "date": "2026-05-08",
-          "label": "WTO notification and draft published"
-        },
-        {
-          "date": "2026-06-19",
-          "label": "MHRA impact survey closed"
-        },
-        {
-          "date": "2026-12",
-          "label": "Planned adoption of the regulations"
-        },
-        {
-          "date": "2027-06",
-          "label": "Anticipated entry into force; 3-year (devices) / 5-year (IVD) transitions begin"
-        }
-      ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Formally respond to MHRA on issuing-entity designation, UDI database attribute alignment with GDSN, and scannable UDI on implant cards; brief the Scan4Safety and MDOR teams",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Manufacturers: gap-assess existing EU/US UDI data for GB, confirm GMN/Basic UDI-DI coverage and GS1 DataMatrix label quality",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "NHS trusts: ensure inventory management and EPR systems parse GS1 Application Identifiers to capture UDI-PI (lot, expiry, serial) at point of care",
-          "priority": "next_quarter"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.gov.uk/government/news/mhra-invites-views-on-proposed-changes-to-medical-device-regulation",
-          "label": "GOV.UK: MHRA invites views on proposed changes",
-          "kind": "primary"
-        },
-        {
-          "url": "https://www.gs1uk.org/industries/healthcare/policy-campaign",
-          "label": "GS1 UK healthcare policy hub",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "high",
-      "source_connector": "govuk",
-      "id": "2026-09-11__1",
-      "digest_id": "2026-09-11"
-    },
-    {
       "url": "https://www.gs1uk.org/insights/news/DRS-countdown-approaches-what-businesses-need-to-know",
-      "title": "UK Deposit Return Scheme: one-year countdown starts 1 October 2026 – producer fees announced, barcodes must change",
+      "title": "GS1 UK: one-year DRS countdown starts 1 October 2026 – barcodes must change and be registered",
       "publisher": "gs1uk.org",
-      "issuing_body": "Exchange for Change (Deposit Management Organisation) / Defra",
-      "published_at": "2026-09-09T09:00:00",
+      "issuing_body": "GS1 UK / Exchange for Change",
+      "published_at": "2026-09-09T00:00:00+01:00",
       "change_type": "industry_scheme",
       "jurisdiction": "UK",
       "sectors": [
@@ -165,183 +81,114 @@
       ],
       "primary_sector": "retail",
       "impact": "high",
-      "relevance_score": 96,
-      "summary": "Exchange for Change, the appointed Deposit Management Organisation for England, Northern Ireland and Scotland, has published its intended producer fees and new retailer-readiness measures ahead of the DRS go-live on 1 October 2027. It has confirmed that every in-scope drinks container must carry a barcode registered on the Scheme Article List and that existing barcodes – including international ones – will need to change.",
-      "what_changed": "The UK-wide deposit return scheme for single-use PET, aluminium and steel drinks containers launches on 1 October 2027 under The Deposit Scheme for Drinks Containers (England and Northern Ireland) Regulations 2025, with parallel Scottish legislation and a compatible Welsh scheme that also covers glass. On 1 October 2026 the formal one-year countdown begins. Exchange for Change has announced intended producer fees, introduced measures to track retailer readiness, and updated its material specification: containers must display a unique barcode (EAN-13, EAN-8, UPC-A or UPC-E) that complies with the GS1 General Specifications, is registered on the Scheme Article List and is readable by reverse vending machines and counting centres. Each container within a multipack needs its own barcode, distinct from the outer pack. Producers must register, apply the deposit, report volumes and meet scheme labelling requirements; retailers must charge deposits, host return points and refund consumers.",
-      "why_it_matters_to_gs1": "This is the single largest forced re-identification event UK grocery has faced: the scheme operator has stated that all existing product barcodes on in-scope containers will need to change and be registered, which means new GTIN allocation for thousands of SKUs across GS1 UK's drinks-producer, brand-owner and retailer members. The specification explicitly requires compliance with the GS1 General Specifications, placing GS1 UK's GTIN Management Standard, barcode quality guidance and My Numberbank at the centre of member readiness. It also creates a natural on-ramp for QR codes powered by GS1 (GS1 Digital Link), since RVMs will read both linear and 2D symbols and a single code can serve POS, DRS, consumer information and future DPP/EUDR needs. Risks: members who leave GTIN and artwork changes to 2027 will collide with retailer listing windows, RVM certification and stock run-down; poorly allocated GTINs (reused numbers, shared multipack/unit codes) will cause refund failures and reconciliation disputes. GS1 UK is not the scheme administrator – scope, fees and registration questions belong to Exchange for Change – but identification quality is squarely GS1 UK's remit.",
+      "relevance_score": 95,
+      "summary": "On 9 September 2026 GS1 UK told members that 1 October 2026 is the one-year mark before the UK deposit return scheme goes live. Exchange for Change is the operator across all four nations, intended producer fees have been published, a monthly retailer readiness survey is running, and existing barcodes on in-scope containers still need to change and be registered on the Scheme Article List.",
+      "what_changed": "GS1 UK published a DRS readiness briefing on 9 September 2026. It records that Exchange for Change has been appointed to operate the scheme across England, Scotland, Wales and Northern Ireland; that intended producer fees will be 0p per container from October 2027 to December 2028, then (on current data) 0.6p for aluminium and steel and 2.3p for PET from January 2029, to be reconfirmed in May 2027; and that Exchange for Change has launched a monthly anonymous Retailer Readiness Survey (covered by Retail Gazette on 7 September). Reverse-vending-machine testing is under way, with a first certified-model list expected in early October 2026. GS1 UK restates Exchange for Change's material specification: every in-scope container must carry a barcode registered on the Scheme Article List; existing and many international barcodes must change; permitted carriers are EAN-13, EAN-8, UPC-A and UPC-E, compliant with the GS1 General Specifications or equivalent; and RVMs must also read 2D Data Matrix and QR codes. New DRS-specific barcodes and the scheme logo must not appear on packs sold to consumers before 1 October 2027. Scope remains PET, steel and aluminium 150 ml–3 L, with glass also in Wales.",
+      "why_it_matters_to_gs1": "This is the core GS1 UK retail programme for the next 12 months. The scheme does not invent a new identifier: it requires a unique, GS1-spec barcode on every in-scope container, registered on an identifier-keyed Article List that RVMs and counting centres will poll. That is GTIN allocation, barcode quality, artwork, productDNA/GDSN attribute updates and stock-run-out planning under another name. Members who treat it as a late 2027 print job will miss production lead times and will have unregistered stock that RVMs reject. International GTINs used on multi-market SKUs may attract an extra producer-fee charge if they are not DRS-specific; GS1 UK should keep pressing Exchange for Change for a published rule and for 2D / GS1 Digital Link to be a first-class return code, not only a secondary RVM capability. If members do nothing, they risk unsaleable in-scope stock from 1 October 2027 and a scramble for new Company Prefix capacity.",
       "gs1_standards_implicated": [
         "GTIN",
-        "EAN-13 / EAN-8 / UPC",
+        "EAN-13 / EAN-8 / UPC-A / UPC-E",
         "GS1 General Specifications",
-        "GTIN Management Standard",
-        "GS1 Digital Link (QR codes powered by GS1)",
-        "My Numberbank"
+        "GS1 DataMatrix / QR codes powered by GS1 (RVM 2D read)",
+        "GDSN / productDNA",
+        "EDI (DRS attributes on INVOIC / DESADV)"
       ],
       "affected_stakeholders": [
-        "Drinks producers and importers",
-        "Own-label retailers",
-        "Wholesalers",
-        "Retailers hosting return points",
-        "RVM and POS solution providers"
+        "Drinks producers, importers and own-label retailers",
+        "Grocery and convenience retailers operating return points",
+        "Packaging converters and barcode printers",
+        "RVM suppliers",
+        "Exchange for Change (DMO)"
       ],
       "key_dates": [
         {
+          "date": "2026-09-07",
+          "label": "Exchange for Change monthly Retailer Readiness Survey launched"
+        },
+        {
+          "date": "2026-09-09",
+          "label": "GS1 UK one-year countdown briefing published"
+        },
+        {
+          "date": "2026-09",
+          "label": "Exchange for Change product-testing guidelines due (latest)"
+        },
+        {
           "date": "2026-10-01",
-          "label": "One-year countdown begins; producer registration and readiness tracking ramp up"
+          "label": "One-year countdown to DRS go-live begins"
+        },
+        {
+          "date": "2026-10",
+          "label": "First certified RVM list expected"
+        },
+        {
+          "date": "2027-05",
+          "label": "Producer fees to be validated and reconfirmed"
         },
         {
           "date": "2027-10-01",
-          "label": "DRS go-live across England, Northern Ireland, Scotland (Wales compatible scheme)"
+          "label": "DRS go-live; DRS-specific barcodes and logo may be sold to consumers"
         },
         {
-          "date": "2028-01-01",
-          "label": "If no DRS is operational, drinks containers fall back into full packaging EPR obligations"
+          "date": "2028-12",
+          "label": "0p producer-fee period scheduled to end"
         }
       ],
       "next_steps": [
         {
           "audience": "gs1_uk",
-          "action": "Publish a DRS GTIN-allocation decision tree (UK-specific vs international GTIN, multipack unit vs outer, variants) aligned to the Exchange for Change material specification",
-          "priority": "now"
-        },
-        {
-          "audience": "gs1_uk",
-          "action": "Run joint webinars with Exchange for Change and BRC/FDF before 1 October 2026 covering registration data fields that key on GTIN",
+          "action": "Turn the 9 September briefing into a member GTIN/artwork clinic before 1 October; seek written confirmation from Exchange for Change on international-barcode fees, multipack rules and whether a GS1 Digital Link / DataMatrix can be the registered return code",
           "priority": "now"
         },
         {
           "audience": "members",
-          "action": "Inventory every in-scope SKU, confirm which need new GTINs and schedule artwork, RVM testing and retailer notification into Q1–Q2 2027 production plans",
+          "action": "Drinks brand owners and own-label retailers: inventory every in-scope SKU, reserve new GTINs, book artwork slots, and build a sell-through plan so pre-DRS barcodes are off shelf by 1 October 2027",
           "priority": "now"
         },
         {
           "audience": "members",
-          "action": "Evaluate moving DRS lines to QR codes powered by GS1 carrying the registered GTIN so one symbol serves POS, DRS and consumer information",
+          "action": "Retailers: complete the Exchange for Change readiness survey, decide RVM versus manual return, and do not order machines until the certified list is published in October",
           "priority": "next_quarter"
         }
       ],
       "links": [
         {
           "url": "https://www.gs1uk.org/insights/news/DRS-countdown-approaches-what-businesses-need-to-know",
-          "label": "GS1 UK: DRS countdown approaches (9 Sep 2026)",
-          "kind": "gs1"
-        },
-        {
-          "url": "https://www.gs1uk.org/insights/news/Exchange-for-Change-update-puts-DRS-barcode-readiness-on-the-agenda",
-          "label": "GS1 UK: Exchange for Change barcode update (6 Jul 2026)",
-          "kind": "gs1"
-        },
-        {
-          "url": "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities",
-          "label": "GOV.UK: DRS producer and retailer responsibilities",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/deposit-return-scheme-for-drinks-containers-policy-statements/deposit-return-scheme-for-drinks-containers-joint-policy-statement",
-          "label": "GOV.UK: DRS joint policy statement",
-          "kind": "official"
-        }
-      ],
-      "confidence": "high",
-      "source_connector": "tavily",
-      "id": "2026-09-11__2",
-      "digest_id": "2026-09-11"
-    },
-    {
-      "url": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products/consultation-on-the-general-safety-requirement-for-construction-products",
-      "title": "MHCLG General Safety Requirement for construction products: unique identifiers and QR-code data carriers proposed for all products",
-      "publisher": "gov.uk",
-      "issuing_body": "Ministry of Housing, Communities and Local Government (MHCLG)",
-      "published_at": "2026-02-25T09:00:00",
-      "change_type": "consultation",
-      "jurisdiction": "UK",
-      "sectors": [
-        "construction"
-      ],
-      "primary_sector": "construction",
-      "impact": "high",
-      "relevance_score": 95,
-      "summary": "Government is consulting on a General Safety Requirement (GSR) for currently unregulated construction products using Schedule 11 of the Building Safety Act 2022. Manufacturers would have to label products with their name, address, a unique product identifier and a data carrier such as a QR code linking to digital product information, to enable traceability and recalls.",
-      "what_changed": "Published alongside the Construction Products Reform White Paper on 25 February 2026 and closing 20 May 2026, the consultation proposes that all construction products placed on the UK market be safe, with duties on manufacturers, importers and distributors and enforcement powers for the national regulator for construction products (OPSS) with Local Authority Trading Standards. Paragraph 7.17–7.18 require labelling with a unique identifier and a data carrier (e.g. QR code) affixed to the product or, where impossible, its packaging or product information. Government welcomes PAS 2000:2026 as a code of practice. Regulations are targeted for introduction by end-2026 with commencement in late 2027.",
-      "why_it_matters_to_gs1": "This is the clearest UK regulatory signal yet that construction products will need a globally unique identifier plus a scannable digital label – the GTIN carried in a QR code powered by GS1 (GS1 Digital Link) is the established, cross-sector way to do this and is already on many products that overlap with retail. GS1 UK responded to the 2025 CPR paper advocating exactly this model and its interoperability with CCPI. For GS1 UK the opportunity is to be named or referenced in the final regulations and guidance as an acceptable identifier scheme, and to grow membership among construction manufacturers who have never barcoded. The risk is fragmentation: proprietary or scheme-specific identifiers (e.g. UPIN-only approaches) would break the 'golden thread' across merchants, contractors and building owners. Members who wait for the SI will have under a year to allocate GTINs, build product data records and change labelling.",
-      "gs1_standards_implicated": [
-        "GTIN",
-        "GS1 Digital Link (QR codes powered by GS1)",
-        "GS1 DataMatrix",
-        "GLN (manufacturer/importer identity)",
-        "GDSN / product data attributes",
-        "GS1 Digital Product Passport provisional standard"
-      ],
-      "affected_stakeholders": [
-        "Construction product manufacturers and importers",
-        "Builders' merchants and distributors",
-        "Contractors and specifiers",
-        "OPSS / national regulator for construction products",
-        "Building Safety Regulator"
-      ],
-      "key_dates": [
-        {
-          "date": "2026-02-25",
-          "label": "Consultation and White Paper published"
-        },
-        {
-          "date": "2026-05-20",
-          "label": "Consultation closed"
-        },
-        {
-          "date": "2026-12",
-          "label": "Target for laying GSR regulations"
-        },
-        {
-          "date": "2027 (late)",
-          "label": "Anticipated commencement"
-        }
-      ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Engage MHCLG and OPSS on the government response so that 'unique identifier' and 'data carrier' definitions are interoperable with GTIN and GS1 Digital Link; coordinate with CPA, CCPI and BSI (PAS 2000)",
-          "priority": "now"
-        },
-        {
-          "audience": "gs1_uk",
-          "action": "Prepare a construction-sector onboarding pack (GTIN allocation rules for variants, QR artwork, product data templates) ready for the regulation's publication",
-          "priority": "next_quarter"
-        },
-        {
-          "audience": "members",
-          "action": "Assign GTINs to every product and variant, create digital product records (DoP/DoC, safety data, installation guidance) and pilot QR codes powered by GS1 on packaging",
-          "priority": "now"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products/consultation-on-the-general-safety-requirement-for-construction-products",
-          "label": "GOV.UK: GSR consultation",
+          "label": "GS1 UK: DRS countdown approaches – what businesses need to know",
           "kind": "primary"
         },
         {
-          "url": "https://www.gs1uk.org/insights/news/Government-publishes-construction-products-reform-white-paper",
-          "label": "GS1 UK analysis of the White Paper",
-          "kind": "gs1"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/exchange-for-change-drs/",
+          "label": "Retail Gazette: Exchange for Change launches monthly DRS readiness survey (7 September 2026)",
+          "kind": "news"
         },
         {
-          "url": "https://www.gs1uk.org/sites/default/files/GS1%20UK%20response%20to%20the%202025%20CPR%20paper.pdf",
-          "label": "GS1 UK response to the 2025 CPR paper",
-          "kind": "gs1"
+          "url": "https://exchangeforchange.co.uk/faqs/",
+          "label": "Exchange for Change: FAQs (barcode, logo and return-point rules)",
+          "kind": "official"
+        },
+        {
+          "url": "https://exchangeforchange.co.uk/wp-content/uploads/2026/04/Exchange-for-Change-Material-Specification-FINAL-v5-April-2026.pdf",
+          "label": "Exchange for Change Material Specification v5 (April 2026) – barcode rules",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://www.thegrocer.co.uk/news/producers-granted-zero-fee-for-first-15-months-of-drs/723148.article",
+          "label": "The Grocer: producers granted zero fee for first 15 months of DRS (2 September 2026)",
+          "kind": "news"
         }
       ],
       "confidence": "high",
-      "source_connector": "govuk",
-      "id": "2026-09-11__3",
+      "source_connector": "cursor-automation",
+      "id": "2026-09-11__1",
       "digest_id": "2026-09-11"
     },
     {
-      "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper/construction-products-reform-white-paper",
-      "title": "Construction Products Reform White Paper: digital product information by default, database of products and digital product records",
+      "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026/progress-report-september-2026-the-construction-industry",
+      "title": "Grenfell progress report: GSR response later this year; digital product library discovery is live",
       "publisher": "gov.uk",
-      "issuing_body": "MHCLG",
-      "published_at": "2026-02-25T09:00:00",
+      "issuing_body": "Ministry of Housing, Communities and Local Government (MHCLG)",
+      "published_at": "2026-09-10T00:00:00+01:00",
       "change_type": "policy",
       "jurisdiction": "UK",
       "sectors": [
@@ -349,354 +196,286 @@
       ],
       "primary_sector": "construction",
       "impact": "high",
-      "relevance_score": 92,
-      "summary": "The White Paper sets the direction for a new construction products regime: information must be available digitally for all products, labelling must include unique product identifiers linked to up-to-date information through a digital label such as a QR code, and government will establish a construction products database and digital product records, staying aligned with EU DPP where appropriate.",
-      "what_changed": "Building on the Building Safety Act 2022 and the Grenfell Inquiry recommendations, the White Paper commits to: a general safety requirement, a strengthened national regulator, reformed conformity assessment, a database of construction products, digital product records accessible via QR code, and digital standards developed with industry to promote consistency of product information. It notes the Construction Products (Amendment) Regulations 2025 came into force on 8 January 2026 to continue recognising products conforming to the EU CPR.",
-      "why_it_matters_to_gs1": "The paper's language – 'unique product identifiers', 'digital label (such as a QR code)', 'interoperable, accessible and enduring' information – mirrors GS1's identify/capture/share model. A government product database keyed on identifiers is a strong use case for GTIN as the primary key and GLN for manufacturers, and the commitment to develop digital standards with industry is the window for GS1 UK to embed GS1 Digital Link, GDSN attributes and the GS1 DPP standard alongside CCPI and LEXiCON templates. GS1 UK's existing DPP-readiness work with construction members is directly transferable.",
+      "relevance_score": 84,
+      "summary": "On 10 September 2026 MHCLG published the latest Grenfell Tower Inquiry Phase 2 progress report. It confirms that government responses to the Construction Products Reform White Paper and General Safety Requirement consultations will come later this year, that GSR legislation will follow when parliamentary time allows, and that a digital discovery for a construction-product information library is being delivered this quarter.",
+      "what_changed": "MHCLG published 'Progress report September 2026: the construction industry' on 10 September 2026 as part of the Grenfell Tower Inquiry government progress report. On recommendations 13 and 14 (conformity assessment and test-data transparency) the department says the White Paper and GSR consultations closed in May, responses are being considered with industry and regulators, government responses will be published later in the year, and next steps include bringing forward legislation to introduce a General Safety Requirement when parliamentary time allows. On recommendation 24 (a digitally based library of product and fire-performance information) MHCLG repeats that intent and adds a new delivery fact: an expert digital consultancy has been commissioned to deliver a digital discovery in Q3 (July to September) 2026, followed by Alpha testing of viable solutions. Separately, the Building Safety Regulator's Approved Document B consultation closed on 1 July 2026 with more than 500 responses; recommendations are now expected by March 2027. The Building Safety Regulator's transfer out of HSE into an MHCLG-sponsored arm's-length body was completed in June 2026 and is treated as a step towards a single construction regulator.",
+      "why_it_matters_to_gs1": "The White Paper and GSR consultation already proposed unique identifiers, scannable (including QR) data carriers and digital product records for construction products. This week's report does not restate those design choices, but it does two things GS1 UK needed: it keeps GSR legislation on the 2026/27 track, and it opens a live digital-discovery / Alpha for the product-information library that will have to key records somehow. If that library is built on proprietary or document-centric IDs, manufacturers will run a parallel numbering scheme on top of GTINs they already use for merchants and, for exporters, the EU DPP. GS1 UK should treat Q3 2026 discovery as a now conversation: GTIN (and GMN where a model-level key is needed), GS1 Digital Link as the QR on the product, and a GDSN/productDNA-compatible attribute set feeding both the golden thread and any future UK digital product record. If members do nothing, they will be asked for digital product data in 2027 without allocated identifiers or a resolver.",
       "gs1_standards_implicated": [
         "GTIN",
-        "GLN",
-        "GS1 Digital Link",
-        "GDSN attributes",
-        "GS1 Digital Product Passport provisional standard"
+        "GS1 Digital Link / QR codes powered by GS1",
+        "GIAI (construction assets)",
+        "GLN (sites and legal entities)",
+        "GDSN / productDNA",
+        "GS1 Digital Product Passport (provisional)"
       ],
       "affected_stakeholders": [
-        "Construction product manufacturers",
-        "Merchants and distributors",
-        "Specifiers, contractors and building owners",
-        "Software vendors for BIM/product data"
+        "Construction product manufacturers and importers",
+        "Builders' merchants and distributors",
+        "Dutyholders under the Building Safety Act / golden thread",
+        "OPSS as national regulator for construction products",
+        "Building Safety Regulator"
       ],
       "key_dates": [
         {
-          "date": "2026-01-08",
-          "label": "Construction Products (Amendment) Regulations 2025 in force"
+          "date": "2026-09-10",
+          "label": "Grenfell construction-industry progress report published"
         },
         {
-          "date": "2026-02-25",
-          "label": "White Paper published"
+          "date": "2026-09",
+          "label": "Digital discovery for a product-information library (Q3 2026)"
         },
         {
-          "date": "2026–2028",
-          "label": "Phased legislation and database development"
+          "date": "2026",
+          "label": "Government responses to White Paper and GSR consultations expected later this year"
+        },
+        {
+          "date": "2026",
+          "label": "GSR legislation to be brought forward when parliamentary time allows"
+        },
+        {
+          "date": "2027-03",
+          "label": "Approved Document B recommendations expected"
+        },
+        {
+          "date": "2027",
+          "label": "GSR commencement still indicated for late 2027, subject to legislation"
         }
       ],
       "next_steps": [
         {
           "audience": "gs1_uk",
-          "action": "Seek a seat in MHCLG's digital-standards workstream and propose GTIN + GS1 Digital Link as the identifier/data-carrier layer for the construction products database",
+          "action": "Ask MHCLG and the digital-discovery supplier for a working session this quarter so unique identifier, data-carrier and product-record requirements are specified as open standards, not a new proprietary key",
           "priority": "now"
         },
         {
           "audience": "members",
-          "action": "Begin mapping product master data to the attributes likely required for digital product records (DoP, fire performance, composition, installation guidance)",
+          "action": "Manufacturers: start allocating GTINs to construction SKUs and assembling the performance/test data that a digital product record or library entry will need",
           "priority": "next_quarter"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Prepare a short consultation-response pack for the forthcoming GSR/White Paper government response, focused on how 'unique identifier' and 'digital label' should be defined",
+          "priority": "monitor"
         }
       ],
       "links": [
         {
-          "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper/construction-products-reform-white-paper",
-          "label": "GOV.UK: Construction Products Reform White Paper",
+          "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026/progress-report-september-2026-the-construction-industry",
+          "label": "GOV.UK: Progress report September 2026 – the construction industry",
           "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-government-progress-report-september-2026",
+          "label": "GOV.UK: Grenfell Tower Inquiry Government Progress Report, September 2026",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/general-safety-requirement-for-construction-products/consultation-on-the-general-safety-requirement-for-construction-products",
+          "label": "GOV.UK: Consultation on the General Safety Requirement for construction products",
+          "kind": "official"
         }
       ],
       "confidence": "high",
-      "source_connector": "govuk",
-      "id": "2026-09-11__4",
+      "source_connector": "cursor-automation",
+      "id": "2026-09-11__2",
       "digest_id": "2026-09-11"
     },
     {
-      "url": "https://www.gs1uk.org/insights/news/EU-Digital-Product-Passport-Registry-goes-live",
-      "title": "European Commission launches the Digital Product Passport Registry – batteries first from 18 February 2027",
-      "publisher": "gs1uk.org",
-      "issuing_body": "European Commission (ESPR)",
-      "published_at": "2026-08-13T09:00:00",
-      "change_type": "eu_international",
-      "jurisdiction": "EU (affects UK exporters)",
+      "url": "https://www.legislation.gov.uk/uksi/2026/995/made",
+      "title": "CBAM Emissions and Verification Regulations 2026 laid – verified product emissions data from 1 January 2027",
+      "publisher": "legislation.gov.uk",
+      "issuing_body": "HM Treasury / HM Revenue & Customs",
+      "published_at": "2026-09-09T00:00:00+01:00",
+      "change_type": "legislation",
+      "jurisdiction": "UK",
       "sectors": [
         "retail",
         "construction"
       ],
       "primary_sector": "retail",
-      "impact": "high",
-      "relevance_score": 90,
-      "summary": "The EU Digital Product Passport Registry – the central index of DPP unique identifiers and metadata under the Ecodesign for Sustainable Products Regulation – is live, with a testing environment open. Batteries become the first mandatory category on 18 February 2027, with textiles, construction products, electronics, iron and steel expected to follow.",
-      "what_changed": "The Commission has launched the DPP Registry as the European indexing service for Digital Product Passports. It stores unique identifiers, registration data and key metadata while detailed product data stays with the business or its DPP service provider. Economic operators remain responsible for data accuracy and availability and must lodge a backup copy with a DPP service provider for in-scope products. The first binding requirements apply to certain batteries from 18 February 2027 under the Batteries Regulation.",
-      "why_it_matters_to_gs1": "DPPs are built on exactly the three pillars GS1 UK licenses and standardises: a globally unique product identifier (GTIN, serialised where required), a data carrier (QR code / Data Matrix using GS1 Digital Link) and interoperable data sharing (GS1 Web Vocabulary, EPCIS, the GS1 DPP provisional standard). UK manufacturers exporting batteries, textiles, construction products or electronics to the EU will need registry-ready identifiers within 18 months. For GS1 UK this validates the 'one QR code for POS, DRS, DPP and consumer information' narrative and creates demand for productDNA / GDSN attribute readiness and GS1 Digital Link resolver services. The UK Construction Products Reform White Paper also commits to staying aligned with EU DPP plans, so this is a leading indicator for domestic requirements. Note: the Registry does not itself mandate GS1 identifiers; ESPR delegated acts define acceptable identifier schemes, and GS1 is working through CEN/CENELEC JTC 24 to have GS1 keys recognised.",
+      "impact": "medium",
+      "relevance_score": 64,
+      "summary": "The Carbon Border Adjustment Mechanism (Emissions and Verification) Regulations 2026 were made on 8 September and laid on 9 September. From 1 January 2027, importers of aluminium, cement, fertiliser, hydrogen, iron and steel must support CBAM returns with monitored, independently verified emissions data (or default values) for each type of CBAM good.",
+      "what_changed": "HMRC and the Treasury laid SI 2026/995 on 9 September 2026 (made 8 September; in force 1 January 2027). The instrument sets how embodied emissions in a CBAM good are calculated, how operators must monitor relevant emissions over a calendar-year monitoring period, and how an independent accredited verifier must produce a verification report and opinion statement. Record-keeping duties apply to registered importers who submit verified emissions intensity on a return. HMRC updated the CBAM policy summary the same day to record the laying, and updated the November 2025 tax information and impact note with revised one-off and ongoing cost estimates. CBAM itself was created by the Finance Act 2026 and applies from 1 January 2027 to goods in aluminium, cement, fertiliser, hydrogen, and iron and steel. Goods are typed by commodity code in Schedule 16 to the Finance Act 2026, not by a named unique product identifier. Earlier administrative, rate-calculation and transitory SIs were laid on 13 July 2026.",
+      "why_it_matters_to_gs1": "CBAM is a carbon tax keyed on commodity code, weight and verified emissions intensity, not a barcode mandate. It still passes the relevance test because it forces structured, regulator-facing product data down the metals, cement, fertiliser and hydrogen chains that supply UK retail packaging, construction products and (for hydrogen) energy-intensive manufacturing. Importers will need a durable link from a customs line to a production installation, a precursor-goods bill of materials and a six-year evidence pack. GLN for the installation and legal entity, GTIN or GIAI where the same article is also traded as a merchanted product, and EPCIS-style process events are ways members can meet that data duty interoperably; the SI does not require them. Construction-product manufacturers using imported steel, aluminium or cement will feel this as a cost-and-data problem on top of GSR/DPP. If members do nothing they can still file using default values, but they will overpay and will not have the master data that EU CBAM and, later, DPP/EUDR also demand.",
       "gs1_standards_implicated": [
-        "GTIN (serialised)",
-        "GS1 Digital Link",
-        "GS1 Digital Product Passport provisional standard",
-        "GS1 Web Vocabulary",
-        "EPCIS 2.0",
-        "GDSN / productDNA",
-        "GMN"
+        "GLN (installation and legal entity)",
+        "GTIN (where the CBAM good is also a traded article)",
+        "GIAI (assets / batches of material)",
+        "EPCIS 2.0 (process and transformation events)",
+        "GDSN attributes for origin and composition"
       ],
       "affected_stakeholders": [
-        "UK exporters of batteries, textiles, construction products, electronics, iron and steel",
-        "Brand owners selling into the EU",
-        "DPP solution providers"
+        "UK importers of iron, steel, aluminium, cement, fertiliser and hydrogen",
+        "Overseas installation operators and their verifiers",
+        "Construction product manufacturers using imported steel, aluminium or cement",
+        "Retail and packaging supply chains buying metals and fertiliser inputs"
       ],
       "key_dates": [
         {
-          "date": "2026-08",
-          "label": "DPP Registry and testing environment live"
+          "date": "2026-09-08",
+          "label": "SI 2026/995 made"
         },
         {
-          "date": "2027-02-18",
-          "label": "First mandatory DPP requirements for certain batteries"
+          "date": "2026-09-09",
+          "label": "SI laid before the House of Commons; HMRC policy summary updated"
         },
         {
-          "date": "2027–2030",
-          "label": "Further ESPR delegated acts expected: textiles, construction products, electronics, iron and steel"
+          "date": "2027-01-01",
+          "label": "CBAM and these Regulations come into force"
+        },
+        {
+          "date": "2028-01-01",
+          "label": "Tighter monitoring-period rules for goods imported on or after this date"
         }
       ],
       "next_steps": [
         {
+          "audience": "members",
+          "action": "Importers in the five CBAM sectors: map commodity codes to SKUs, decide default values versus verified data, and contract an accredited verifier for the 2026 monitoring year",
+          "priority": "now"
+        },
+        {
           "audience": "gs1_uk",
-          "action": "Publish UK exporter guidance mapping ESPR/registry identifier requirements to GTIN, GMN and GS1 Digital Link, and monitor CEN/CENELEC JTC 24 outputs",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Battery and battery-containing product exporters: register in the Commission testing environment and confirm identifier and QR strategy before Q1 2027",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Textiles, construction and electronics exporters: audit product master data completeness against the GS1 DPP provisional standard",
+          "action": "Offer a short note to metals, cement and fertiliser members on using GLN/GTIN as the internal key that binds a CBAM return line to product master data – without claiming the tax requires GS1",
           "priority": "next_quarter"
+        },
+        {
+          "audience": "members",
+          "action": "Construction manufacturers: quantify imported steel/aluminium/cement exposure so CBAM cost and data can be built into 2027 product-record programmes",
+          "priority": "monitor"
         }
       ],
       "links": [
         {
-          "url": "https://www.gs1uk.org/insights/news/EU-Digital-Product-Passport-Registry-goes-live",
-          "label": "GS1 UK: EU DPP Registry goes live",
-          "kind": "gs1"
+          "url": "https://www.legislation.gov.uk/uksi/2026/995/made",
+          "label": "legislation.gov.uk: The Carbon Border Adjustment Mechanism (Emissions and Verification) Regulations 2026",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary/carbon-border-adjustment-mechanism-cbam-policy-summary",
+          "label": "GOV.UK: CBAM policy summary (updated 9 September 2026)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/introduction-of-carbon-border-adjustment-mechanism",
+          "label": "GOV.UK: Introduction of CBAM – tax information and impact note (updated 9 September 2026)",
+          "kind": "official"
         }
       ],
       "confidence": "high",
-      "source_connector": "tavily",
-      "id": "2026-09-11__5",
+      "source_connector": "cursor-automation",
+      "id": "2026-09-11__3",
       "digest_id": "2026-09-11"
     },
     {
-      "url": "https://scan4safety.nhs.uk/why-scan4safety/progress-and-partnerships/",
-      "title": "NHS Scan4Safety: New Hospitals Programme requires GS1 standards from 2027; NHS Supply Chain IMS roll-out to 2031",
-      "publisher": "scan4safety.nhs.uk",
-      "issuing_body": "NHS England / NHS Supply Chain",
-      "published_at": "2026-05-28T09:00:00",
-      "change_type": "nhs_programme",
-      "jurisdiction": "England (with devolved programmes)",
+      "url": "https://www.gov.uk/government/publications/health-bill-medicines-and-medical-devices-regulatory-reforms-fact-sheet/health-bill-medicines-and-medical-devices-regulatory-reforms-fact-sheet",
+      "title": "Health Bill fact sheet: powers for a future MHRA medical-device licensing regime",
+      "publisher": "gov.uk",
+      "issuing_body": "Department of Health and Social Care / MHRA",
+      "published_at": "2026-09-09T00:00:00+01:00",
+      "change_type": "draft_legislation",
+      "jurisdiction": "GB",
       "sectors": [
         "healthcare"
       ],
       "primary_sector": "healthcare",
       "impact": "medium",
-      "relevance_score": 84,
-      "summary": "NHS England's Scan4Safety pages confirm the policy drivers now underpinning point-of-care scanning: mandatory MDOR submissions, the 10-Year Health Plan, the DHSC MedTech Strategy, and the New Hospitals Programme's requirement for GS1 standards adoption in all hospitals delivered from 2027, supported by NHS Supply Chain's Inventory Management Systems programme running to 2031.",
-      "what_changed": "Scan4Safety is being scaled from demonstrator sites to a national capability. NHS Supply Chain, with NHS England investment, is providing trusts with IMS infrastructure, scanners and deployment support through 2031; the National Patient Safety Team holds the mandate; MDOR receives high-risk device data; and NHS Commercial has set Scan4Safety as a strategic priority. Scotland and Wales fund national programmes and Northern Ireland uses GS1 standards for asset identification within Encompass/EPIC.",
-      "why_it_matters_to_gs1": "This is GS1 UK's flagship healthcare programme: every person (GSRN on wristbands per DCB1077), product (GTIN with GS1 DataMatrix) and place (GLN via Location Manager) is identified with GS1 keys, and NHS England centrally funds trust membership. The New Hospitals Programme requirement makes GS1 adoption a design input for new estates. The GS1 UK survey finding that missing or unscannable barcodes on medicines packaging disrupt pharmacy workflows points to a gap GS1 UK should pursue with MHRA and manufacturers.",
+      "relevance_score": 61,
+      "summary": "On 9 September 2026 DHSC published a Health Bill fact sheet and a final-stage impact assessment on a future medical-device licensing regime. The Bill would let MHRA assess and licence devices directly through later regulations. It does not itself impose UDI, implant cards or new labelling duties.",
+      "what_changed": "DHSC added several Health Bill supporting documents on 9 September 2026, including 'Health Bill: medicines and medical devices regulatory reforms – fact sheet' and 'Health Bill: medical device licensing regime – impact assessment' (DHSCIA9724, dated 22 June 2026, published 9 September). The Bill, introduced in the Commons on 14 May 2026, would (1) make it easier to update medicines and devices law (ambulatory references, proportionate consultation, negative procedure for minor/technical changes), (2) give MHRA clearer powers to share selected medicines and devices information with UK and international partners, and (3) confer powers under the Medicines and Medical Devices Act 2021 to establish, by subsequent secondary legislation, a medical-device licensing regime. Under that future model MHRA could directly assess and licence devices and certain manufacturers, importers and wholesalers, including with conditions. The fact sheet is explicit that the Bill does not itself establish the regime and creates no new requirements for manufacturers, healthcare providers or patients. Today's GB routes remain UKCA (via UK Approved Bodies for medium/high risk) and time-limited CE recognition. The impact assessment notes MHRA has consulted on indefinite CE recognition and records 61,000–100,000 UKCA device registrations since 2025.",
+      "why_it_matters_to_gs1": "This is not a UDI instrument and must not be reported as one. It still matters because any MHRA licence register will become another identifier-keyed database sitting next to device registration, MDOR and the draft December 2026 UDI regulations. If those systems use different device keys, Scan4Safety trusts will scan a GS1 GTIN/UDI-DI that the licensing database cannot match. GS1 UK's interest is to have DHSC/MHRA say, when they consult on the secondary legislation, that a licence record should carry the same UDI-DI (GTIN) and Basic UDI-DI (GMN) that the draft 2026 amendment regulations would make compulsory. Information-sharing powers also make it more likely that licence, registration and vigilance data will move between MHRA, NICE and the NHS – all of which already lean on GS1 keys in Scan4Safety and NHS eProcurement. If members do nothing they should still prepare for UDI; they do not need to redesign labels for this Bill.",
       "gs1_standards_implicated": [
-        "GSRN",
-        "GTIN",
-        "GLN",
-        "GIAI",
+        "GTIN as UDI-DI (future alignment)",
+        "GMN as Basic UDI-DI (future alignment)",
         "GS1 DataMatrix",
-        "Location Manager"
+        "GLN (manufacturer / UK Responsible Person)",
+        "GDSN attributes for device registration"
       ],
       "affected_stakeholders": [
-        "NHS trusts and ICBs",
-        "NHS Supply Chain",
-        "Device and pharmaceutical suppliers",
-        "EPR and IMS vendors"
+        "Medical device and IVD manufacturers and UK Responsible Persons",
+        "UK Approved Bodies",
+        "MHRA",
+        "NHS trusts operating Scan4Safety / MDOR"
       ],
       "key_dates": [
         {
-          "date": "2027",
-          "label": "New Hospitals Programme: GS1 standards required in all hospitals delivered"
+          "date": "2026-05-14",
+          "label": "Health Bill introduced in the House of Commons"
         },
         {
-          "date": "2031",
-          "label": "NHS Supply Chain IMS programme completion"
+          "date": "2026-09-09",
+          "label": "Licensing impact assessment and medicines/devices fact sheet published"
+        },
+        {
+          "date": "2026-12",
+          "label": "Planned adoption of the separate draft Medical Devices (Amendment) Regulations 2026 (UDI)"
+        },
+        {
+          "date": "2027-06",
+          "label": "Anticipated GB UDI entry into force under those draft regulations"
         }
       ],
       "next_steps": [
         {
           "audience": "gs1_uk",
-          "action": "Use the medicines-barcode survey to press for scannable GS1 DataMatrix on all secondary packaging in the post-FMD UK framework",
+          "action": "Write to DHSC/MHRA asking that any future licensing database schema reuse UDI-DI/Basic UDI-DI and remain compatible with Scan4Safety and MDOR",
           "priority": "next_quarter"
         },
         {
           "audience": "members",
-          "action": "Suppliers to the NHS: confirm GTIN/GLN data quality in NHS Supply Chain catalogues and readiness for IMS scanning",
+          "action": "Manufacturers: do not change labels for this Bill; continue gap-assessing EU/US UDI data against the draft GB UDI regulations",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Watch for the secondary-legislation consultation on the licensing regime and respond on identifier alignment",
           "priority": "monitor"
         }
       ],
       "links": [
         {
-          "url": "https://scan4safety.nhs.uk/why-scan4safety/progress-and-partnerships/",
-          "label": "Scan4Safety: progress and partnerships",
+          "url": "https://www.gov.uk/government/publications/health-bill-medicines-and-medical-devices-regulatory-reforms-fact-sheet/health-bill-medicines-and-medical-devices-regulatory-reforms-fact-sheet",
+          "label": "GOV.UK: Health Bill medicines and medical devices regulatory reforms – fact sheet",
           "kind": "primary"
         },
         {
-          "url": "https://www.gs1uk.org/industries/healthcare",
-          "label": "GS1 UK healthcare",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "medium",
-      "source_connector": "duckduckgo",
-      "id": "2026-09-11__6",
-      "digest_id": "2026-09-11"
-    },
-    {
-      "url": "https://www.gs1uk.org/insights/news/EUDR-from-regulation-to-implementation",
-      "title": "EU Deforestation Regulation applies from 30 December 2026 – due diligence statements needed for in-scope UK exports",
-      "publisher": "gs1uk.org",
-      "issuing_body": "European Commission (EUDR)",
-      "published_at": "2026-06-02T09:00:00",
-      "change_type": "eu_international",
-      "jurisdiction": "EU (affects UK exporters)",
-      "sectors": [
-        "retail"
-      ],
-      "primary_sector": "retail",
-      "impact": "medium",
-      "relevance_score": 72,
-      "summary": "From 30 December 2026 operators placing cattle, cocoa, coffee, palm oil, rubber, soya, wood and derived products on the EU market or exporting them must prove they are deforestation-free and legally produced, supported by a due diligence statement with geolocation data.",
-      "what_changed": "EUDR moves from policy to implementation on 30 December 2026 for large and medium operators. Businesses must collect geolocation of production plots, assess and mitigate risk, and submit due diligence statements through the EU Information System, with reference numbers travelling with the goods. UK producers, traders and retailers supplying the EU – including GB to Northern Ireland movements – are in scope.",
-      "why_it_matters_to_gs1": "EUDR does not mandate any particular standard, but compliance at scale depends on consistently identifying products (GTIN), trading partners and locations (GLN for plots, sites and legal entities) and recording custody events (EPCIS 2.0) so due diligence statement references can be linked to specific consignments. GS1 UK's role is to position GLN and EPCIS as the interoperable backbone for members' traceability solutions and to keep members clear that GS1 standards support but do not constitute compliance.",
-      "gs1_standards_implicated": [
-        "GLN",
-        "GTIN",
-        "SSCC",
-        "EPCIS 2.0 / CBV"
-      ],
-      "affected_stakeholders": [
-        "Food and drink manufacturers exporting to the EU",
-        "Timber, paper and furniture supply chains",
-        "Retailers with EU or NI operations"
-      ],
-      "key_dates": [
-        {
-          "date": "2026-12-30",
-          "label": "EUDR obligations apply to large and medium operators"
+          "url": "https://www.gov.uk/government/publications/health-bill-medical-device-licensing-regime-impact-assessment",
+          "label": "GOV.UK: Health Bill medical device licensing regime – impact assessment",
+          "kind": "official"
         },
         {
-          "date": "2027-06-30",
-          "label": "Application to micro and small operators"
+          "url": "https://www.gov.uk/government/collections/health-bill",
+          "label": "GOV.UK: Health Bill collection",
+          "kind": "official"
         }
       ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Publish an EUDR traceability implementation note showing GLN-for-plots and EPCIS event patterns",
-          "priority": "next_quarter"
-        },
-        {
-          "audience": "members",
-          "action": "Map in-scope commodities, assign GLNs to production sites and confirm how due diligence reference numbers will be carried in shipment data",
-          "priority": "now"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.gs1uk.org/insights/news/EUDR-from-regulation-to-implementation",
-          "label": "GS1 UK: EUDR from regulation to implementation",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "medium",
-      "source_connector": "tavily",
-      "id": "2026-09-11__7",
-      "digest_id": "2026-09-11"
-    },
-    {
-      "url": "https://www.gs1uk.org/insights/news/UK-E-Invoicing-Mandate-2029-the-roadmap-to-readiness",
-      "title": "UK e-invoicing mandate: structured e-invoices for VAT-registered B2B/B2G from 1 April 2029 – roadmap due at Budget 2026",
-      "publisher": "gs1uk.org",
-      "issuing_body": "HM Treasury / HMRC",
-      "published_at": "2026-07-20T09:00:00",
-      "change_type": "policy",
-      "jurisdiction": "UK",
-      "sectors": [
-        "retail",
-        "construction",
-        "healthcare"
-      ],
-      "primary_sector": "retail",
-      "impact": "medium",
-      "relevance_score": 68,
-      "summary": "Government has confirmed that from 1 April 2029 VAT-registered businesses must issue structured e-invoices for B2B and B2G transactions, with technical standards and transitional arrangements to be set out in an implementation roadmap at Budget 2026.",
-      "what_changed": "Following the 2025 consultation, the mandate is confirmed in principle with co-design through 2026, a full roadmap at Budget 2026, preparation in 2027–28 and go-live on 1 April 2029. Whether roll-out is phased or a single switch-on is still to be confirmed.",
-      "why_it_matters_to_gs1": "Structured e-invoices need unambiguous party, location and product identifiers: GLNs for buyer/seller/ship-to and GTINs for line items are already used in GS1 EANCOM/EDI and PEPPOL BIS in the NHS. GS1 UK should make sure the roadmap's technical standards (likely PEPPOL/UBL-based) permit GS1 identifiers and should treat 2027–28 as a master-data clean-up window for members across all three sectors.",
-      "gs1_standards_implicated": [
-        "GLN",
-        "GTIN",
-        "GS1 EDI / EANCOM",
-        "PEPPOL alignment"
-      ],
-      "affected_stakeholders": [
-        "All VAT-registered GS1 UK members",
-        "NHS trusts and suppliers (PEPPOL)",
-        "Construction supply chains",
-        "Retail EDI communities"
-      ],
-      "key_dates": [
-        {
-          "date": "Budget 2026",
-          "label": "Implementation roadmap and technical standards published"
-        },
-        {
-          "date": "2029-04-01",
-          "label": "Mandate in force"
-        }
-      ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Engage HMRC's co-design process to ensure GLN/GTIN are recognised identifier schemes in the UK e-invoice specification",
-          "priority": "next_quarter"
-        },
-        {
-          "audience": "members",
-          "action": "Review GLN coverage for all legal entities and delivery locations and GTIN coverage on invoice lines",
-          "priority": "monitor"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.gs1uk.org/insights/news/UK-E-Invoicing-Mandate-2029-the-roadmap-to-readiness",
-          "label": "GS1 UK: e-invoicing mandate roadmap",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "medium",
-      "source_connector": "tavily",
-      "id": "2026-09-11__8",
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-09-11__4",
       "digest_id": "2026-09-11"
     }
   ],
   "error": null,
   "id": "2026-09-11",
-  "created_at": "2026-09-11T08:00:00",
-  "completed_at": "2026-09-11T08:00:00",
-  "item_count": 8,
+  "created_at": "2026-09-11T20:15:00+01:00",
+  "completed_at": "2026-09-11T20:15:00+01:00",
+  "item_count": 4,
   "sector_counts": [
     {
       "sector": "retail",
-      "total": 4,
-      "high": 2
+      "total": 2,
+      "high": 1
     },
     {
       "sector": "construction",
-      "total": 4,
-      "high": 3
+      "total": 2,
+      "high": 1
     },
     {
       "sector": "healthcare",
-      "total": 3,
-      "high": 1
+      "total": 1,
+      "high": 0
     }
   ]
 }
