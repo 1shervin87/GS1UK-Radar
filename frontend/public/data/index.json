@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-11T18:08:57.337177+00:00",
+  "status": {
+    "app": "GS1 UK Regulatory Radar",
+    "environment": "static",
+    "llm_provider": "cursor-automation",
+    "llm_configured": true,
+    "web_search_provider": "cursor-agent",
+    "schedule": "mon 08:00 (Europe/London)",
+    "timezone": "Europe/London",
+    "next_run": null,
+    "running": false,
+    "latest_digest_id": "2026-09-11",
+    "sectors": [
+      {
+        "id": "retail",
+        "name": "Retail",
+        "colour": "#F05587",
+        "description": "Grocery, FMCG, general merchandise, apparel, marketplaces, drinks (DRS), packaging (EPR), food and product labelling, product safety, Sunrise 2027 and digital product passports."
+      },
+      {
+        "id": "construction",
+        "name": "Construction",
+        "colour": "#B78B20",
+        "description": "Construction products regulation, Building Safety Act and the golden thread, digital product records and passports, CCPI, PAS 2000, UKCA/CE marking and builders' merchants."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "colour": "#00B6DE",
+        "description": "MHRA medical device and IVD regulation (UDI, registration, post-market surveillance), medicines packaging and barcodes, NHS Scan4Safety, MDOR, NHS Supply Chain and eProcurement."
+      }
+    ]
+  },
+  "digests": [
+    {
+      "id": "2026-09-11",
+      "window_start": "2026-09-04T08:00:00",
+      "window_end": "2026-09-11T08:00:00",
+      "created_at": "2026-09-11T08:00:00",
+      "completed_at": "2026-09-11T08:00:00",
+      "status": "completed",
+      "trigger": "seed",
+      "headline": "Identification is becoming law: DRS barcodes, construction product QR labels and GB UDI all move closer",
+      "is_sample": true,
+      "item_count": 8,
+      "sector_counts": [
+        {
+          "sector": "retail",
+          "total": 4,
+          "high": 2
+        },
+        {
+          "sector": "construction",
+          "total": 4,
+          "high": 3
+        },
+        {
+          "sector": "healthcare",
+          "total": 3,
+          "high": 1
+        }
+      ]
+    }
+  ]
+}

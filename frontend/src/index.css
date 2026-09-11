@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* GS1 global brand palette (GS1 Global Brand Manual) – primary, secondary and sector colours */
+@theme {
+  --font-sans: "Montserrat", "Gotham", Verdana, ui-sans-serif, system-ui, sans-serif;
+
+  --color-gs1-blue: #002c6c;
+  --color-gs1-blue-dark: #041e42;
+  --color-gs1-blue-light: #e8eef6;
+  --color-gs1-orange: #f26334;
+  --color-gs1-orange-dark: #cf4a1f;
+  --color-gs1-orange-light: #fdece6;
+  --color-gs1-link: #008dbd;
+  --color-gs1-danger: #ba1b1d;
+
+  --color-gs1-gray-dark: #454545;
+  --color-gs1-gray-mid: #888b8d;
+  --color-gs1-gray-light-mid: #b1b3b3;
+  --color-gs1-gray-light: #f4f4f4;
+
+  --color-gs1-raspberry: #f05587; /* Retail */
+  --color-gs1-honey: #b78b20;     /* Construction */
+  --color-gs1-sky: #00b6de;       /* Healthcare */
+  --color-gs1-grass: #7ac143;
+  --color-gs1-mint: #71b790;
+  --color-gs1-forest: #00ac4a;
+  --color-gs1-peach: #fbb034;
+  --color-gs1-tangerine: #ff8200;
+  --color-gs1-lavender: #af96d4;
+  --color-gs1-teal: #22bcb9;
+  --color-gs1-slate: #89aadb;
+  --color-gs1-mist: #8db9ca;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gs1-gray-light text-gs1-gray-dark antialiased;
+  font-feature-settings: "tnum" 1;
+}
+
+a {
+  @apply text-gs1-link underline-offset-2 hover:underline;
+}
+
+.prose-radar p + p {
+  margin-top: 0.75rem;
+}
+
+.sector-retail { --sector: var(--color-gs1-raspberry); }
+.sector-construction { --sector: var(--color-gs1-honey); }
+.sector-healthcare { --sector: var(--color-gs1-sky); }
+
+/* Decorative barcode texture on the right-hand side of the hero; text sits above it. */
+.barcode-stripe::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.09) 0 3px,
+    transparent 3px 5px,
+    rgba(255, 255, 255, 0.09) 5px 6px,
+    transparent 6px 10px,
+    rgba(255, 255, 255, 0.09) 10px 14px,
+    transparent 14px 17px
+  );
+  mask-image: linear-gradient(90deg, transparent 45%, black 80%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 45%, black 80%);
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fade-up 0.35s ease-out both; }

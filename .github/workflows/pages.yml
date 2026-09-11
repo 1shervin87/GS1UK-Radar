@@ -1,0 +1,61 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate digest data
+        run: python automation/build_index.py --check
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build
+        working-directory: frontend
+        env:
+          VITE_DATA_MODE: static
+          # Project sites are served from https://<owner>.github.io/<repo>/
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm run build
+          cp dist/index.html dist/404.html   # SPA fallback for deep links such as /retail
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true   # tries to switch Pages on automatically; otherwise Settings -> Pages -> Source: GitHub Actions
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
