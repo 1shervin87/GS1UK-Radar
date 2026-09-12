@@ -9,9 +9,9 @@ function Hero() {
   if (!digest) return null
   const high = digest.items.filter((i) => i.impact === 'high').length
   return (
-    <section className="barcode-stripe relative overflow-hidden rounded-2xl bg-gs1-blue text-white shadow-md">
-      <div className="absolute -right-24 -top-24 size-72 rounded-full bg-gs1-orange/90 blur-3xl" aria-hidden />
-      <div className="relative grid gap-8 p-6 md:grid-cols-[1.6fr_1fr] md:p-10">
+    <section className="digest-hero relative overflow-hidden rounded-2xl bg-gs1-blue text-white shadow-md">
+      <div className="hero-accent" aria-hidden />
+      <div className="digest-grid relative grid gap-8 p-6 md:grid-cols-[1.6fr_1fr] md:p-10">
         <div>
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider">
             <Radar className="size-3.5" /> Weekly digest · {formatWindow(digest)}
@@ -19,7 +19,7 @@ function Hero() {
           <h1 className="text-2xl font-extrabold leading-tight md:text-4xl">{digest.headline}</h1>
           <p className="prose-radar mt-4 max-w-3xl text-sm leading-relaxed text-white/85 md:text-base">{digest.executive_summary}</p>
         </div>
-        <div className="grid grid-cols-2 gap-3 self-start md:grid-cols-1">
+        <div className="digest-stats grid grid-cols-2 gap-3 self-start md:grid-cols-1">
           <div className="rounded-xl bg-white/10 p-4">
             <div className="text-3xl font-extrabold tabular-nums">{digest.item_count}</div>
             <div className="text-xs font-semibold uppercase tracking-wider text-white/70">relevant changes</div>
@@ -56,7 +56,7 @@ function SectorCards() {
           <Link
             key={sid}
             to={`/${sid}`}
-            className={`sector-${sid} group flex flex-col rounded-xl border border-black/5 bg-white p-5 shadow-sm no-underline transition hover:-translate-y-0.5 hover:shadow-md hover:no-underline`}
+            className={`sector-card sector-${sid} group flex flex-col rounded-xl border border-black/5 bg-white p-5 shadow-sm no-underline transition hover:-translate-y-0.5 hover:shadow-md hover:no-underline`}
             style={{ borderTop: '5px solid var(--sector)' }}
           >
             <div className="flex items-center justify-between">

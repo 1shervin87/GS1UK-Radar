@@ -20,7 +20,7 @@ export function SectorPill({ sector, small = false }: { sector: SectorId; small?
 }
 
 const IMPACT_STYLE: Record<Impact, string> = {
-  high: 'bg-gs1-orange text-white',
+  high: 'bg-gs1-orange-light text-gs1-orange-dark',
   medium: 'bg-gs1-peach text-gs1-blue-dark',
   low: 'bg-gs1-gray-light text-gs1-gray-dark border border-gs1-gray-light-mid',
 }
@@ -52,12 +52,12 @@ export function Score({ value }: { value: number }) {
 }
 
 export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <div className={`rounded-xl border border-black/5 bg-white shadow-sm ${className}`}>{children}</div>
+  return <div className={`radar-card rounded-xl border border-black/5 bg-white shadow-sm ${className}`}>{children}</div>
 }
 
 export function SectionTitle({ children, aside }: { children: ReactNode; aside?: ReactNode }) {
   return (
-    <div className="mb-4 flex items-end justify-between gap-4">
+    <div className="section-heading mb-4 flex items-end justify-between gap-4">
       <h2 className="text-lg font-bold text-gs1-blue md:text-xl">{children}</h2>
       {aside}
     </div>
@@ -69,7 +69,7 @@ export function ItemCard({ item, showSector = true }: { item: ItemSummary; showS
   return (
     <Link
       to={`/items/${item.id}`}
-      className={`sector-${item.primary_sector} fade-up group block rounded-xl border border-black/5 bg-white p-5 shadow-sm no-underline transition hover:-translate-y-0.5 hover:shadow-md hover:no-underline`}
+      className={`item-card sector-${item.primary_sector} fade-up group block rounded-xl border border-black/5 bg-white p-5 shadow-sm no-underline transition hover:-translate-y-0.5 hover:shadow-md hover:no-underline`}
       style={{ borderLeft: '5px solid var(--sector)' }}
     >
       <div className="flex items-start justify-between gap-4">

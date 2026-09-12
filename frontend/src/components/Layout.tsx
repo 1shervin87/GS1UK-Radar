@@ -7,15 +7,11 @@ import { SectorDot } from './ui'
 
 function Logo() {
   return (
-    <div className="flex items-center gap-3 select-none">
-      <div className="flex items-center gap-1.5">
-        <span className="text-[26px] font-extrabold leading-none tracking-tight text-gs1-blue">GS1</span>
-        <span className="text-[26px] font-extrabold leading-none tracking-tight text-gs1-orange">UK</span>
-      </div>
-      <span className="hidden h-6 w-px bg-gs1-gray-light-mid sm:block" />
-      <div className="hidden leading-tight sm:block">
-        <div className="text-sm font-bold text-gs1-blue-dark">Regulatory Radar</div>
-        <div className="text-[11px] font-medium text-gs1-gray-mid">Weekly regulatory intelligence · Retail · Construction · Healthcare</div>
+    <div className="radar-brand select-none">
+      <span className="radar-monogram" aria-hidden="true">R</span>
+      <div>
+        <div className="radar-brand-name">Regulatory Radar</div>
+        <div className="radar-brand-caption">Independent intelligence · GS1 UK focus</div>
       </div>
     </div>
   )
@@ -92,8 +88,8 @@ export default function Layout() {
   const navigate = useNavigate()
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="sticky top-0 z-30 border-b border-black/5 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <header className="radar-header sticky top-0 z-30 border-b border-black/5 bg-white/95 backdrop-blur">
+        <div className="radar-toolbar mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <button onClick={() => navigate('/')} className="text-left">
             <Logo />
           </button>
@@ -135,6 +131,12 @@ export default function Layout() {
         </div>
       )}
 
+      <div className="independence-note">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <strong>Independent project.</strong> Analysis for GS1 UK interests. Not affiliated with, endorsed by or operated by GS1 UK.
+        </div>
+      </div>
+
       <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 md:py-8">
         <Outlet />
       </main>
@@ -150,7 +152,7 @@ export default function Layout() {
             {digest && <span>Current window: {formatWindow(digest)}</span>}
           </div>
           <span>
-            AI analysis is decision support, not legal advice. GS1 UK is a standards body, not a regulator.
+            Independent project — not affiliated with, endorsed by or operated by GS1 UK. AI analysis is decision support, not legal advice.
           </span>
         </div>
       </footer>
