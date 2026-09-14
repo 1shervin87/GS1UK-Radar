@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:17:19.296129+00:00",
+  "generated_at": "2026-09-14T07:09:43.621357+00:00",
   "status": {
     "app": "GS1 UK Regulatory Radar",
     "environment": "static",
@@ -10,7 +10,7 @@
     "timezone": "Europe/London",
     "next_run": null,
     "running": false,
-    "latest_digest_id": "2026-09-11",
+    "latest_digest_id": "2026-09-14",
     "sectors": [
       {
         "id": "retail",
@@ -33,6 +33,35 @@
     ]
   },
   "digests": [
+    {
+      "id": "2026-09-14",
+      "window_start": "2026-09-07T08:00:00+01:00",
+      "window_end": "2026-09-14T08:00:00+01:00",
+      "created_at": "2026-09-14T08:00:00+01:00",
+      "completed_at": "2026-09-14T08:00:00+01:00",
+      "status": "completed",
+      "trigger": "automation",
+      "headline": "Europe agrees a GS1 unit-dose barcode roadmap for hospital medicines; the UK still has no plan",
+      "is_sample": false,
+      "item_count": 1,
+      "sector_counts": [
+        {
+          "sector": "retail",
+          "total": 0,
+          "high": 0
+        },
+        {
+          "sector": "construction",
+          "total": 0,
+          "high": 0
+        },
+        {
+          "sector": "healthcare",
+          "total": 1,
+          "high": 1
+        }
+      ]
+    },
     {
       "id": "2026-09-11",
       "window_start": "2026-09-07T08:00:00+01:00",
