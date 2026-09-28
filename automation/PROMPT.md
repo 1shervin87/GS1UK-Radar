@@ -70,8 +70,17 @@ python automation/build_index.py
 
 Fix any validation errors it reports and re-run until it prints `wrote index.json`. Do not edit `index.json` or `latest.json` by hand.
 
-## 6. Publish
+## 6. Publish to main — the run is not finished until the live site can update
 
-Commit the new digest file together with the regenerated `frontend/public/data/index.json` and `frontend/public/data/latest.json` with the message `digest: week to <YYYY-MM-DD>` and push to `main` (or open a pull request if branch protection requires it). The GitHub Pages workflow deploys the site automatically.
+The website is GitHub Pages from `main` only (`https://1shervin87.github.io/GS1UK-Radar/`). A pull request, including a draft pull request, does **not** update the site. On 28 September 2026 the digest was written and left as draft PR #1; the site stayed on the previous week. That is an incomplete run. Do not repeat it.
 
-If a Slack tool is available, post the headline, the three sector headlines and the site URL.
+Do all of the following before you stop:
+
+1. Commit the new digest file together with the regenerated `frontend/public/data/index.json` and `frontend/public/data/latest.json` with the message `digest: week to <YYYY-MM-DD>`.
+2. Put that commit on `main`. Preferred command: `git push origin HEAD:main`. If that branch cannot fast-forward `main`, check out `main`, merge or cherry-pick the digest commit, and run `git push origin main`.
+3. Do not assume branch protection blocked the push. Only if `git push` to `main` is actually rejected, open a pull request, mark it **ready for review** (never leave it as a draft), and merge it into `main` in the same run.
+4. Confirm with `git fetch origin main` and `git log origin/main -1 -- frontend/public/data/digests/<YYYY-MM-DD>.json` that the new digest file is on `origin/main`. Opening a draft PR and stopping, without that confirmation, is a failed run. Say so explicitly if you cannot land the commit on `main`.
+
+The GitHub Pages workflow deploys automatically once `main` contains the new files under `frontend/`.
+
+If a Slack tool is available, post the headline, the three sector headlines and the site URL only after the commit is on `main`.
