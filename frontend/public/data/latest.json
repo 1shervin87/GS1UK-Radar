@@ -1,60 +1,59 @@
 {
-  "window_start": "2026-09-28T08:00:00+01:00",
-  "window_end": "2026-10-05T08:00:00+01:00",
+  "window_start": "2026-10-05T08:00:00+01:00",
+  "window_end": "2026-10-12T08:00:00+01:00",
   "status": "completed",
   "trigger": "automation",
   "is_sample": false,
-  "headline": "One year from DRS go-live, Exchange for Change opens registration and sets when a scheme barcode is required",
-  "executive_summary": "This Monday-to-Monday week is a Deposit Return Scheme operations week, not a statute week. On 29 September Exchange for Change opened Phase 1 registration for producers and retailer return points, one year before the 1 October 2027 launch. On 30 September it published the first transition rules for PET and metal containers in England, Northern Ireland and Scotland: filled containers made before go-live sit outside the scheme and may be sold afterwards without a deposit logo, a scheme-registered barcode, a producer fee or a deposit; unfilled packaging that is not tied to a pre-launch order cannot be filled and placed on the market unless it carries both the logo and a scheme-registered barcode. That is the identification keep. Wales arrangements are still to come. The same day Exchange for Change named five logistics and processing partners; that is infrastructure, not an identifier duty, and is not a keep. Product-testing guidelines promised by September have still not appeared, and the certified reverse-vending-machine list indicated for early October is still unpublished. Construction and healthcare produced no new identifier, data-carrier or registry instrument. SI 2026/1053 is still the 17 October file. The toys-safety call for evidence, which includes the EU toy digital product passport and its QR-code data carrier, closes at 23:59 tomorrow.",
+  "headline": "TAXUD’s 5 October guidance: UK e-commerce sellers must send EAN product identifiers to EU customs from 1 November",
+  "executive_summary": "This Monday-to-Monday week has one identification keep, and it is an EU customs data duty that binds UK exporters, not a UK statute. On 5 October the Commission’s TAXUD directorate published a revised ‘Guidance for Member States and Trade’ on the temporary EUR 3 customs duty. Section 8 now says that from 1 November 2026 every distance-sale import of goods with an intrinsic value not exceeding EUR 150 must carry product identifiers on the customs declaration: a merchant identifier, a manufacturer identifier, and, where it exists, a standardised identifier. The guidance names EAN as the usual standardised identifier and says it is typically encoded in EAN-13 or UPC barcodes, QR codes or RFID. It is not a GS1 legal mandate: where no standardised identifier exists the declarant uses code Y081, and the Commission is still amending Annex B to lock the EUR 150 cap into the legal text. Dutch Customs published a member-state how-to on 8 October using the same C127, C128, C129 and Y081 codes. Last week’s Exchange for Change registration and PET/metal transition notes are not repeated. Construction and healthcare produced no new identifier, data-carrier or registry instrument. SI 2026/1053 still comes into force on 17 October.",
   "cross_sector_themes": [
-    "DRS has moved from countdown rhetoric to a live registration portal and written barcode/logo transition rules",
-    "A scheme-registered barcode is now defined as a condition of filling post-launch packaging, not only as a go-live artwork task",
-    "Pre-launch filled stock can be sold after 1 October 2027 without a DRS mark; members who treat every SKU as in-scope from day one will over-label",
-    "Identifier clocks outside drinks (NI battery QR from 17 October / 18 February 2027; toy DPP in the closing call for evidence; GB UDI still a December draft) did not move this week"
+    "The live identifier clock this week is an EU customs data element, not a UK barcode reprint – GTIN already on the pack must now travel with the declaration",
+    "EAN is named as the usual standardised product identifier; GS1 is not mandated and Y081 remains the lawful absence code",
+    "The Commission says it is amending Annex B to limit the PID duty to consignments of EUR 150 or less; that cap is in the 5 October guidance, not yet a finished legal amendment",
+    "UK statute and scheme files (DRS testing guidelines, GB UDI, construction-product library, EN 18239/18246 citation) did not move"
   ],
   "sector_overviews": [
     {
       "sector": "retail",
-      "headline": "DRS Phase 1 registration is open; transition rules say unfilled post-launch packaging needs a scheme barcode and logo",
-      "summary": "Retail’s two keeps are both from Exchange for Change at the one-year mark. Phase 1 registration, opened on 29 September at registration.exchangeforchange.co.uk, collects company and contact details only; product and barcode registration on the Scheme Article List is not this phase. Phase 2 is indicated for January 2027. Urban stores under 100 m² are automatically exempt from hosting a return point and need not register unless they choose to; urban stores of 100–199 m² and rural stores under 200 m² must still register if they want to apply for an exemption later. The 30 September transition note is the barcode file: filled PET and metal containers made before 1 October 2027 are outside the scheme after launch; unfilled packs not linked to a pre-launch order are non-compliant unless they carry a deposit logo and a scheme-registered barcode. Wales is excluded from this note. Logistics appointments, Scotland HFSS commencement on 1 October, and the still-open toys-safety call for evidence did not pass as separate keeps. Product-testing guidelines and the certified RVM list remain unpublished.",
+      "headline": "EU customs will demand EAN product identifiers on low-value e-commerce imports from 1 November; DRS barcodes did not move",
+      "summary": "Retail’s keep is the 5 October TAXUD guidance, restated operationally by Dutch Customs on 8 October. UK retailers, brands and marketplaces that sell to EU consumers while the goods are still outside the Union must get three identifiers to the customs declarant: the shop or platform SKU (M-PID), the manufacturer’s internal code (NS-PID), and the EAN/GTIN or ISBN where one exists (S-PID). Enforcement starts on 1 November, twenty days from this digest. The EUR 3 duty itself has applied since 1 July; this week’s text is the product-identifier chapter, including a stated intention to confine it to consignments of EUR 150 or less. Exchange for Change published nothing after 30 September. Product-testing guidelines promised by September are still ‘in due course’, and the certified reverse-vending-machine list is still indicated for October and is not on the news page. The toys-safety call for evidence closed at 23:59 on 6 October with no summary of responses. PackUK’s 8 October collection update is a PRN/PERN reprocessor guide, not 2026/27 fees.",
       "top_priorities": [
-        "Exchange for Change sets DRS barcode and logo rules for pre-launch PET and metal stock",
-        "Exchange for Change opens Phase 1 DRS registration for producers and return points"
+        "TAXUD 5 October guidance: EAN identifiers mandatory on EU e-commerce imports from 1 November"
       ],
       "watchlist": [
-        "Product-testing guidelines still unpublished after the September 2026 deadline; certified RVM list still indicated for early October and not on the news page as of 5 October",
-        "Phase 2 registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
-        "Wales DRS transition arrangements, including glass, still promised to follow",
-        "Regulator decision on unfilled packaging tied to orders placed before 1 October 2027",
+        "Commission amendment of UCC-DA Annex B to confine the PID duty to consignments of EUR 150 or less – still ‘in the process’, not adopted",
         "SI 2026/1053 comes into force on 17 October 2026; battery QR code and passport from 18 February 2027",
-        "Toys safety call for evidence (includes EU toy DPP / data carrier) closes 23:59 on 6 October 2026",
-        "Official Journal citation of EN 18239 and EN 18246 still outstanding; Commission page still lists September 2026",
+        "Exchange for Change product-testing guidelines still unpublished after the September 2026 deadline; certified RVM list still indicated for October 2026 and not on the news page as of 12 October",
+        "Phase 2 DRS registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
+        "Wales DRS transition arrangements, including glass, still unpublished; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
+        "GS1 UK DRS EDI webinar took place on 6 October 2026; no published recap or EDI specification found this week (gs1uk.org HTML remains Incapsula-blocked)",
+        "Toys safety call for evidence closed 23:59 on 6 October 2026 – still no acknowledgement or summary of responses",
         "UK digital product records: call for evidence closed 21 September 2026 – still no summary of responses",
-        "GS1 UK DRS EDI webinar on 6 October 2026; published EDI guidance still to be read against retailer implementations",
+        "Official Journal citation of EN 18239 and EN 18246 still outstanding; Commission DPP page still lists September 2026",
         "PackUK 2026/27 confirmed fees and notices of liability still indicated by end of November 2026",
-        "Sunrise 2027 retailer POS readiness; HMRC e-invoicing roadmap still indicated for Budget 2026",
-        "EUDR due-diligence for large and medium operators from 30 December 2026"
+        "HMRC e-invoicing implementation roadmap still indicated for Budget 28 October 2026",
+        "Sunrise 2027 retailer POS readiness; EUDR due-diligence for large and medium operators from 30 December 2026"
       ]
     },
     {
       "sector": "construction",
-      "headline": "No new construction-product identifier, library or GSR text; BSR’s 1 October update is the building safety levy",
-      "summary": "MHCLG, OPSS and the Building Safety Regulator published no new unique-identifier, digital-product-record or golden-thread product-data instrument this week. The 1 October updates to higher-risk-building building-control guidance only add building-safety-levy material; they do not change how products are identified. Last week’s Manufacturers’ Information Hub proof of concept is not repeated. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared, and the Commission DPP page continues to list that decision against September 2026. Construction exporters of batteries, or of products incorporating them, still sit on SI 2026/1053 from 17 October and the 18 February 2027 QR-code and passport clocks.",
+      "headline": "No new construction-product identifier, library or GSR text; BSR’s October data are Gateway 2 volumes",
+      "summary": "MHCLG, OPSS and the Building Safety Regulator published no new unique-identifier, digital-product-record or golden-thread product-data instrument this week. The Building Safety Regulator’s 6–9 October statistics cover Gateway 2 application volumes in July–September 2026 and attribute a September rise to filings ahead of the building safety levy; they do not change how products are identified. A 5 October Building magazine think-tank on Gateway 3 restates existing golden-thread practice and does not create an identifier duty. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared. Construction exporters of batteries, or of products incorporating them, still sit on SI 2026/1053 from 17 October and the 18 February 2027 QR-code and passport clocks.",
       "top_priorities": [],
       "watchlist": [
         "MHCLG digital discovery for a construction-product information library (Q3 2026) moving to Alpha; testing previously indicated October–December 2026",
         "Government responses to the White Paper and GSR consultations, later in 2026",
         "Manufacturers’ Information Hub minimum viable product / early-adopter prototype, still funding-dependent, spring 2027",
-        "Official Journal citation of EN 18239 and EN 18246, still indicated for September 2026 and not published as of 5 October",
+        "Official Journal citation of EN 18239 and EN 18246, still indicated for September 2026 and not published as of 12 October",
         "EU construction-product DPP delegated act still indicated Q2 2027",
         "Approved Document B recommendations expected by March 2027",
-        "PAS 2000:2026 uptake and CCPI alignment"
+        "PAS 2000:2026 uptake and CCPI alignment; CCPI ‘Preparing for CCPI’ webinar on 22 October 2026"
       ]
     },
     {
       "sector": "healthcare",
-      "headline": "No new Scan4Safety, UDI or medicines-packaging instrument",
-      "summary": "Healthcare has no keep this week. The NHS Scan4Safety site posted the 17 September GS1 UK / PSC evidence report on 28 September; that is the same report already analysed, not a new development. MHRA activity in the window is routine licensing, an exceptional-use authorisations list update, a Class 4 medicines defect notification and a September advertising-investigations note – none of it a UDI, implant-card, MDOR or pack-DataMatrix change. Draft Medical Devices (Amendment) Regulations 2026 remain the December file, with GB UDI still indicated to enter into force in June 2027. A trade-press claim of a 1 October 2026 UKCA UDI deadline is not supported by MHRA or GOV.UK and is discarded. Trusts and suppliers should keep working the 17 September adoption evidence and the NHS Supply Chain Scan4Safety IMS framework, not wait for a new instrument.",
+      "headline": "No new Scan4Safety, GB UDI or medicines-packaging instrument; TAXUD treats UDI-DI as the S-PID for EU D2C device parcels",
+      "summary": "Healthcare has no standalone keep this week. The 5 October TAXUD guidance is primarily a retail/e-commerce file, but section 8.8 says that where a UDI-DI exists under the EU MDR or IVDR it is deemed the standardised product identifier for low-value distance-sale imports, and that the GS1 application identifier 01 (the GTIN in a medicines DataMatrix) may be used as S-PID for medicinal products. That matters only to UK device and medicines sellers shipping direct to EU consumers; it is not a GB UDI instrument. The government’s 6 October response to the National Commission on AI in healthcare, and the opening of MHRA AI Airlock Phase 3, are lifecycle and post-market-surveillance policy for software devices and do not create a UDI, implant-card, MDOR or pack-DataMatrix duty. Scan4Safety’s site has no dated 5–12 October post; the 17 September GS1 UK / PSC report is not repeated. Draft Medical Devices (Amendment) Regulations 2026 remain the December file, with GB UDI still indicated to enter into force in June 2027.",
       "top_priorities": [],
       "watchlist": [
         "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027",
@@ -64,255 +63,143 @@
         "NHS Scotland Scan for Safety – still no published materials from the 21 September spotlight",
         "Medicines GS1 DataMatrix quality on GB packs after FMD; House of Lords medicines-security follow-up",
         "EAHP/EFPIA unit-dose GS1 DataMatrix roadmap from 2031 – still no UK plan",
-        "Implant-card format under the forthcoming pre-market SI"
+        "Implant-card format under the forthcoming pre-market SI",
+        "ABHI / GS1 UK ‘Understanding GB UDI’ webinar listed for 27 November 2026"
       ]
     }
   ],
   "stats": {
-    "queries": 88,
-    "pages_reviewed": 172,
-    "items_kept": 2,
-    "note": "Window is 28 September 08:00 to 5 October 08:00 Europe/London. All sector and cross-sector query-bank queries were run against GOV.UK (organisation-filtered API plus keyword search), legislation.gov.uk new-instrument lists for each day in the window, Exchange for Change, Commission DPP pages, MHRA, MHCLG/BSR, Defra, OPSS, FSA, NHS Supply Chain / Scan4Safety, and UK trade press. Legislation in the window was screened; no identification, labelling or traceability SI was made. Exchange for Change published four items (registration 29 Sep; transition, infrastructure and newsletter 30 Sep); infrastructure/logistics appointments and restated producer-fee figures did not pass the relevance test. Product-testing guidelines and the certified RVM list have still not appeared. BSR 1 October HRB guidance update is the building safety levy only. FSA 30 September cell-cultivated-product guidance is authorisation/toxicology, not identification. Scotland HFSS placement rules commenced 1 October as previously indicated; they do not change on-pack barcodes. Toys-safety CFE still open until 6 October. EN 18239/18246 Official Journal citation still outstanding. Last week’s batteries SI and Manufacturers’ Information Hub items are not repeated."
+    "queries": 96,
+    "pages_reviewed": 188,
+    "items_kept": 1,
+    "note": "Window is 5 October 08:00 to 12 October 08:00 Europe/London. All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-10-05 plus organisation follow-ups), legislation.gov.uk daily new-instrument feeds for each day in the window, Exchange for Change news and FAQs, Commission DPP/ESPR pages, TAXUD EUR 3 guidance, Dutch Customs, MHRA, MHCLG/BSR, Defra/PackUK, OPSS, FSA, NHS Supply Chain / Scan4Safety, and UK trade press. Legislation in the window was screened through SI 2026/1072; no identification, labelling or traceability SI was made. Last week’s Exchange for Change Phase 1 registration and PET/metal transition notes are not repeated. Product-testing guidelines and the certified RVM list have still not appeared. Toys CFE closed 6 October with no summary. DPR CFE still has no summary. EN 18239/18246 Official Journal citation still outstanding. GPSR referenced-standards notice 0149/26 (8 October), OPSS pimple-popping toy alerts (9 October), PackUK PRN/PERN guide (collection updated 8 October), BSR Gateway 2 volume statistics (6–9 October), MHRA AI Commission response and Airlock Phase 3 (6 October), and individual product recalls did not pass the identifier test. gs1uk.org HTML remains Incapsula-blocked; the 6 October DRS EDI webinar listing was read from search extracts and no published recap was found."
   },
   "items": [
     {
-      "url": "https://exchangeforchange.co.uk/news/deposit-return-scheme-update-on-transition-arrangements/",
-      "title": "Exchange for Change sets DRS barcode and logo rules for pre-launch PET and metal stock",
-      "publisher": "exchangeforchange.co.uk",
-      "issuing_body": "Exchange for Change",
-      "published_at": "2026-09-30T00:00:00+01:00",
-      "change_type": "industry_scheme",
-      "jurisdiction": "UK",
+      "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
+      "title": "TAXUD 5 October guidance: EAN identifiers mandatory on EU e-commerce imports from 1 November",
+      "publisher": "taxation-customs.ec.europa.eu",
+      "issuing_body": "European Commission DG TAXUD",
+      "published_at": "2026-10-05T00:00:00+01:00",
+      "change_type": "guidance",
+      "jurisdiction": "EU (affects UK)",
       "sectors": [
-        "retail"
-      ],
-      "primary_sector": "retail",
-      "impact": "high",
-      "relevance_score": 90,
-      "summary": "On 30 September 2026 Exchange for Change published the first written transition rules for PET and metal drinks containers in England, Northern Ireland and Scotland. Filled containers made before 1 October 2027 sit outside the scheme after launch and need no deposit logo, scheme-registered barcode, producer fee or deposit. Unfilled packaging that is not tied to a pre-launch order cannot be filled and placed on the market unless it carries both the logo and a scheme-registered barcode. Arrangements for Wales will follow.",
-      "what_changed": "Exchange for Change, the industry-led Deposit Management Organisation for the UK Deposit Return Scheme, published an update on 30 September 2026 setting out how producers, retailers, wholesalers and hospitality operators should manage the change from non-DRS product to DRS-compliant product around the 1 October 2027 launch. The note covers PET and metal containers in England, Northern Ireland and Scotland only. Arrangements for Wales are explicitly deferred.\n\nThree classes of packaging are distinguished. First, filled containers made before 1 October 2027 are outside the scope of DRS and may still be sold after go-live. They do not need to be registered with Exchange for Change, carry a deposit logo, or incur a producer fee or deposit. Exchange for Change encourages industry to sell through that stock by April 2028 to support a smooth transition, but says that date is not a regulatory requirement and that in the vast majority of cases sell-through will be faster.\n\nSecond, unfilled containers linked to orders placed before 1 October 2027 would normally fall within scope. Exchange for Change is discussing possible flexibility with regulators that would allow non-DRS-compliant packaging to be filled and sold after launch if, and only if, it is associated with those pre-launch orders. Talks are ongoing; any flexibility depends on regulators’ agreement and has not been granted in this note.\n\nThird, unfilled packaging that is not linked to an existing pre-1 October 2027 order cannot subsequently be filled and placed on the market. The note defines non-compliant packaging as packaging without a deposit logo and a scheme-registered barcode. No flexibility applies unless the packaging can be updated to meet scheme requirements. Further details are promised in due course. The same day’s newsletter restates these three classes and again flags that Wales arrangements, including any glass treatment, will follow.",
-      "why_it_matters_to_gs1": "This is the first time Exchange for Change has written, in a public transition note, that a scheme-registered barcode plus the deposit logo is the test for whether unfilled post-launch packaging may be filled. That is an identifier and on-pack data-carrier duty, not a recycling-logistics story. The barcode types already accepted in the April 2026 material specification are EAN-13, EAN-8, UPC-A and UPC-E, unique to the product and compliant with the GS1 General Specifications or equivalent. Existing GTINs on in-scope containers still need to change and be registered on the Scheme Article List. This note does not open that product-registration form; it tells members which physical packs will be illegal to fill after 1 October 2027 if the new GTIN and logo are missing.\n\nTwo traps matter. First, filled pre-launch stock is deliberately left unmarked. Members who reprint every can and bottle in the warehouse as if it were in-scope from day one will create packs that look like scheme articles but are not registered, which is how reverse-vending machines reject valid empties or accept unmarked ones. Second, the unfilled-but-ordered flexibility is not agreed. Artwork teams that assume leftover labels can be used into Q4 2027 without a new GTIN are betting on a regulator decision that this note says is still in talks. If GS1 UK does nothing, producers will treat ‘scheme-registered barcode’ as a printer instruction rather than a GTIN-allocation and Article List task, and Sunrise 2027 QR work will collide with a second, DRS-specific linear code on the same pack. If members do nothing, July 2027 arrives with tens of thousands of SKUs still on the old GTIN, unfilled film that cannot legally be filled, and no Wales rule for glass.",
-      "gs1_standards_implicated": [
-        "GTIN allocation and change for in-scope containers (existing GTINs must change)",
-        "EAN-13 / EAN-8 / UPC-A / UPC-E as the scheme-accepted linear barcodes",
-        "GS1 General Specifications for barcode quality, placement and uniqueness",
-        "Scheme Article List registration of the barcode as the product identifier",
-        "GLN for producer and return-point locations once Phase 2 and logistics data are collected",
-        "GS1 EDI / EANCOM where deposit value and DRS item flags must travel with the GTIN"
-      ],
-      "affected_stakeholders": [
-        "Drinks producers and brand owners placing PET or metal containers on the England, Northern Ireland or Scotland market",
-        "Importers and contract fillers holding unfilled packaging",
-        "Retailers, wholesalers and hospitality operators selling through pre-launch stock after 1 October 2027",
-        "Packaging converters and artwork agencies",
-        "Exchange for Change, Environment Agency, Trading Standards, NIEA and SEPA as scheme and enforcement bodies",
-        "Wales-facing producers still waiting for a separate transition note, including glass"
-      ],
-      "key_dates": [
-        {
-          "date": "2026-09-30",
-          "label": "Exchange for Change publishes the PET/metal transition note for England, Northern Ireland and Scotland"
-        },
-        {
-          "date": "2027-07-09",
-          "label": "Existing products must be registered on the Scheme Article List (12 weeks before go-live, per the April 2026 material specification)"
-        },
-        {
-          "date": "2027-10-01",
-          "label": "DRS go-live; filled pre-launch stock remains outside the scheme; unfilled non-ordered packaging needs a deposit logo and scheme-registered barcode"
-        },
-        {
-          "date": "2028-04",
-          "label": "Encouraged, non-statutory sell-through date for pre-launch filled stock"
-        }
-      ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Issue a member note that splits three pack classes (filled pre-launch; unfilled-and-ordered, still subject to regulators; unfilled-and-unordered, which needs a new GTIN plus logo) and maps ‘scheme-registered barcode’ to GTIN change and Article List registration, not to a GS1 legal mandate",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Inventory every in-scope PET and metal SKU against the three classes, assign replacement GTINs for anything that will be filled after 1 October 2027, and do not reprint pre-launch filled stock with a DRS logo",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Hold unfilled film and cans that are not on a pre-1 October 2027 order until artwork carries both the deposit logo and the new registered barcode; do not assume regulator flexibility will cover leftover labels",
-          "priority": "now"
-        },
-        {
-          "audience": "gs1_uk",
-          "action": "Use the written definition of a scheme-registered barcode to brief Exchange for Change that Phase 2 and Article List onboarding should accept the same GTIN already used at UK POS, including any Sunrise 2027 2D symbol that still encodes that GTIN",
-          "priority": "next_quarter"
-        },
-        {
-          "audience": "both",
-          "action": "Monitor the promised Wales transition note, including glass, and the regulator decision on unfilled packaging tied to pre-launch orders",
-          "priority": "monitor"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://exchangeforchange.co.uk/news/deposit-return-scheme-update-on-transition-arrangements/",
-          "label": "Exchange for Change: Deposit Return Scheme update on transition arrangements (30 September 2026)",
-          "kind": "primary"
-        },
-        {
-          "url": "https://exchangeforchange.co.uk/news/exchange-for-change-newsletter-15-september-2026/",
-          "label": "Exchange for Change Newsletter #15 – September 2026 (restates the three transition classes)",
-          "kind": "official"
-        },
-        {
-          "url": "https://exchangeforchange.co.uk/wp-content/uploads/2026/04/Exchange-for-Change-Material-Specification-FINAL-v5-April-2026.pdf",
-          "label": "Exchange for Change material specification (April 2026) – accepted barcode types and 9 July 2027 Article List deadline",
-          "kind": "guidance"
-        },
-        {
-          "url": "https://www.legislation.gov.uk/uksi/2025/67/made",
-          "label": "The Deposit Scheme for Drinks Containers (England and Northern Ireland) Regulations 2025",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities",
-          "label": "GOV.UK: Deposit Return Scheme drinks producer and retailer responsibilities",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gs1uk.org/industries/retail/powering-sustainability-hub/deposit-return-schemes",
-          "label": "GS1 UK: Deposit Return Schemes hub",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "high",
-      "source_connector": "cursor-automation",
-      "id": "2026-10-05__1",
-      "digest_id": "2026-10-05"
-    },
-    {
-      "url": "https://exchangeforchange.co.uk/news/exchange-for-change-opens-registration-for-deposit-return-scheme/",
-      "title": "Exchange for Change opens Phase 1 DRS registration for producers and return points",
-      "publisher": "exchangeforchange.co.uk",
-      "issuing_body": "Exchange for Change",
-      "published_at": "2026-09-29T00:00:00+01:00",
-      "change_type": "industry_scheme",
-      "jurisdiction": "UK",
-      "sectors": [
-        "retail"
+        "retail",
+        "healthcare"
       ],
       "primary_sector": "retail",
       "impact": "high",
       "relevance_score": 84,
-      "summary": "On 29 September 2026 Exchange for Change opened Phase 1 of its registration portal for producers and retailer return points, one year before the 1 October 2027 launch. Phase 1 collects only core company and contact details and issues a registration reference number. Product and barcode registration on the Scheme Article List is not part of this phase. Phase 2 is indicated for January 2027.",
-      "what_changed": "Exchange for Change opened the first phase of statutory-scheme registration on 29 September 2026. Businesses that must register as a producer, a return-point operator, or both, can now create an account at registration.exchangeforchange.co.uk (also linked from the homepage as ‘Register your business’) and submit Phase 1. The fields named in the announcement are company details, primary contact, trading name and relevant business and mailing addresses. Progress can be saved. On submission the business receives a registration reference number on screen and by email.\n\nPhase 1 is deliberately thin. Exchange for Change says it is designed to establish core business information and should be completed as soon as possible. Phase 2 will open in January 2027 and will ask for further information relevant to the applicant’s role. The announcement does not say that Phase 1, or Phase 2, is the product-level Scheme Article List registration described in the April 2026 material specification; that specification still requires existing products to be registered no later than 12 weeks before go-live (9 July 2027).\n\nExemption rules are restated rather than rewritten. Urban retailers with retail space under 100 m² are automatically exempt from operating a return point and need not register unless they intend to offer one. Urban retailers between 100 m² and 199 m² of sales area, and rural retailers under 200 m², may later apply for an exemption but must still complete registration now; the how-to-apply detail is promised in the coming months. The Grocer (30 September) and Talking Retail (same day) confirm the portal URL and the January 2027 Phase 2 date. Chief executive Russell Davies called the opening an important milestone and encouraged businesses to complete Phase 1 as soon as possible.",
-      "why_it_matters_to_gs1": "This is the opening of the identifier-keyed scheme register, not yet the opening of GTIN registration. The legal duty in the England and Northern Ireland regulations is that a person seeking registration as a scheme producer or a mandatory return-point operator must apply to the Deposit Management Organisation before 1 October 2027; the DMO may decide those applications early. Phase 1 is that application starting. GS1 is not named and is not the registrar. The connection is that the same organisation will later hold the Scheme Article List against which reverse-vending machines match a barcode, and that GLNs are the natural key for the producer and return-point locations this portal has now begun to collect.\n\nThe risk if the two phases are confused is operational. Members who treat a Phase 1 reference number as proof that their GTINs are on the Article List will miss the 9 July 2027 product-registration cut-off. Members who wait for Phase 2 before assigning replacement GTINs will compress artwork, production and RVM testing into the same quarter as Article List onboarding. If GS1 UK does nothing, Exchange for Change can specify a proprietary producer and site code in Phase 2 while members already hold GLNs for NHS, GDSN and PEPPOL. If members do nothing, January 2027 opens with no company record, no named DRS owner, and no list of SKUs whose barcodes must change.",
+      "summary": "On 5 October 2026 DG TAXUD issued a revised Guidance for Member States and Trade on the temporary EUR 3 customs duty. From 1 November 2026, distance-sale imports of goods in consignments of EUR 150 or less must carry a merchant product identifier, a manufacturer identifier and, where it exists, a standardised identifier such as an EAN. The guidance is not a GS1 mandate: if no standardised identifier exists the declarant uses code Y081. Dutch Customs published a matching how-to on 8 October.",
+      "what_changed": "The Commission’s Directorate-General for Taxation and Customs Union published ‘The temporary EUR 3 customs duty and the Union handling fee – Guidance for Member States and Trade’, version of 5 October 2026, replacing the 2 June 2026 text at the same official download URL. Section 8 is the identification file. It says the new product-identifier requirement applies to all goods sold in distance sales of imported goods with an intrinsic value not exceeding EUR 150 from 1 November 2026. Voluntary submission ran from 1 July; ‘effective enforcement starts from 1 November 2026’. The Commission ‘is in the process of amending Annex B’ of the UCC Delegated Act to clarify that the duty is limited to those low-value consignments. B2B flows are in principle out of scope.\n\nThree identifiers must be provided or made available to customs. C127 is the merchant product identifier assigned by the online seller, marketplace or platform, unique on that site for the exact product offered. C128 is the non-standardised manufacturer identifier; if none exists the manufacturer is expected to assign one, and may use the standardised identifier for this field as well. C129 is the standardised manufacturer identifier ‘only where it exists’. TAXUD writes that in Europe the most common S-PID are ‘the EAN (European Article Number) for many products and the ISBN … for books’, usually encoded in barcodes (EAN-13, UPC), QR codes or RFID. There is ‘no obligation to assign S-PID to all products’; where none has been assigned the exception code Y081 is declared. Using a batch- or unit-level code where a model-level identifier exists is treated as an infringement. For healthcare, a UDI-DI under the EU MDR or IVDR is deemed an S-PID, and the medicines product code (GS1 AI 01) may be used as S-PID. On 8 October Dutch Customs published a member-state page repeating the 1 November start, the F48/F49/F53 declaration types, and the C127/C128/C129/Y081 codes, and linking this same TAXUD PDF.",
+      "why_it_matters_to_gs1": "This is a customs data-carrier and unique-identifier duty on UK-to-EU business-to-consumer e-commerce, twenty days from enforcement. GS1 is not named and is not mandated. TAXUD’s standardised identifier is an internationally recognised number that already exists; for almost every GS1 UK retail member that number is the GTIN encoded in an EAN-13 or UPC. Members who treat ‘no barcode on the web listing’ as ‘no S-PID’ while an EAN exists in My Numberbank or on the pack will mis-declare Y081. Members who invent a new proprietary code instead of sending the GTIN they already scan at UK POS will give EU customs a number that cannot be matched to recalled or non-compliant SKUs – the opposite of the stated control objective.\n\nTwo traps sit in this week’s text. First, the EUR 150 cap is in the 5 October guidance and is described as an Annex B amendment still in process. UK advisers who read only the June legal text of Delegated Regulation (EU) 2026/1022 will keep preparing for all distance-sale values; those who read only the new guidance may wrongly drop SKUs above EUR 150 before the amendment is adopted. Second, the manufacturer may lawfully reuse the GTIN as the NS-PID (C128 and C129 the same). That is an opportunity for GS1 UK to show members a clean mapping – GLN for the seller/declarant location, GTIN for C129 and optionally C128, shop SKU for C127 – without claiming a mandate. If GS1 UK does nothing, carriers and IOSS holders will specify proprietary item codes while members already hold GTINs for GDSN, Sunrise 2027 and DRS. If members do nothing, 1 November arrives with listings that cannot be declared, parcels held, and a Y081 habit that throws away the one identifier EU customs can actually verify on the pack. Device and medicines sellers shipping direct to EU consumers should map UDI-DI or AI 01 into the same C129 field rather than inventing a second number.",
       "gs1_standards_implicated": [
-        "GLN for producer legal entities and return-point locations",
-        "GTIN and Scheme Article List registration (not collected in Phase 1; still required before go-live)",
-        "EAN/UPC barcodes that must later match the registered GTIN at return points",
-        "GS1 EDI for later deposit, volume and return reporting against those identifiers"
+        "GTIN as the usual S-PID (TAXUD names EAN; EAN-13 / UPC-A / UPC-E encode the GTIN)",
+        "GS1 General Specifications for uniqueness, persistence and check-digit behaviour that TAXUD describes for S-PID",
+        "GS1 DataMatrix AI 01 (GTIN) as S-PID for medicinal products under the guidance’s healthcare tolerance",
+        "UDI-DI (often a GTIN) as S-PID for EU MDR/IVDR devices sold D2C into the Union",
+        "GLN for the seller, marketplace, IOSS holder and declarant locations in the data chain to customs",
+        "GDSN / productDNA as the catalogue source from which C128 and C129 should be drawn rather than re-keyed"
       ],
       "affected_stakeholders": [
-        "Drinks producers, importers and brand owners who must register before 1 October 2027",
-        "Grocery retailers, convenience stores and newsagents that must host a return point or apply for an exemption",
-        "Urban sub-100 m² retailers who are automatically exempt unless they opt in",
-        "Hospitality and other voluntary return-point operators",
-        "Exchange for Change as the Deposit Management Organisation across the four UK nations"
+        "UK retailers, brands and marketplaces selling B2C to EU consumers from stock still outside the Union",
+        "UK manufacturers and brand owners who must supply NS-PID and any existing GTIN/EAN/ISBN down the chain",
+        "IOSS holders, postal operators, express carriers and customs agents acting as declarant",
+        "UK medical-device and medicines sellers shipping low-value parcels direct to EU consumers",
+        "Northern Ireland movements only where the consignment is a distance sale of imported goods under the Windsor Framework, not ordinary GB–NI unfettered-access freight"
       ],
       "key_dates": [
         {
-          "date": "2026-09-29",
-          "label": "Phase 1 registration portal opens"
+          "date": "2026-07-01",
+          "label": "Voluntary PID submission opened; temporary EUR 3 duty applied"
         },
         {
-          "date": "2027-01",
-          "label": "Phase 2 registration indicated to open, collecting role-specific information"
+          "date": "2026-10-05",
+          "label": "TAXUD Guidance for Member States and Trade, version of 5 October 2026"
         },
         {
-          "date": "2027-07-09",
-          "label": "Existing products to be on the Scheme Article List (material specification)"
+          "date": "2026-10-08",
+          "label": "Dutch Customs publishes member-state product-identifier how-to"
         },
         {
-          "date": "2027-10-01",
-          "label": "Statutory deadline to have applied for producer or mandatory return-point registration; scheme go-live"
+          "date": "2026-11-01",
+          "label": "Effective enforcement of PID reporting on in-scope distance-sale import declarations"
+        },
+        {
+          "date": "2028-07-01",
+          "label": "EU Customs Data Hub for e-commerce indicated; PID measure described as temporary until then"
         }
       ],
       "next_steps": [
         {
           "audience": "members",
-          "action": "If you are a producer or a non-exempt retailer, complete Phase 1 now and diary Phase 2 for January 2027; do not treat the Phase 1 reference number as Article List or GTIN registration",
+          "action": "If you sell B2C into the EU from GB stock, map every in-scope SKU to three fields before 1 November: shop/platform SKU (C127), manufacturer code (C128), and existing GTIN/EAN/ISBN (C129); use Y081 only where no standardised identifier exists, and test a live declaration with your carrier",
           "priority": "now"
         },
         {
           "audience": "gs1_uk",
-          "action": "Offer Exchange for Change a short location-identifier note: GLN as the join between Phase 1/2 organisation records, return points, logistics partners and later Article List product records, without claiming a mandate",
+          "action": "Issue a short exporter note that translates TAXUD’s EAN/S-PID language into GTIN, states plainly that GS1 is not mandated, and warns against declaring Y081 when a GTIN already exists on pack or in My Numberbank",
           "priority": "now"
         },
         {
           "audience": "members",
-          "action": "Build the SKU-level GTIN-change and Article List file in parallel with Phase 1, so January 2027 is not the first time a DRS product list exists",
+          "action": "Ask brand owners whether they will reuse the GTIN as NS-PID (C128 = C129), which TAXUD expressly allows, so the customs file is not a third proprietary code",
+          "priority": "now"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Offer IOSS holders and major carriers a one-page GTIN-to-C129 mapping, including the healthcare UDI-DI and AI 01 tolerances, without claiming a GS1 legal mandate",
           "priority": "next_quarter"
         },
         {
           "audience": "both",
-          "action": "Watch the exemption-application process promised in the coming months, and whether Phase 2 asks for site-level identifiers that could be GLNs",
+          "action": "Watch the promised Annex B amendment that would confine the PID duty to consignments of EUR 150 or less; until it is adopted, do not treat the cap as finished law",
           "priority": "monitor"
         }
       ],
       "links": [
         {
-          "url": "https://exchangeforchange.co.uk/news/exchange-for-change-opens-registration-for-deposit-return-scheme/",
-          "label": "Exchange for Change: opens registration for Deposit Return Scheme (29 September 2026)",
+          "url": "https://taxation-customs.ec.europa.eu/document/download/053e5b4e-f0be-4f20-9a23-3e3b659a6676_en?filename=Customs+Guidance+on+EUR+3+customs+duty.pdf",
+          "label": "European Commission DG TAXUD: Guidance for Member States and Trade, version of 5 October 2026 (PDF)",
           "kind": "primary"
         },
         {
-          "url": "https://registration.exchangeforchange.co.uk",
-          "label": "Exchange for Change registration portal",
+          "url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/including-product-identifiers-in-your-e-commerce-declaration/",
+          "label": "Dutch Customs: Including product identifiers in your e-commerce declaration (8 October 2026)",
           "kind": "official"
         },
         {
-          "url": "https://exchangeforchange.co.uk/news/exchange-for-change-newsletter-15-september-2026/",
-          "label": "Exchange for Change Newsletter #15 – September 2026",
+          "url": "https://trade.ec.europa.eu/access-to-markets/en/news/eu-applies-eu3-customs-duty-item-low-value-e-commerce-consignments",
+          "label": "European Commission Access2Markets: EUR 3 duty and PID codes C127/C128/C129/Y081 (30 June 2026 background)",
           "kind": "official"
         },
         {
-          "url": "https://www.thegrocer.co.uk/news/registration-opens-for-deposit-return-scheme/724228.article",
-          "label": "The Grocer: Registration opens for deposit return scheme (30 September 2026)",
+          "url": "https://www.theinternationaldesk.co.uk/updates/eu-product-identifiers",
+          "label": "The International Desk: EU product identifier rules from November 2026 (last reviewed 5 October 2026)",
           "kind": "news"
         },
         {
-          "url": "https://www.talkingretail.com/featured/exchange-for-change-opens-registration-for-deposit-return-scheme-30-09-2026/",
-          "label": "Talking Retail: Exchange For Change opens registration (30 September 2026)",
-          "kind": "news"
-        },
-        {
-          "url": "https://www.legislation.gov.uk/uksi/2025/67/schedules/made",
-          "label": "SI 2025/67 Schedules 1 and 2 – producer and return-point registration before 1 October 2027",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gs1uk.org/insights/news/DRS-countdown-approaches-what-businesses-need-to-know",
-          "label": "GS1 UK: DRS countdown approaches (9 September 2026) – GTIN and barcode preparation",
+          "url": "https://www.gs1.org/standards/id-keys/gtin",
+          "label": "GS1: Global Trade Item Number (GTIN)",
           "kind": "gs1"
         }
       ],
       "confidence": "high",
       "source_connector": "cursor-automation",
-      "id": "2026-10-05__2",
-      "digest_id": "2026-10-05"
+      "id": "2026-10-12__1",
+      "digest_id": "2026-10-12"
     }
   ],
   "error": null,
-  "id": "2026-10-05",
-  "created_at": "2026-10-05T08:00:00+01:00",
-  "completed_at": "2026-10-05T08:00:00+01:00",
-  "item_count": 2,
+  "id": "2026-10-12",
+  "created_at": "2026-10-12T08:00:00+01:00",
+  "completed_at": "2026-10-12T08:00:00+01:00",
+  "item_count": 1,
   "sector_counts": [
     {
       "sector": "retail",
-      "total": 2,
-      "high": 2
+      "total": 1,
+      "high": 1
     },
     {
       "sector": "construction",
@@ -321,8 +208,8 @@
     },
     {
       "sector": "healthcare",
-      "total": 0,
-      "high": 0
+      "total": 1,
+      "high": 1
     }
   ]
 }
