@@ -1,0 +1,316 @@
+{
+  "window_start": "2026-10-12T08:00:00+01:00",
+  "window_end": "2026-10-19T08:00:00+01:00",
+  "status": "completed",
+  "trigger": "automation",
+  "is_sample": false,
+  "headline": "OPSS’s 17 October batteries guidance: NI QR-code labelling is now a live UK offence; MHRA’s 2030 strategy locks in compulsory UDI",
+  "executive_summary": "This Monday-to-Monday week has two identification keeps, and neither is a new statute. On 17 October the Batteries (Placing on the Market) (Northern Ireland) Regulations 2026 (SI 2026/1053) came into force, and OPSS and Defra updated both the Northern Ireland batteries guidance and the Great Britain placing-on-the-market page the same morning. The update note says the new instrument’s enforcement powers and sanctions are now referred to in the guidance, that the 2008 GB placing-on-the-market rules no longer apply in NI, and that OPSS has been appointed by Defra to enforce the regulations in the United Kingdom. Article 13 labelling – including the QR code from 18 February 2027 – is now a live UK criminal offence in NI; Article 77, the battery passport itself, is still not a Schedule 2 offence. On 14 October the MHRA published its 2030 Strategy, which says that, subject to parliamentary process, new pre-market regulations will make unique device identifiers, or an equivalent, compulsory for all devices except non-implantable custom-made and non-implantable investigational devices. That is a corporate lock-in of the already-drafted December SI, not a new UDI duty this week, and GS1 is not named. Last week’s TAXUD EAN/S-PID guidance is not repeated. Exchange for Change published nothing after 30 September: product-testing guidelines and the certified reverse-vending-machine list are still missing. Construction produced no new identifier, library or GSR instrument.",
+  "cross_sector_themes": [
+    "The live data-carrier clock is now a UK criminal-enforcement clock in Northern Ireland, not only an EU one",
+    "A QR code on every battery from 18 February 2027 is the Article 13 duty; the battery passport remains a narrower, category-limited record behind that code and is still not a UK offence",
+    "MHRA has put compulsory UDI, or an equivalent, into its 2030 corporate plan, but issuing entities and the GB database schema are still the December file",
+    "DRS barcodes, EN 18239/18246 Official Journal citation and the UK digital-product-records summary did not move"
+  ],
+  "sector_overviews": [
+    {
+      "sector": "retail",
+      "headline": "NI batteries enforcement is live; DRS barcodes and the certified RVM list still did not appear",
+      "summary": "Retail’s keep is the 17 October OPSS/Defra batteries guidance, issued the morning SI 2026/1053 came into force. It does not invent a Great Britain digital-product-passport mandate. It does confirm that the EU Batteries Regulation’s placing-on-the-market rules – including Article 13 labelling and the February 2027 QR code, and Article 46 economic-operator identification – are now criminally enforceable in Northern Ireland, with OPSS named as the appointed enforcer. Qualifying NI goods that meet the EU rules and carry the UK(NI) indication can still move unfettered into Great Britain. The guidance still flags an autumn consultation on a UK-wide regime aligned with the 2023 EU regulation. Exchange for Change’s news page still ends on 30 September. Product-testing guidelines promised by September remain ‘in due course’ on the FAQs, and the certified reverse-vending-machine list indicated for October is not on the news page. Last week’s TAXUD EAN product-identifier guidance is not repeated; 1 November enforcement is thirteen days away. The FSA’s 14 October food-traceability page restates one-step-back / one-step-forward records and does not prescribe a barcode. PackUK’s 2026/27 confirmed fees are still indicated for the end of November.",
+      "top_priorities": [
+        "OPSS 17 October guidance: NI batteries SI is in force and QR labelling is now a UK offence"
+      ],
+      "watchlist": [
+        "Battery QR code and, for in-scope categories, the battery passport from 18 February 2027; Article 13 supplementary acts still starred as earliest dates",
+        "Autumn government consultation on a UK-wide batteries regime aligned with EU 2023/1542",
+        "Commission amendment of UCC-DA Annex B to confine the PID duty to consignments of EUR 150 or less – still ‘in the process’, not adopted; TAXUD enforcement from 1 November 2026",
+        "Exchange for Change product-testing guidelines still unpublished after the September 2026 deadline; certified RVM list still indicated for October 2026 and not on the news page as of 19 October",
+        "Phase 2 DRS registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
+        "Wales DRS transition arrangements, including glass, still unpublished; Welsh logistics and processing contracts still being awarded; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
+        "GS1 UK DRS EDI webinar took place on 6 October 2026; no published recap or EDI specification found this week (gs1uk.org HTML remains Incapsula-blocked)",
+        "Toys safety call for evidence closed 23:59 on 6 October 2026 – still no acknowledgement or summary of responses",
+        "UK digital product records: call for evidence closed 21 September 2026 – still no summary of responses",
+        "Official Journal citation of EN 18239 and EN 18246 still outstanding; trade commentary on 16 October still records only Decision (EU) 2026/1736",
+        "PackUK 2026/27 confirmed fees and notices of liability still indicated by end of November 2026",
+        "HMRC e-invoicing implementation roadmap still indicated for Budget 28 October 2026",
+        "Sunrise 2027 retailer POS readiness; EUDR due-diligence for large and medium operators from 30 December 2026"
+      ]
+    },
+    {
+      "sector": "construction",
+      "headline": "No new construction-product identifier, library or GSR text; battery QR now binds NI construction products that incorporate cells",
+      "summary": "MHCLG, OPSS construction-products and the Building Safety Regulator published no new unique-identifier, digital-product-record or golden-thread product-data instrument this week. SI 2026/1094, the Building (Local Authority Charges and Amendments Relating to Charging) (England) Regulations 2026, is a charging instrument, not a product-identification duty. The construction keep is the same 17 October batteries guidance: members who place batteries, battery packs or battery-containing construction products on the NI or EU market now sit under a live UK criminal-enforcement regime for Article 13 labelling. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared. CCPI’s ‘Preparing for CCPI’ webinar is listed for 22 October.",
+      "top_priorities": [
+        "OPSS 17 October guidance: NI batteries SI is in force and QR labelling is now a UK offence"
+      ],
+      "watchlist": [
+        "MHCLG digital discovery for a construction-product information library (Q3 2026) moving to Alpha; testing previously indicated October–December 2026",
+        "Government responses to the White Paper and GSR consultations, later in 2026",
+        "Manufacturers’ Information Hub minimum viable product / early-adopter prototype, still funding-dependent, spring 2027",
+        "Official Journal citation of EN 18239 and EN 18246, still indicated for September 2026 and not published as of 19 October",
+        "EU construction-product DPP delegated act still indicated Q2 2027",
+        "Approved Document B recommendations expected by March 2027",
+        "PAS 2000:2026 uptake and CCPI alignment; CCPI ‘Preparing for CCPI’ webinar on 22 October 2026"
+      ]
+    },
+    {
+      "sector": "healthcare",
+      "headline": "MHRA’s 2030 strategy restates compulsory UDI or an equivalent; no new Scan4Safety or pack-DataMatrix instrument",
+      "summary": "Healthcare’s keep is the MHRA Strategy 2030, published on 14 October. In the device-surveillance chapter it says that, subject to parliamentary process, new pre-market regulations will make unique device identifiers, or an equivalent, compulsory for all devices except non-implantable custom-made devices and non-implantable investigational devices, so that devices can be identified and traced through their lifecycle. That is the same December draft Medical Devices (Amendment) Regulations 2026 file already on the watchlist, now written into the regulator’s five-year plan. GS1 is not named and is not designated as a GB issuing entity this week; the GS1 Global Office UDI page still does not list Great Britain among jurisdictions where GS1 is an issuing agency. The 16 October update to the device-registration page is 2026/27 annual fees only. Scan4Safety’s site has no dated 12–19 October post. The 17 September GS1 UK / PSC report is not repeated. MHRA’s 18 October adrenaline-nasal-spray consultation is a Human Medicines Regulations spare-stock proposal, not a packaging-barcode duty.",
+      "top_priorities": [
+        "MHRA 2030 strategy: UDI or equivalent to be compulsory for most GB devices"
+      ],
+      "watchlist": [
+        "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027",
+        "MHRA designation of UDI issuing entities and GB UDI database schema – still outstanding; strategy uses ‘UDI or an equivalent’",
+        "DHSC / NHS England reaction to the 17 September Scan4Safety report; national adoption target still absent",
+        "NHS Supply Chain Scan4Safety IMS / point-of-care scanning framework uptake beyond the first 19 trusts",
+        "NHS Scotland Scan for Safety – still no published materials from the 21 September spotlight",
+        "Medicines GS1 DataMatrix quality on GB packs after FMD; House of Lords medicines-security follow-up",
+        "EAHP/EFPIA unit-dose GS1 DataMatrix roadmap from 2031 – still no UK plan",
+        "Implant-card format under the forthcoming pre-market SI",
+        "ABHI / GS1 UK ‘Understanding GB UDI’ webinar listed for 27 November 2026"
+      ]
+    }
+  ],
+  "stats": {
+    "queries": 98,
+    "pages_reviewed": 196,
+    "items_kept": 2,
+    "note": "Window is 12 October 08:00 to 19 October 08:00 Europe/London. All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-10-12 plus organisation follow-ups for OPSS, Defra, MHRA, MHCLG, BSR, HMRC, DBT/BIST and FSA), legislation.gov.uk daily new-instrument lists and atom feeds for each day in the window, Exchange for Change news and FAQs, Commission/ESPR and TAXUD pages, MHRA Strategy 2030, Scan4Safety, PackUK, and UK trade press. Legislation in the window was screened through SI 2026/1097 and WSI 2026/124; no new identification, labelling or traceability SI was made. SI 2026/1053 commencement plus the 17 October OPSS/Defra guidance update is the retail/construction keep. MHRA Strategy 2030 (14 October) is the healthcare keep; the 16 October DORS fees update is not. Last week’s TAXUD 5 October PID guidance is not repeated. Product-testing guidelines and the certified RVM list have still not appeared. Toys CFE and DPR CFE still have no summaries. EN 18239/18246 Official Journal citation still outstanding (trade commentary dated 16 October still records only Decision 2026/1736). FSA 14 October food-traceability guidance restates one-up/one-down records and did not pass the identifier test. SI 2026/1094 building-control charges, WSI 2026/124 tobacco age-of-sale notices, common-charger call for evidence, industrial-fan and standby ecodesign consultations, adrenaline nasal-spray consultation, individual product recalls, and the 16 October letsrecycle Wales DRS logistics note did not pass. gs1uk.org HTML remains Incapsula-blocked."
+  },
+  "items": [
+    {
+      "url": "https://www.gov.uk/guidance/eu-batteries-regulations-in-northern-ireland",
+      "title": "OPSS 17 October guidance: NI batteries SI is in force and QR labelling is now a UK offence",
+      "publisher": "gov.uk",
+      "issuing_body": "Office for Product Safety and Standards / Defra",
+      "published_at": "2026-10-17T09:30:00+01:00",
+      "change_type": "guidance",
+      "jurisdiction": "Northern Ireland",
+      "sectors": [
+        "retail",
+        "construction"
+      ],
+      "primary_sector": "retail",
+      "impact": "high",
+      "relevance_score": 81,
+      "summary": "On 17 October 2026, the day SI 2026/1053 came into force, OPSS and Defra updated the Northern Ireland batteries guidance and the Great Britain placing-on-the-market page. The update says the new regulations provide the enforcement powers and sanctions now referred to in the guidance, that the 2008 GB placing-on-the-market rules no longer apply in NI, and that OPSS has been appointed by Defra to enforce the regulations in the United Kingdom. Article 13 labelling, including the QR code from 18 February 2027, is now a live UK criminal offence in Northern Ireland.",
+      "what_changed": "The Batteries (Placing on the Market) (Northern Ireland) Regulations 2026 (SI 2026/1053), made on 25 September, came into force on 17 October 2026. The same morning OPSS and Defra updated two GOV.UK pages: ‘EU Batteries Regulations in Northern Ireland’ (first published 17 July 2026) and ‘Regulations: batteries and accumulators’. The official change note on both pages is identical: the guidance is updated following commencement; the new regulations provide enforcement powers and sanctions that are referred to in the guidance; and the SI amends placing-on-the-market requirements in Great Britain because those 2008 rules no longer apply in Northern Ireland.\n\nThe NI page now states that the 2023 EU Batteries Regulation applies directly in NI under the Windsor Framework together with SI 2026/1053, which disapplies the 2008 Batteries and Accumulators (Placing on the Market) Regulations in NI and creates the domestic penalty and enforcement regime. Regulation 9 of the SI places a duty on the Secretary of State to enforce the Regulations and Regulation (EU) 2023/1542 and allows the Secretary of State to appoint a person to act. The GB batteries page now says the Office for Product Safety and Standards ‘has been appointed by Defra to enforce the regulations in the United Kingdom’. Contact remains OPSS.enquiries@businessandtrade.gov.uk.\n\nSchedule 2 of the SI is unchanged from the text reported on 28 September. Breach of Article 13(1) to (7) and (9) labelling and information requirements, via the manufacturer, importer, distributor and fulfilment-service-provider obligation articles, is an indictable-only offence. Article 46 (identification of economic operators) is an either-way offence. Article 77, the battery-passport duty, is still not listed. The NI guidance restates the Article 13 clocks: a general-information label, capacity marking and non-rechargeable marking from 18 August 2026 at the earliest (starred as dependent on supplementary EU acts); a QR code on all batteries from 18 February 2027 at the earliest; and, from the same date, an electronic record (‘battery passport’) for each light-means-of-transport battery, each industrial battery above 2 kWh and each electric-vehicle battery. The guidance still says the UK government will consult in the autumn on an aligned regime across the whole of the UK consistent with the 2023 EU regulation.",
+      "why_it_matters_to_gs1": "This is the week the already-reported NI batteries instrument became a live UK enforcement file, not a new GS1 mandate. GS1 is not named in the guidance or the SI. The data-carrier duty is Article 13 of the EU regulation: a QR code that must sit on every battery and, for the three passport categories, that must open the electronic record. Members who already encode a GTIN in a GS1 QR Code or GS1 Digital Link URI can meet the scan-to-record pattern, but only if the code actually resolves to the information Article 13 and, where it applies, Articles 77–78 require. Inventing a second, unregistered QR that does not carry a persistent unique identifier will not help OPSS, customs or a recycler match the cell to a passport or to a recalled batch.\n\nTwo traps sit in this week’s text. First, commencement of SI 2026/1053 does not bring the February 2027 QR or passport clocks forward; it makes today’s already-applicable EUBR placing-on-the-market rules, and the future Article 13 duties as they fall due, criminally enforceable in NI. Members who treat 17 October as ‘QR day’ will reprint early; members who treat it as ‘nothing until February’ will ignore the offences that are already live (substance restrictions, crossed-out wheelie-bin, CE and UK(NI) indication, economic-operator identification). Second, Article 77 remains EU law in NI without a UK criminal penalty in Schedule 2. A member who builds a passport but skips the on-pack QR, or who prints a QR that does not open the record, still faces the Article 13 offence. If GS1 UK does nothing, IOSS holders, battery brands and construction-product exporters will specify proprietary QR schemes while members already hold GTINs for GDSN, Sunrise 2027 and DRS. If members do nothing, 18 February 2027 arrives with packs that cannot be placed on the NI or EU market and with no tested link from the code to the passport. The promised autumn UK-wide alignment consultation is the moment to argue for one identifier and one data carrier on both sides of the Irish Sea, without claiming that GS1 is already required.",
+      "gs1_standards_implicated": [
+        "GTIN as the persistent unique product identifier that a battery QR should resolve to, if used",
+        "GS1 QR Code / GS1 Digital Link URI as a data carrier that could meet Article 13’s scan-to-information pattern",
+        "GLN for the manufacturer, importer, authorised representative and fulfilment locations named under Article 46",
+        "GDSN / productDNA as the catalogue source for the general-information label and, later, passport fields",
+        "GS1 Digital Product Passport provisional standard as an interoperability option for the Article 77 record, not a legal mandate"
+      ],
+      "affected_stakeholders": [
+        "Manufacturers, importers, distributors and fulfilment-service providers placing batteries or battery-containing products on the NI market",
+        "GB brands and construction-product manufacturers whose goods move into NI or the EU",
+        "Retailers and marketplace sellers offering batteries or battery-powered appliances in NI, including online",
+        "Economic operators preparing LMT, industrial >2 kWh and EV battery passports for 18 February 2027",
+        "OPSS as the appointed UK enforcer; Defra as the policy department"
+      ],
+      "key_dates": [
+        {
+          "date": "2026-09-25",
+          "label": "SI 2026/1053 made"
+        },
+        {
+          "date": "2026-10-17",
+          "label": "SI 2026/1053 in force; OPSS/Defra batteries guidance updated"
+        },
+        {
+          "date": "2026-08-18",
+          "label": "Article 13 general-information, capacity and non-rechargeable labels – earliest date, still starred as dependent on supplementary acts"
+        },
+        {
+          "date": "2027-02-18",
+          "label": "Article 13 QR code on all batteries (earliest, starred); Article 77 passport for LMT, industrial >2 kWh and EV batteries"
+        },
+        {
+          "date": "2026-10-19",
+          "label": "Autumn UK-wide alignment consultation still indicated, not opened this week"
+        }
+      ],
+      "next_steps": [
+        {
+          "audience": "members",
+          "action": "If you place batteries or battery-containing products on the NI or EU market, treat 17 October as the start of UK criminal enforcement: map each SKU to Article 13 labelling that already applies, and build the 18 February 2027 QR (and, where in scope, the passport) against a persistent unique identifier you already hold",
+          "priority": "now"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Issue a short NI/exporter note that translates OPSS’s Article 13 QR language into GTIN and GS1 Digital Link options, states plainly that GS1 is not mandated, and warns against a second proprietary QR that cannot be matched to a passport or a recall",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Do not reprint every UK battery pack for 17 October; the QR and passport clocks remain 18 February 2027, but CE, UK(NI) indication, crossed-out wheelie-bin and Article 46 operator identification are live now in NI",
+          "priority": "now"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Prepare a submission to the promised autumn UK-wide batteries consultation arguing for one identifier and one data carrier across GB and NI, without claiming a GS1 legal mandate",
+          "priority": "next_quarter"
+        },
+        {
+          "audience": "both",
+          "action": "Watch for an OPSS appointment instrument or enforcement notice under regulation 9(2), and for any Article 13 implementing act that would un-star the August 2026 and February 2027 labelling dates",
+          "priority": "monitor"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.gov.uk/guidance/eu-batteries-regulations-in-northern-ireland",
+          "label": "GOV.UK: EU Batteries Regulations in Northern Ireland (updated 17 October 2026)",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/batteries",
+          "label": "GOV.UK: Regulations: batteries and accumulators (updated 17 October 2026)",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://www.legislation.gov.uk/uksi/2026/1053/made",
+          "label": "legislation.gov.uk: Batteries (Placing on the Market) (Northern Ireland) Regulations 2026 (SI 2026/1053)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gs1.org/industries/healthcare/udi",
+          "label": "GS1: Unique Device Identification (UDI) – issuing-agency status (GB not listed)",
+          "kind": "gs1"
+        }
+      ],
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-10-19__1",
+      "digest_id": "2026-10-19"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/mhra-strategy-2030",
+      "title": "MHRA 2030 strategy: UDI or equivalent to be compulsory for most GB devices",
+      "publisher": "gov.uk",
+      "issuing_body": "Medicines and Healthcare products Regulatory Agency",
+      "published_at": "2026-10-14T09:00:00+01:00",
+      "change_type": "policy",
+      "jurisdiction": "GB",
+      "sectors": [
+        "healthcare"
+      ],
+      "primary_sector": "healthcare",
+      "impact": "medium",
+      "relevance_score": 64,
+      "summary": "On 14 October 2026 the MHRA published its Strategy 2030. In the medical-device surveillance chapter it says that, subject to parliamentary process, new pre-market regulations will make unique device identifiers, or an equivalent, compulsory for all devices except non-implantable custom-made and non-implantable investigational devices. The strategy does not designate issuing entities, does not set a barcode symbology, and does not bring the December 2026 draft regulations into force.",
+      "what_changed": "The Medicines and Healthcare products Regulatory Agency published ‘MHRA Strategy 2030’ and an accompanying news release on 14 October 2026. The news release lists a commitment to ‘improve the collection and use of medical device data and enable precise identification and traceability of devices throughout their lifecycle’. The full strategy is more specific. In the section on enhanced safety and surveillance for medical devices it says the MHRA will upgrade or replace key systems for registration, reporting and public access. It then states: ‘Subject to parliamentary process, new pre-market regulations will make unique device identifiers (UDI) – or an equivalent – compulsory for all devices except non-implantable custom-made devices or non-implantable investigational devices. This will enable precise identification and traceability of devices throughout their lifecycle.’\n\nThat is a corporate restatement of the draft Medical Devices (Amendment) Regulations 2026, notified to the WTO on 8 May 2026 and still indicated for adoption in December 2026 with UDI in force in June 2027. The strategy does not publish a new statutory instrument, does not name GS1, HIBCC, ICCBBA or IFA as GB issuing entities, and does not describe the GB UDI database schema. The 16 October update to ‘Register medical devices to place on the market’ changes only 2026/27 annual fees. The GS1 Global Office UDI page, read this week, still lists GS1 as an issuing agency in the EU, the USA and a set of other jurisdictions; Great Britain is not on that list.",
+      "why_it_matters_to_gs1": "This is a planning signal, not a new legal mandate. The MHRA has now written compulsory UDI, or an equivalent, into its five-year strategy. ‘Or an equivalent’ is the phrase members should not skip. It leaves the door open to a GB-specific identifier if the December SI, or later designation, does not follow the IMDRF issuing-entity model. GS1 UK cannot claim that the strategy designates GS1. It can claim that the regulator has publicly committed to unique identification as the backbone of device traceability and of the registration systems it intends to upgrade.\n\nIf GS1 UK does nothing, the December SI will be debated without a clear UK mapping from Basic UDI-DI to GMN, from UDI-DI to GTIN, and from the UDI carrier to GS1 DataMatrix or GS1 Digital Link – the mapping NHS Scan4Safety trusts already use. If members do nothing, they will treat the strategy as colour and arrive at June 2027 with catalogues that have no Basic UDI-DI, no production identifiers and no tested scan at the point of care. Device sellers who already ship to the EU should keep using the UDI-DI they hold; the strategy is not a reason to invent a second GB-only number before the SI and the issuing-entity designation land. The ABHI / GS1 UK ‘Understanding GB UDI’ session listed for 27 November is now the right place to walk the ‘or an equivalent’ wording, not to announce a mandate that does not exist.",
+      "gs1_standards_implicated": [
+        "GTIN as the usual UDI-DI where GS1 is later designated as a GB issuing entity",
+        "GMN as the usual Basic UDI-DI under the EU model the draft SI has been aligned with",
+        "GS1 DataMatrix as the usual UDI carrier on devices and higher-level packaging",
+        "GDSN / productDNA as the catalogue feed into a future GB UDI database",
+        "GLN for manufacturer, UK Responsible Person and healthcare-organisation locations in the registration chain"
+      ],
+      "affected_stakeholders": [
+        "Medical-device and IVD manufacturers placing products on the Great Britain market",
+        "UK Responsible Persons and authorised representatives",
+        "NHS trusts and independent providers that scan devices at the point of care under Scan4Safety",
+        "NHS Supply Chain and MDOR submitters who need a stable device identifier",
+        "MHRA, as the body that must still designate issuing entities and adopt the December SI"
+      ],
+      "key_dates": [
+        {
+          "date": "2026-05-08",
+          "label": "Draft Medical Devices (Amendment) Regulations 2026 notified to the WTO"
+        },
+        {
+          "date": "2026-10-14",
+          "label": "MHRA Strategy 2030 published, restating compulsory UDI or an equivalent"
+        },
+        {
+          "date": "2026-11-27",
+          "label": "ABHI / GS1 UK ‘Understanding GB UDI’ webinar (listed, not held this week)"
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Draft pre-market SI still indicated for adoption in December 2026"
+        },
+        {
+          "date": "2027-06-01",
+          "label": "UDI still indicated to enter into force in June 2027, subject to the SI"
+        }
+      ],
+      "next_steps": [
+        {
+          "audience": "gs1_uk",
+          "action": "Read the strategy’s ‘UDI or an equivalent’ sentence into the December SI engagement plan: ask MHRA to designate issuing entities and to say whether GMN/GTIN/DataMatrix remain the intended GB mapping",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Do not allocate a new GB-only device number on the back of this strategy; keep the UDI-DI you already use for the EU and wait for the SI and the issuing-entity designation",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "If you place devices on the GB market, inventory which SKUs already have a Basic UDI-DI, UDI-DI and production identifiers so the June 2027 clock is a labelling and registration task, not a numbering project",
+          "priority": "next_quarter"
+        },
+        {
+          "audience": "both",
+          "action": "Watch the December adoption of the draft Medical Devices (Amendment) Regulations 2026 and any MHRA notice designating UDI issuing entities; the strategy is not that notice",
+          "priority": "monitor"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.gov.uk/government/publications/mhra-strategy-2030",
+          "label": "GOV.UK: MHRA Strategy 2030 (published 14 October 2026)",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/mhra-2030-strategy-to-modernise-patient-centred-regulation-for-the-era-of-ai-and-personalised-medicines",
+          "label": "GOV.UK: MHRA 2030 Strategy news release (14 October 2026)",
+          "kind": "official"
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/media/6acf29b971dbe79328fd4459/MHRA_Strategy_2030.pdf",
+          "label": "MHRA Strategy 2030 (PDF) – UDI paragraph in device-surveillance chapter",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gs1.org/industries/healthcare/udi",
+          "label": "GS1: Unique Device Identification (UDI) – issuing-agency list does not yet include GB",
+          "kind": "gs1"
+        }
+      ],
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-10-19__2",
+      "digest_id": "2026-10-19"
+    }
+  ],
+  "error": null,
+  "id": "2026-10-19",
+  "created_at": "2026-10-19T08:00:00+01:00",
+  "completed_at": "2026-10-19T08:00:00+01:00",
+  "item_count": 2,
+  "sector_counts": [
+    {
+      "sector": "retail",
+      "total": 1,
+      "high": 1
+    },
+    {
+      "sector": "construction",
+      "total": 1,
+      "high": 1
+    },
+    {
+      "sector": "healthcare",
+      "total": 1,
+      "high": 0
+    }
+  ]
+}
