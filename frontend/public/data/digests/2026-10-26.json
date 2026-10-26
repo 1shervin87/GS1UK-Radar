@@ -1,0 +1,331 @@
+{
+  "window_start": "2026-10-19T08:00:00+01:00",
+  "window_end": "2026-10-26T08:00:00+00:00",
+  "status": "completed",
+  "trigger": "automation",
+  "is_sample": false,
+  "headline": "MHRA locks in indefinite CE recognition for GB devices; MHCLG opens the construction-product data discovery",
+  "executive_summary": "This Monday-to-Monday week has two identification keeps, and neither is a new barcode statute. On 21 October the MHRA published the government response to its February–April consultation and confirmed that Great Britain will indefinitely recognise CE-marked medical devices certified under the EU MDR and IVDR, while aligning EU MDD transitional recognition with the EU’s 31 December 2028 end date. More than 90 per cent of devices registered for use in Great Britain already carry a CE mark. Those devices already bear an EU unique device identifier; the response does not designate a GB issuing entity, and the GS1 Global Office UDI page still does not list Great Britain. What the response does say, in the pelvic-mesh section, is that the forthcoming UKCA pre-market legislation will contain measures to improve the traceability of implanted devices, including unique device identifiers and implant cards – the same December file already on the watchlist. On 22 October MHCLG’s Buildings, Design and Construction digital team published the first detailed public account of its construction-product data discovery: mapping the lifecycle of a fire door, researching existing technical data standards, and inviting the sector to fortnightly show-and-tells from 5 November. The blog does not choose an identifier, a data carrier or a library back-end. Retail produced no keep: Exchange for Change’s news page still ends on 30 September; Better Retailing reported a second delay of the certified reverse-vending-machine list on 21 October, with a spokesperson still promising publication ‘this month’. TAXUD’s 5 October product-identifier guidance is not repeated; enforcement from 1 November is six days away. Official Journal citation of EN 18239 and EN 18246 is still outstanding.",
+  "cross_sector_themes": [
+    "Great Britain is locking in EU identification that already sits on CE-marked devices, not inventing a parallel GB numbering scheme this week",
+    "UDI, implant cards and a construction-product identifier remain draft or discovery work; nothing this week designates GS1",
+    "DRS barcodes, the certified RVM list, product-testing guidelines and the EN 18239/18246 Official Journal citation did not move",
+    "PID enforcement for EU distance-sale imports from 1 November 2026 is now six days away; HMRC has still published no UK-exporter note"
+  ],
+  "sector_overviews": [
+    {
+      "sector": "retail",
+      "headline": "No retail identifier keep; the certified RVM list is late for a second time and PID enforcement is six days away",
+      "summary": "Retail produced no item that passed the identifier test. Exchange for Change published nothing after 30 September. On 21 October Better Retailing reported a second delay of the certified reverse-vending-machine list, originally indicated for the end of September and then early October; an Exchange for Change spokesperson said each machine is being tested against 77 requirements including container recognition and processing, and that the list will still be published this month. That is an infrastructure delay, not a new barcode rule, so it is not a keep. Product-testing guidelines promised by September remain ‘in due course’ on the FAQs. Last week’s TAXUD EAN/S-PID guidance is not repeated; Dutch Customs updated its how-to page on 22 October without changing the 1 November clock or adopting the still-outstanding Annex B amendment. The HMRC/DBT e-invoicing implementation roadmap is still indicated for Budget 28 October, two days after this window. The autumn UK-wide batteries alignment consultation has still not opened. Toys safety and digital-product-records calls for evidence still have no summaries. PackUK’s 2026/27 confirmed fees and notices of liability remain indicated by the end of November.",
+      "top_priorities": [],
+      "watchlist": [
+        "TAXUD product-identifier enforcement from 1 November 2026; Commission amendment of UCC-DA Annex B to confine the duty to consignments of EUR 150 or less still ‘in the process’, not adopted; Dutch Customs how-to updated 22 October; still no HMRC/GOV.UK UK-exporter note",
+        "Exchange for Change certified RVM list: second delay reported 21 October, spokesperson still promising publication in October; product-testing guidelines still unpublished after the September 2026 deadline",
+        "Phase 2 DRS registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
+        "Wales DRS transition arrangements, including glass, still unpublished; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
+        "GS1 UK DRS EDI webinar took place on 6 October 2026; no published recap or EDI specification found (gs1uk.org HTML remains Incapsula-blocked)",
+        "HMRC e-invoicing implementation roadmap still indicated for Budget 28 October 2026",
+        "Battery QR code and, for in-scope categories, the battery passport from 18 February 2027; autumn UK-wide batteries alignment consultation still indicated, not opened",
+        "Toys safety call for evidence closed 23:59 on 6 October 2026 – still no acknowledgement or summary of responses",
+        "UK digital product records: call for evidence closed 21 September 2026 – still no summary of responses",
+        "Official Journal citation of EN 18239 and EN 18246 still outstanding; no new implementing decision found this week",
+        "PackUK 2026/27 confirmed fees and notices of liability still indicated by end of November 2026",
+        "Sunrise 2027 retailer POS readiness; EUDR due-diligence for large and medium operators from 30 December 2026"
+      ]
+    },
+    {
+      "sector": "construction",
+      "headline": "MHCLG’s digital team has put the construction-product data discovery on the record; no identifier or library is chosen",
+      "summary": "Construction’s keep is the 22 October MHCLG Digital blog from the Buildings, Design and Construction team. It describes a multidisciplinary discovery: mapping information flows across the building lifecycle using a fire door as the worked example, researching existing technical data standards (none of which, the team says, are consistently adopted), and running user-research workshops. It does not launch a construction-product library, does not name a unique identifier or a QR/data-carrier duty, and does not adopt the Manufacturers’ Information Hub as a back-end. The team is learning from MHCLG’s Digital Planning powers to set data standards under the Levelling-up and Regeneration Act 2023 and the Planning Data Regulations 2026. Fortnightly open show-and-tells start on 5 November. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared. CCPI’s ‘Preparing for CCPI’ webinar was listed for 22 October; no published recap was found.",
+      "top_priorities": [
+        "MHCLG digital team opens construction-product data discovery and fortnightly show-and-tells"
+      ],
+      "watchlist": [
+        "MHCLG show-and-tells every other Thursday from 5 November 2026; watch whether Alpha, a library prototype or an identifier/data-carrier choice follows",
+        "Manufacturers’ Information Hub minimum viable product / early-adopter prototype, still funding-dependent, spring 2027",
+        "Government responses to the White Paper and GSR consultations, later in 2026",
+        "Official Journal citation of EN 18239 and EN 18246, still indicated and not published as of 26 October",
+        "EU construction-product DPP delegated act still indicated Q2 2027",
+        "Approved Document B recommendations expected by March 2027",
+        "PAS 2000:2026 uptake and CCPI alignment; 22 October ‘Preparing for CCPI’ webinar listed, no published recap found this week"
+      ]
+    },
+    {
+      "sector": "healthcare",
+      "headline": "Indefinite CE recognition is now government policy; GB UDI is still the UKCA pre-market SI",
+      "summary": "Healthcare’s keep is the 21 October government response confirming that Great Britain will indefinitely recognise all CE-marked devices certified under EU MDR and IVDR, and will align EU MDD recognition with the EU transition end date of 31 December 2028. Legislative changes are to be made, subject to parliamentary approval, before 30 June 2028. Manufacturers of CE-marked devices must still appoint a UK responsible person, register with the MHRA and meet the June 2025 post-market surveillance rules. The response explicitly locates unique device identifiers and implant cards in the forthcoming UKCA pre-market legislation, not in the CE-recognition instrument. Last week’s MHRA Strategy 2030 is not repeated. The 19 October AdvaMed preview restates ‘improved device data and traceability’ from that strategy and is not a keep. Scan4Safety’s site has no dated 19–26 October post. The 17 September GS1 UK / PSC report is not repeated. GS1 is still not listed as a GB UDI issuing agency.",
+      "top_priorities": [
+        "MHRA locks in indefinite CE recognition; UDI stays on the UKCA pre-market SI"
+      ],
+      "watchlist": [
+        "CE-recognition statutory instrument: to be made before 30 June 2028, subject to parliamentary approval",
+        "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027; still the file that will carry UDI and implant cards for the UKCA route",
+        "MHRA designation of UDI issuing entities and GB UDI database schema – still outstanding; Strategy 2030’s ‘UDI or an equivalent’ is not repeated this week",
+        "DHSC / NHS England reaction to the 17 September Scan4Safety report; national adoption target still absent",
+        "NHS Supply Chain Scan4Safety IMS / point-of-care scanning framework uptake beyond the first 19 trusts",
+        "NHS Scotland Scan for Safety – still no published materials from the 21 September spotlight",
+        "Medicines GS1 DataMatrix quality on GB packs after FMD; House of Lords medicines-security follow-up",
+        "EAHP/EFPIA unit-dose GS1 DataMatrix roadmap from 2031 – still no UK plan",
+        "ABHI / GS1 UK ‘Understanding GB UDI’ webinar listed for 27 November 2026"
+      ]
+    }
+  ],
+  "stats": {
+    "queries": 108,
+    "pages_reviewed": 214,
+    "items_kept": 2,
+    "note": "Window is 19 October 08:00 Europe/London (BST) to 26 October 08:00 Europe/London (GMT, after the 25 October clock change). All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-10-19 plus organisation follow-ups for OPSS, Defra, MHRA, MHCLG, BSR, HMRC, DBT/BIST and FSA), legislation.gov.uk daily new-instrument lists for each day in the window, Exchange for Change news and FAQs, Commission/ESPR and TAXUD pages, MHRA CE-recognition news and government-response PDF, MHCLG Digital construction-product data blog, Scan4Safety, PackUK, and UK trade press. Legislation in the window was screened through SI 2026/1118 and WSI 2026/130; no new identification, labelling or traceability SI was made. MHRA 21 October CE-recognition decision is the healthcare keep. MHCLG 22 October discovery blog is the construction keep. Exchange for Change news still ends 30 September; Better Retailing 21 October RVM-list delay is infrastructure and did not pass. Last week’s TAXUD 5 October PID guidance is not repeated (Dutch Customs how-to updated 22 October; Annex B amendment still outstanding). Product-testing guidelines and the certified RVM list have still not appeared. Toys CFE and DPR CFE still have no summaries. EN 18239/18246 Official Journal citation still outstanding. Autumn batteries consultation not opened. AdvaMed 19 October preview, DHSC cosmetic-procedures consultation, FSA national enforcement priorities, digital waste-tracking collection update, Life Sciences Healthcare Goals, SI 2026/1118 precepts, WSI 2026/130 health-and-social-care commencement, private-parking code, and individual OPSS product-safety reports did not pass. gs1uk.org HTML remains Incapsula-blocked."
+  },
+  "items": [
+    {
+      "url": "https://www.gov.uk/government/news/government-confirms-indefinite-recognition-of-ce-marked-medical-devices",
+      "title": "MHRA locks in indefinite CE recognition; UDI stays on the UKCA pre-market SI",
+      "publisher": "gov.uk",
+      "issuing_body": "Medicines and Healthcare products Regulatory Agency",
+      "published_at": "2026-10-21T09:00:00+01:00",
+      "change_type": "policy",
+      "jurisdiction": "GB",
+      "sectors": [
+        "healthcare"
+      ],
+      "primary_sector": "healthcare",
+      "impact": "medium",
+      "relevance_score": 72,
+      "summary": "On 21 October 2026 the MHRA published the government response to its targeted consultation and confirmed that Great Britain will indefinitely recognise CE-marked medical devices certified under the EU MDR and IVDR. EU MDD-certified devices will be recognised until the EU’s own transition end date, currently 31 December 2028. Unique device identifiers and implant cards are located in the forthcoming UKCA pre-market legislation, not in this recognition decision. GS1 is not named and is not designated as a GB issuing entity.",
+      "what_changed": "The Medicines and Healthcare products Regulatory Agency published ‘Government confirms indefinite recognition of CE marked medical devices’ and the 21-page government response PDF on 21 October 2026. The targeted consultation ran from 16 February to 10 April 2026 and received 1,056 responses. The government will take forward two proposals: align Great Britain recognition of EU MDD-certified devices with the EU transition timelines, so those devices remain acceptable until the end of the EU transition period (currently 31 December 2028), including devices placed compliantly on the EU or Great Britain market before that date; and indefinitely recognise all CE-marked devices certified under EU MDR 2017/745 and EU IVDR 2017/746, maintaining the existing requirements in regulations 19C, 30A and 44ZB of the Medical Devices Regulations 2002. A separate reliance route for devices classified higher in Great Britain than in the EU will not be taken forward.\n\nThe news release states that more than 90 per cent of medical devices registered for use in Great Britain currently carry a CE mark, and that the UK will not require an additional approval route for devices already approved for the EU market. The UKCA mark remains the domestic route and is being modernised through the pre-market statutory instrument. Manufacturers of CE-marked devices placed on the Great Britain market must continue to appoint a UK responsible person if based outside the UK, register the devices with the MHRA, meet the strengthened post-market surveillance requirements that came into force in June 2025, keep technical documentation and the certificate of conformity in English, and comply with enforcement notices under the Medicines and Medical Devices Act 2021.\n\nIn the section addressing pelvic-mesh respondents, the response says the government is taking measures, broadly aligned with EU MDR and IVDR, that include ‘the formulation of “pre-market” legislation for UKCA marked devices, which will contain measures to improve the traceability of implanted devices including use of Unique Device Identifiers (UDI) and implant cards’. Next steps say the MHRA will introduce legislative changes reflecting the two adopted proposals, and that, subject to parliamentary approval, those changes will be made prior to the end of the earliest relevant transition period, which is 30 June 2028. The proposed approach applies to Great Britain; Northern Ireland continues to apply EU MDR and IVDR under the Windsor Framework. The response says indefinite CE recognition in Great Britain supports UK-wide supply because manufacturers can place the same product on the UK-wide market.",
+      "why_it_matters_to_gs1": "This is a market-access lock-in with a traceability consequence, not a new GS1 mandate. Devices that already carry an EU UDI – typically a GS1 GTIN as the UDI-DI and, under the EU model, a GMN as the Basic UDI-DI – can now stay on the Great Britain market indefinitely without a second UKCA conformity assessment. That is the identifier that will sit on the large majority of GB-registered packs for the rest of the decade, unless a manufacturer chooses the UKCA route. The response does not designate GS1, HIBCC, ICCBBA or IFA as a GB issuing entity. The GS1 Global Office UDI page, read this week, still lists the EU, the USA and a set of other jurisdictions; Great Britain is not on that list.\n\nTwo traps sit in this week’s text. First, indefinite CE recognition is not a reason to invent a second GB-only device number. Members who already ship the same SKU to the EU should keep the UDI-DI they hold. Second, UDI and implant cards are explicitly parked on the UKCA pre-market statutory instrument – the December file already reported last week – not on the CE-recognition instrument that will be made before June 2028. A member who treats 21 October as ‘UDI day’ will reprint early; a member who treats it as ‘no identifier work until 2028’ will arrive at the June 2027 UKCA UDI clock, if that SI is adopted, with no Basic UDI-DI and no tested scan. If GS1 UK does nothing, the December SI will still be debated without a clear UK mapping from Basic UDI-DI to GMN, from UDI-DI to GTIN, and from the UDI carrier to GS1 DataMatrix – the mapping NHS Scan4Safety trusts already use on CE-marked devices. If members do nothing, they will treat recognition as colour and discover too late that MHRA registration, UK responsible-person duties and post-market surveillance still key on a persistent device identifier. The ABHI / GS1 UK ‘Understanding GB UDI’ session listed for 27 November is now the place to walk the dual-route reality: EU UDI on the CE path, GB UDI still un-designated on the UKCA path.",
+      "gs1_standards_implicated": [
+        "GTIN as the usual UDI-DI already carried on CE-marked MDR/IVDR devices",
+        "GMN as the usual Basic UDI-DI under the EU model the UKCA pre-market SI has been aligned with",
+        "GS1 DataMatrix as the usual UDI carrier on devices and higher-level packaging",
+        "GDSN / productDNA as the catalogue feed into MHRA registration and a future GB UDI database",
+        "GLN for manufacturer, UK Responsible Person and healthcare-organisation locations in the registration chain"
+      ],
+      "affected_stakeholders": [
+        "Medical-device and IVD manufacturers placing CE-marked or UKCA-marked products on the Great Britain market",
+        "UK Responsible Persons and authorised representatives",
+        "NHS trusts and independent providers that scan devices at the point of care under Scan4Safety",
+        "NHS Supply Chain and MDOR submitters who need a stable device identifier across CE and UKCA routes",
+        "MHRA, as the body that must still make the CE-recognition SI, adopt the December pre-market SI and designate issuing entities"
+      ],
+      "key_dates": [
+        {
+          "date": "2026-02-16",
+          "label": "Targeted CE-recognition consultation opened"
+        },
+        {
+          "date": "2026-04-10",
+          "label": "Consultation closed (1,056 responses)"
+        },
+        {
+          "date": "2026-10-21",
+          "label": "Government response published: indefinite CE recognition confirmed"
+        },
+        {
+          "date": "2026-11-27",
+          "label": "ABHI / GS1 UK ‘Understanding GB UDI’ webinar (listed, not held this week)"
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Draft pre-market SI still indicated for adoption in December 2026; this is the file that will carry UDI and implant cards for the UKCA route"
+        },
+        {
+          "date": "2027-06-01",
+          "label": "UDI still indicated to enter into force in June 2027 for the UKCA route, subject to the pre-market SI"
+        },
+        {
+          "date": "2028-06-30",
+          "label": "CE-recognition legislative changes to be made before this date, subject to parliamentary approval"
+        },
+        {
+          "date": "2028-12-31",
+          "label": "Current EU MDD transition end date, now also the GB recognition end date for MDD-certified devices"
+        }
+      ],
+      "next_steps": [
+        {
+          "audience": "gs1_uk",
+          "action": "Issue a short dual-route note: CE-marked devices keep the EU UDI they already carry; the December UKCA pre-market SI is still the file that will impose GB UDI and implant cards; GS1 is not designated",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Do not allocate a new GB-only device number on the back of this recognition decision; keep the UDI-DI you already use for the EU and wait for the pre-market SI and the issuing-entity designation",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Confirm MHRA registration, UK responsible-person and June 2025 PMS duties still apply to every CE-marked SKU you place on the Great Britain market; recognition does not waive them",
+          "priority": "now"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Take the dual-route map (EU UDI on CE packs; GMN/GTIN/DataMatrix as the candidate UKCA mapping) into the 27 November ABHI session and the December SI engagement",
+          "priority": "next_quarter"
+        },
+        {
+          "audience": "both",
+          "action": "Watch for the CE-recognition instrument (before 30 June 2028) and for adoption of the draft Medical Devices (Amendment) Regulations 2026; this response is not that instrument and is not an issuing-entity designation",
+          "priority": "monitor"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.gov.uk/government/news/government-confirms-indefinite-recognition-of-ce-marked-medical-devices",
+          "label": "GOV.UK: Government confirms indefinite recognition of CE marked medical devices (21 October 2026)",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/medical-devices-regulations-targeted-consultation-on-the-indefinite-recognition-of-ce-marked-devices",
+          "label": "GOV.UK: targeted consultation page, government response published 21 October 2026",
+          "kind": "official"
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/media/6ad76f8be9713babfbe3f755/Government_response_to_the_targeted_consultation_on_the_indefinite_recognition_of_CE_marked_medical_devices.pdf",
+          "label": "Government response PDF (21 October 2026) – UDI and implant cards in the UKCA pre-market section",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/implementation-of-the-future-regulation-of-medical-devices/implementation-of-the-future-regulations",
+          "label": "GOV.UK: Implementation of the future regulations – pre-market SI still lists UDI",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/medical-devices-eu-regulations-for-mdr-and-ivdr",
+          "label": "GOV.UK: Regulation of medical devices in Northern Ireland",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://www.gs1.org/industries/healthcare/udi",
+          "label": "GS1: Unique Device Identification (UDI) – issuing-agency list does not yet include GB",
+          "kind": "gs1"
+        }
+      ],
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-10-26__1",
+      "digest_id": "2026-10-26"
+    },
+    {
+      "url": "https://mhclgdigital.blog.gov.uk/2026/10/22/standardising-construction-product-data-to-improve-building-safety/",
+      "title": "MHCLG digital team opens construction-product data discovery and fortnightly show-and-tells",
+      "publisher": "MHCLG Digital",
+      "issuing_body": "Ministry of Housing, Communities and Local Government",
+      "published_at": "2026-10-22T12:00:00+01:00",
+      "change_type": "policy",
+      "jurisdiction": "UK",
+      "sectors": [
+        "construction"
+      ],
+      "primary_sector": "construction",
+      "impact": "medium",
+      "relevance_score": 62,
+      "summary": "On 22 October 2026 MHCLG’s Buildings, Design and Construction digital team published the first detailed public account of its construction-product data discovery. The team is mapping lifecycle information flows, researching existing technical data standards and inviting the sector to fortnightly show-and-tells from 5 November. The blog does not choose a unique identifier, a data carrier or a library back-end, and it does not create a legal duty.",
+      "what_changed": "The Buildings, Design and Construction (BDC) digital team in the Ministry of Housing, Communities and Local Government posted ‘Standardising construction product data to improve building safety’ on the MHCLG Digital blog on 22 October 2026. The post says the team has been working with policy colleagues and stakeholders to support the systemic-reform recommendations in the Construction Products Reform White Paper. It describes the problem as unstructured, inconsistent and poor-quality building and product information, much of it still on paper, so that safety information about products such as cladding, fire doors and steel is unavailable, inaccurate or too ambiguous for designers and safety assessors.\n\nA multidisciplinary discovery team has agreed scope, reviewed existing evidence and begun mapping the entire building lifecycle to show where information is created, maintained and exchanged. The worked example is the journey of a fire door, from sourcing materials through testing, supply, design, installation and maintenance to end of life. The team is also researching existing technical data standards and says that numerous industry standards exist but none are consistently adopted. User-research workshops are now under way to test how construction-product data is created, managed, controlled and exchanged.\n\nThe post says the team is working with the Digital Front Door team and the Construction Products Division, and is learning from MHCLG’s Digital Planning team, which established powers to set data standards for local plans in the Levelling-up and Regeneration Act 2023 and the Planning Data Regulations 2026. Open show-and-tells will run every other Thursday from 11:00 to 12:00, with the next session on 5 November; a Microsoft Forms registration link is published on the post, and a recording of an earlier October show-and-tell is linked. The blog does not announce an Alpha service, a construction-product information library, a unique product identifier, a QR or digital-label duty, or adoption of the Manufacturers’ Information Hub.",
+      "why_it_matters_to_gs1": "This is the week the already-watched MHCLG digital discovery became a public engagement file, not a new GS1 mandate. The White Paper, published in February, already said that over the coming years product information should be available digitally and that product labelling must include unique product identifiers linked to up-to-date information through a digital label such as a QR code. This blog does not repeat that sentence and does not choose the identifier. It does say the team is researching existing technical data standards and that none are consistently adopted. That is the moment to put GTIN, GLN and a GS1 Digital Link URI on the table as options that construction-product manufacturers already hold for retail and healthcare, without claiming they are required.\n\nIf GS1 UK does nothing, the show-and-tells will be filled by BSI Identify, LEXiCON templates, CCPI process marks and proprietary QR schemes, and the later library or GSR instrument will be designed around those. If members do nothing, they will treat a blog post as colour and arrive at a digital-label duty – if one follows the White Paper – with catalogues that have no persistent product identifier and no tested scan from pack to record. Do not reprint construction-product packs or allocate a new construction GTIN on the back of this post. Do attend the 5 November show-and-tell, watch the October recording, and ask the team how a unique product identifier and a digital label would join the fire-door map they have already drawn. The Manufacturers’ Information Hub remains a proof of concept; this discovery has not adopted it.",
+      "gs1_standards_implicated": [
+        "GTIN as a candidate unique product identifier if a later library or GSR instrument requires one",
+        "GS1 QR Code / GS1 Digital Link URI as a data carrier that could meet the White Paper’s digital-label pattern, if that duty is later made",
+        "GLN for manufacturer, importer, merchant and installation locations on the fire-door lifecycle map",
+        "GDSN / productDNA as a catalogue source for a future construction-product information record",
+        "GS1 Digital Product Passport provisional standard as an interoperability option for an EU construction-product DPP, not a UK legal mandate"
+      ],
+      "affected_stakeholders": [
+        "Construction-product manufacturers, importers and distributors, including builders’ merchants",
+        "Designers, contractors, principal designers and building-safety assessors who consume product information",
+        "MHCLG Buildings, Design and Construction digital and policy teams",
+        "OPSS as the national regulator for construction products",
+        "Industry schemes already in the standards landscape: CCPI, PAS 2000, BSI Identify, Manufacturers’ Information Hub"
+      ],
+      "key_dates": [
+        {
+          "date": "2026-02-25",
+          "label": "Construction Products Reform White Paper published (unique product identifiers and digital labels already indicated)"
+        },
+        {
+          "date": "2026-10-22",
+          "label": "MHCLG Digital discovery blog published"
+        },
+        {
+          "date": "2026-11-05",
+          "label": "Next open show-and-tell, 11:00–12:00, then every other Thursday"
+        }
+      ],
+      "next_steps": [
+        {
+          "audience": "gs1_uk",
+          "action": "Register for the 5 November show-and-tell and put GTIN, GLN and GS1 Digital Link on the fire-door map as options, stating plainly that the blog does not mandate them",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Do not reprint construction-product packs or allocate a new construction identifier on the back of this blog; watch the October recording and join a show-and-tell if you supply safety-critical products",
+          "priority": "now"
+        },
+        {
+          "audience": "gs1_uk",
+          "action": "Prepare a short discovery briefing that maps existing GS1 keys used by construction members to the White Paper’s unique-identifier and digital-label language, for use if Alpha or a library prototype follows",
+          "priority": "next_quarter"
+        },
+        {
+          "audience": "both",
+          "action": "Watch for an Alpha service, a library prototype, a GSR instrument or any MHCLG choice of identifier or data carrier; this blog is none of those",
+          "priority": "monitor"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://mhclgdigital.blog.gov.uk/2026/10/22/standardising-construction-product-data-to-improve-building-safety/",
+          "label": "MHCLG Digital: Standardising construction product data to improve building safety (22 October 2026)",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
+          "label": "GOV.UK: Construction Products Reform White Paper",
+          "kind": "official"
+        },
+        {
+          "url": "https://mhclgdigital.blog.gov.uk/2026/04/22/data-standards-laying-the-groundwork-for-an-open-faster-data-driven-planning-system/",
+          "label": "MHCLG Digital: planning data-standards powers the construction team says it is learning from",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=EGg0v32c3kOociSi7zmVqIKo_xbl-wBKiytW2zoGpaNUM1RISVI4V1FGOU9FN0pWM0xLWjlWREowOC4u",
+          "label": "MHCLG: construction-product data show-and-tell registration form",
+          "kind": "other"
+        },
+        {
+          "url": "https://youtu.be/j2MrdAalkAg",
+          "label": "MHCLG: recording of the earlier October show-and-tell",
+          "kind": "other"
+        }
+      ],
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-10-26__2",
+      "digest_id": "2026-10-26"
+    }
+  ],
+  "error": null,
+  "id": "2026-10-26",
+  "created_at": "2026-10-26T08:00:00+00:00",
+  "completed_at": "2026-10-26T08:00:00+00:00",
+  "item_count": 2,
+  "sector_counts": [
+    {
+      "sector": "retail",
+      "total": 0,
+      "high": 0
+    },
+    {
+      "sector": "construction",
+      "total": 1,
+      "high": 0
+    },
+    {
+      "sector": "healthcare",
+      "total": 1,
+      "high": 0
+    }
+  ]
+}
