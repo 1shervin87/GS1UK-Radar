@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:07:29.776896+00:00",
+  "generated_at": "2026-11-02T07:10:57.581840+00:00",
   "status": {
     "app": "GS1 UK Regulatory Radar",
     "environment": "static",
@@ -10,7 +10,7 @@
     "timezone": "Europe/London",
     "next_run": null,
     "running": false,
-    "latest_digest_id": "2026-10-26",
+    "latest_digest_id": "2026-11-02",
     "sectors": [
       {
         "id": "retail",
@@ -33,6 +33,35 @@
     ]
   },
   "digests": [
+    {
+      "id": "2026-11-02",
+      "window_start": "2026-10-26T08:00:00+00:00",
+      "window_end": "2026-11-02T08:00:00+00:00",
+      "created_at": "2026-11-02T08:00:00+00:00",
+      "completed_at": "2026-11-02T08:00:00+00:00",
+      "status": "completed",
+      "trigger": "automation",
+      "headline": "Budget 2026 locks Peppol for VAT e-invoicing; Exchange for Change publishes the first certified RVM list",
+      "is_sample": false,
+      "item_count": 2,
+      "sector_counts": [
+        {
+          "sector": "retail",
+          "total": 2,
+          "high": 1
+        },
+        {
+          "sector": "construction",
+          "total": 1,
+          "high": 1
+        },
+        {
+          "sector": "healthcare",
+          "total": 1,
+          "high": 1
+        }
+      ]
+    },
     {
       "id": "2026-10-26",
       "window_start": "2026-10-19T08:00:00+01:00",

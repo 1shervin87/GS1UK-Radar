@@ -1,66 +1,67 @@
 {
-  "window_start": "2026-10-19T08:00:00+01:00",
-  "window_end": "2026-10-26T08:00:00+00:00",
+  "window_start": "2026-10-26T08:00:00+00:00",
+  "window_end": "2026-11-02T08:00:00+00:00",
   "status": "completed",
   "trigger": "automation",
   "is_sample": false,
-  "headline": "MHRA locks in indefinite CE recognition for GB devices; MHCLG opens the construction-product data discovery",
-  "executive_summary": "This Monday-to-Monday week has two identification keeps, and neither is a new barcode statute. On 21 October the MHRA published the government response to its February–April consultation and confirmed that Great Britain will indefinitely recognise CE-marked medical devices certified under the EU MDR and IVDR, while aligning EU MDD transitional recognition with the EU’s 31 December 2028 end date. More than 90 per cent of devices registered for use in Great Britain already carry a CE mark. Those devices already bear an EU unique device identifier; the response does not designate a GB issuing entity, and the GS1 Global Office UDI page still does not list Great Britain. What the response does say, in the pelvic-mesh section, is that the forthcoming UKCA pre-market legislation will contain measures to improve the traceability of implanted devices, including unique device identifiers and implant cards – the same December file already on the watchlist. On 22 October MHCLG’s Buildings, Design and Construction digital team published the first detailed public account of its construction-product data discovery: mapping the lifecycle of a fire door, researching existing technical data standards, and inviting the sector to fortnightly show-and-tells from 5 November. The blog does not choose an identifier, a data carrier or a library back-end. Retail produced no keep: Exchange for Change’s news page still ends on 30 September; Better Retailing reported a second delay of the certified reverse-vending-machine list on 21 October, with a spokesperson still promising publication ‘this month’. TAXUD’s 5 October product-identifier guidance is not repeated; enforcement from 1 November is six days away. Official Journal citation of EN 18239 and EN 18246 is still outstanding.",
+  "headline": "Budget 2026 locks Peppol for VAT e-invoicing; Exchange for Change publishes the first certified RVM list",
+  "executive_summary": "This Monday-to-Monday week has two identification keeps, and neither is a new barcode statute. On 28 October, Budget 2026 published HMRC’s e-invoicing implementation roadmap: from 1 April 2029 VAT-registered persons, including public bodies, must issue and receive VAT invoices as structured e-invoices unless a specific exemption applies, and Peppol is the UK’s core interoperability framework. HMRC will take the UK Peppol Authority from NHS Supply Chain. Every user will need a business identifier as part of their Peppol participant identity; which identifiers the UK will accept is still unchosen and is due between October 2027 and April 2028. GS1 is not named, and GLN is not designated. A separate digital-reporting consultation, also opened on 28 October and closing on 20 January 2027, asks whether HMRC might later receive selected e-invoice data; it does not change the 2029 duty. On 29 October Exchange for Change published the first certified reverse-vending-machine list, independently assessed by PPS against 77 requirements that include identification and acceptance of eligible containers. The barcode rules themselves did not change. Construction produced no keep: MHCLG’s show-and-tells start on 5 November, after this window. Healthcare produced no keep: last week’s CE-recognition decision is not repeated, and GS1 is still not a GB UDI issuing entity. Product-identifier enforcement for EU distance-sale imports began on 1 November; HMRC has still published no UK-exporter note.",
   "cross_sector_themes": [
-    "Great Britain is locking in EU identification that already sits on CE-marked devices, not inventing a parallel GB numbering scheme this week",
-    "UDI, implant cards and a construction-product identifier remain draft or discovery work; nothing this week designates GS1",
-    "DRS barcodes, the certified RVM list, product-testing guidelines and the EN 18239/18246 Official Journal citation did not move",
-    "PID enforcement for EU distance-sale imports from 1 November 2026 is now six days away; HMRC has still published no UK-exporter note"
+    "Peppol is now the UK’s chosen e-invoicing network, but the identifier that will sit on a participant identity is still a 2027–28 decision, not a GS1 mandate",
+    "DRS return-point machines that must read scheme barcodes are now a published certified list; on-pack GTIN change, product-testing guidelines and Article List registration clocks did not move",
+    "UDI, implant cards, a construction-product identifier and Official Journal citation of EN 18239 and EN 18246 remain draft, discovery or outstanding",
+    "PID reporting for EU distance-sale imports is now a live customs duty from 1 November 2026; HMRC has still published no UK-exporter note"
   ],
   "sector_overviews": [
     {
       "sector": "retail",
-      "headline": "No retail identifier keep; the certified RVM list is late for a second time and PID enforcement is six days away",
-      "summary": "Retail produced no item that passed the identifier test. Exchange for Change published nothing after 30 September. On 21 October Better Retailing reported a second delay of the certified reverse-vending-machine list, originally indicated for the end of September and then early October; an Exchange for Change spokesperson said each machine is being tested against 77 requirements including container recognition and processing, and that the list will still be published this month. That is an infrastructure delay, not a new barcode rule, so it is not a keep. Product-testing guidelines promised by September remain ‘in due course’ on the FAQs. Last week’s TAXUD EAN/S-PID guidance is not repeated; Dutch Customs updated its how-to page on 22 October without changing the 1 November clock or adopting the still-outstanding Annex B amendment. The HMRC/DBT e-invoicing implementation roadmap is still indicated for Budget 28 October, two days after this window. The autumn UK-wide batteries alignment consultation has still not opened. Toys safety and digital-product-records calls for evidence still have no summaries. PackUK’s 2026/27 confirmed fees and notices of liability remain indicated by the end of November.",
-      "top_priorities": [],
+      "headline": "E-invoicing identifiers go on the Budget clock; the certified RVM list is finally out",
+      "summary": "Retail has both of this week’s keeps. The Budget 2026 e-invoicing roadmap is the bigger one: Peppol is locked as the interoperability framework, HMRC will become the UK Peppol Authority, and a business-identifier decision is promised between October 2027 and April 2028. That is a location-identifier file for every VAT-registered supplier, not a GTIN or barcode duty. Exchange for Change then published, on 29 October, the first certified reverse-vending-machine list after two reported delays, with independent PPS assessment against 77 requirements including identification of eligible containers. The RVM specification already requires those machines to read EAN-8, EAN-13 and UPC and to read 2D Data Matrix and QR codes, validating against the Scheme Article List. Product-testing guidelines remain ‘in due course’ on the FAQs. PID reporting for EU distance-sale imports became mandatory on 1 November; Irish Revenue published a temporary ‘PID not available’ tolerance until 31 January 2027, but HMRC has still issued no UK-exporter note and the Commission’s Annex B amendment is still outstanding. PackUK’s 2026/27 confirmed fees remain indicated by the end of November. Wales DRS logistics contracts are still unawarded.",
+      "top_priorities": [
+        "Budget 2026 e-invoicing roadmap locks in Peppol; UK business identifiers still unchosen",
+        "Exchange for Change publishes first certified RVM list after October delays"
+      ],
       "watchlist": [
-        "TAXUD product-identifier enforcement from 1 November 2026; Commission amendment of UCC-DA Annex B to confine the duty to consignments of EUR 150 or less still ‘in the process’, not adopted; Dutch Customs how-to updated 22 October; still no HMRC/GOV.UK UK-exporter note",
-        "Exchange for Change certified RVM list: second delay reported 21 October, spokesperson still promising publication in October; product-testing guidelines still unpublished after the September 2026 deadline",
+        "HMRC business-identifier decision for Peppol participant identity, still due October 2027 to April 2028; Spring 2027 technical consultation on UK e-invoicing standards",
+        "E-invoicing digital-reporting consultation open until 20 January 2027; no decision to introduce reporting has been taken",
+        "TAXUD product-identifier duty live from 1 November 2026; Commission amendment of UCC-DA Annex B to confine the duty to consignments of EUR 150 or less still outstanding; Irish Revenue temporary tolerance until 31 January 2027; still no HMRC/GOV.UK UK-exporter note",
+        "Exchange for Change product-testing guidelines still unpublished after the September 2026 deadline; FAQs still say the testing process will be published in due course",
         "Phase 2 DRS registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
-        "Wales DRS transition arrangements, including glass, still unpublished; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
+        "Wales DRS transition, including glass, still without awarded logistics and processing contracts; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
         "GS1 UK DRS EDI webinar took place on 6 October 2026; no published recap or EDI specification found (gs1uk.org HTML remains Incapsula-blocked)",
-        "HMRC e-invoicing implementation roadmap still indicated for Budget 28 October 2026",
         "Battery QR code and, for in-scope categories, the battery passport from 18 February 2027; autumn UK-wide batteries alignment consultation still indicated, not opened",
         "Toys safety call for evidence closed 23:59 on 6 October 2026 – still no acknowledgement or summary of responses",
         "UK digital product records: call for evidence closed 21 September 2026 – still no summary of responses",
-        "Official Journal citation of EN 18239 and EN 18246 still outstanding; no new implementing decision found this week",
+        "Official Journal citation of EN 18239 and EN 18246 still outstanding; Commission indicative timeline still says November 2026",
         "PackUK 2026/27 confirmed fees and notices of liability still indicated by end of November 2026",
         "Sunrise 2027 retailer POS readiness; EUDR due-diligence for large and medium operators from 30 December 2026"
       ]
     },
     {
       "sector": "construction",
-      "headline": "MHCLG’s digital team has put the construction-product data discovery on the record; no identifier or library is chosen",
-      "summary": "Construction’s keep is the 22 October MHCLG Digital blog from the Buildings, Design and Construction team. It describes a multidisciplinary discovery: mapping information flows across the building lifecycle using a fire door as the worked example, researching existing technical data standards (none of which, the team says, are consistently adopted), and running user-research workshops. It does not launch a construction-product library, does not name a unique identifier or a QR/data-carrier duty, and does not adopt the Manufacturers’ Information Hub as a back-end. The team is learning from MHCLG’s Digital Planning powers to set data standards under the Levelling-up and Regeneration Act 2023 and the Planning Data Regulations 2026. Fortnightly open show-and-tells start on 5 November. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared. CCPI’s ‘Preparing for CCPI’ webinar was listed for 22 October; no published recap was found.",
-      "top_priorities": [
-        "MHCLG digital team opens construction-product data discovery and fortnightly show-and-tells"
-      ],
+      "headline": "No construction identifier keep; MHCLG’s first public show-and-tell is 5 November",
+      "summary": "Construction produced no item that passed the identifier test. Last week’s MHCLG Digital discovery blog is not repeated. Fortnightly open show-and-tells start on 5 November, after this window; watch that session for any identifier, data-carrier or library choice. The Building Safety Regulator invited evidence on the future of Part K and Approved Document K on 27 October; that is protection from falling, collision and impact, not a unique product identifier. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared; the Commission’s indicative timeline still places that decision in November 2026. The EU construction-product DPP delegated act remains indicated for Q2 2027.",
+      "top_priorities": [],
       "watchlist": [
         "MHCLG show-and-tells every other Thursday from 5 November 2026; watch whether Alpha, a library prototype or an identifier/data-carrier choice follows",
         "Manufacturers’ Information Hub minimum viable product / early-adopter prototype, still funding-dependent, spring 2027",
         "Government responses to the White Paper and GSR consultations, later in 2026",
-        "Official Journal citation of EN 18239 and EN 18246, still indicated and not published as of 26 October",
+        "Official Journal citation of EN 18239 and EN 18246, still indicated for November 2026 and not published as of 2 November",
         "EU construction-product DPP delegated act still indicated Q2 2027",
         "Approved Document B recommendations expected by March 2027",
-        "PAS 2000:2026 uptake and CCPI alignment; 22 October ‘Preparing for CCPI’ webinar listed, no published recap found this week"
+        "PAS 2000:2026 uptake and CCPI alignment"
       ]
     },
     {
       "sector": "healthcare",
-      "headline": "Indefinite CE recognition is now government policy; GB UDI is still the UKCA pre-market SI",
-      "summary": "Healthcare’s keep is the 21 October government response confirming that Great Britain will indefinitely recognise all CE-marked devices certified under EU MDR and IVDR, and will align EU MDD recognition with the EU transition end date of 31 December 2028. Legislative changes are to be made, subject to parliamentary approval, before 30 June 2028. Manufacturers of CE-marked devices must still appoint a UK responsible person, register with the MHRA and meet the June 2025 post-market surveillance rules. The response explicitly locates unique device identifiers and implant cards in the forthcoming UKCA pre-market legislation, not in the CE-recognition instrument. Last week’s MHRA Strategy 2030 is not repeated. The 19 October AdvaMed preview restates ‘improved device data and traceability’ from that strategy and is not a keep. Scan4Safety’s site has no dated 19–26 October post. The 17 September GS1 UK / PSC report is not repeated. GS1 is still not listed as a GB UDI issuing agency.",
-      "top_priorities": [
-        "MHRA locks in indefinite CE recognition; UDI stays on the UKCA pre-market SI"
-      ],
+      "headline": "No healthcare identifier keep; NHS Peppol Authority will move to HMRC, GB UDI is still the December SI",
+      "summary": "Healthcare produced no new UDI, implant-card or Scan4Safety keep. The Budget e-invoicing roadmap does, however, say that the UK Peppol Authority function currently sits within NHS Supply Chain and that HMRC will take it on; timing of that transfer is not yet determined. NHS trusts and their suppliers already exchange structured invoices on Peppol and already use GLN in NHS eProcurement; the roadmap does not designate GLN for the economy-wide mandate. Last week’s indefinite CE-recognition decision is not repeated. Unique device identifiers and implant cards remain on the UKCA pre-market statutory instrument, still indicated for December 2026 adoption and June 2027 force, subject to Parliament. GS1 is still not listed as a GB issuing entity. MHRA’s October Safety Roundup, MedSafetyWeek (2–8 November) and individual field-safety and medicines-recall notices did not pass the identifier test. The 17 September GS1 UK / PSC Scan4Safety report is not repeated. The ABHI / GS1 UK ‘Understanding GB UDI’ session remains listed for 27 November.",
+      "top_priorities": [],
       "watchlist": [
+        "Transfer of the UK Peppol Authority from NHS Supply Chain to HMRC; timing still not determined",
         "CE-recognition statutory instrument: to be made before 30 June 2028, subject to parliamentary approval",
         "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027; still the file that will carry UDI and implant cards for the UKCA route",
-        "MHRA designation of UDI issuing entities and GB UDI database schema – still outstanding; Strategy 2030’s ‘UDI or an equivalent’ is not repeated this week",
+        "MHRA designation of UDI issuing entities and GB UDI database schema – still outstanding",
         "DHSC / NHS England reaction to the 17 September Scan4Safety report; national adoption target still absent",
         "NHS Supply Chain Scan4Safety IMS / point-of-care scanning framework uptake beyond the first 19 trusts",
         "NHS Scotland Scan for Safety – still no published materials from the 21 September spotlight",
@@ -71,261 +72,277 @@
     }
   ],
   "stats": {
-    "queries": 108,
-    "pages_reviewed": 214,
+    "queries": 112,
+    "pages_reviewed": 228,
     "items_kept": 2,
-    "note": "Window is 19 October 08:00 Europe/London (BST) to 26 October 08:00 Europe/London (GMT, after the 25 October clock change). All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-10-19 plus organisation follow-ups for OPSS, Defra, MHRA, MHCLG, BSR, HMRC, DBT/BIST and FSA), legislation.gov.uk daily new-instrument lists for each day in the window, Exchange for Change news and FAQs, Commission/ESPR and TAXUD pages, MHRA CE-recognition news and government-response PDF, MHCLG Digital construction-product data blog, Scan4Safety, PackUK, and UK trade press. Legislation in the window was screened through SI 2026/1118 and WSI 2026/130; no new identification, labelling or traceability SI was made. MHRA 21 October CE-recognition decision is the healthcare keep. MHCLG 22 October discovery blog is the construction keep. Exchange for Change news still ends 30 September; Better Retailing 21 October RVM-list delay is infrastructure and did not pass. Last week’s TAXUD 5 October PID guidance is not repeated (Dutch Customs how-to updated 22 October; Annex B amendment still outstanding). Product-testing guidelines and the certified RVM list have still not appeared. Toys CFE and DPR CFE still have no summaries. EN 18239/18246 Official Journal citation still outstanding. Autumn batteries consultation not opened. AdvaMed 19 October preview, DHSC cosmetic-procedures consultation, FSA national enforcement priorities, digital waste-tracking collection update, Life Sciences Healthcare Goals, SI 2026/1118 precepts, WSI 2026/130 health-and-social-care commencement, private-parking code, and individual OPSS product-safety reports did not pass. gs1uk.org HTML remains Incapsula-blocked."
+    "note": "Window is 26 October 08:00 Europe/London (GMT) to 2 November 08:00 Europe/London (GMT). All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-10-26 plus organisation follow-ups for OPSS, Defra, MHRA, MHCLG, BSR, HMRC, DBT/BIST and FSA), legislation.gov.uk daily new-instrument lists for each day in the window, Exchange for Change news, certified-RVM PDF and FAQs, HMRC e-invoicing roadmap, tax information and impact note and digital-reporting consultation, Commission DPP page, MHRA, Scan4Safety, PackUK, and UK trade press. Legislation in the window was screened through SI 2026/1146; no new identification, labelling or traceability SI was made. Budget 28 October e-invoicing roadmap is the high keep. Exchange for Change 29 October certified RVM list is the retail keep. PID enforcement from 1 November is live but is not repeated as a keep (no HMRC/GOV.UK UK-exporter note; Annex B amendment still outstanding; Irish Revenue 23/2026 tolerance until 31 January 2027). Product-testing guidelines still ‘in due course’. Toys CFE and DPR CFE still have no summaries. EN 18239/18246 Official Journal citation still outstanding. Autumn batteries consultation not opened. FSA allergen-guidance 29 October update only restored a missing x-height figure. NIRMS 30 October update is packing-list country-of-origin, not on-pack barcodes. CBAM refinery-scope consultation, Plastic Packaging Tax recycled-content certification consultation, BSR Part K call, OPSS product-safety reports and individual MHRA recalls did not pass. gs1uk.org HTML remains Incapsula-blocked."
   },
   "items": [
     {
-      "url": "https://www.gov.uk/government/news/government-confirms-indefinite-recognition-of-ce-marked-medical-devices",
-      "title": "MHRA locks in indefinite CE recognition; UDI stays on the UKCA pre-market SI",
+      "url": "https://www.gov.uk/government/publications/e-invoicing-implementation-roadmap/roadmap-for-e-invoicing-implementation",
+      "title": "Budget 2026 e-invoicing roadmap locks in Peppol; UK business identifiers still unchosen",
       "publisher": "gov.uk",
-      "issuing_body": "Medicines and Healthcare products Regulatory Agency",
-      "published_at": "2026-10-21T09:00:00+01:00",
-      "change_type": "policy",
-      "jurisdiction": "GB",
-      "sectors": [
-        "healthcare"
-      ],
-      "primary_sector": "healthcare",
-      "impact": "medium",
-      "relevance_score": 72,
-      "summary": "On 21 October 2026 the MHRA published the government response to its targeted consultation and confirmed that Great Britain will indefinitely recognise CE-marked medical devices certified under the EU MDR and IVDR. EU MDD-certified devices will be recognised until the EU’s own transition end date, currently 31 December 2028. Unique device identifiers and implant cards are located in the forthcoming UKCA pre-market legislation, not in this recognition decision. GS1 is not named and is not designated as a GB issuing entity.",
-      "what_changed": "The Medicines and Healthcare products Regulatory Agency published ‘Government confirms indefinite recognition of CE marked medical devices’ and the 21-page government response PDF on 21 October 2026. The targeted consultation ran from 16 February to 10 April 2026 and received 1,056 responses. The government will take forward two proposals: align Great Britain recognition of EU MDD-certified devices with the EU transition timelines, so those devices remain acceptable until the end of the EU transition period (currently 31 December 2028), including devices placed compliantly on the EU or Great Britain market before that date; and indefinitely recognise all CE-marked devices certified under EU MDR 2017/745 and EU IVDR 2017/746, maintaining the existing requirements in regulations 19C, 30A and 44ZB of the Medical Devices Regulations 2002. A separate reliance route for devices classified higher in Great Britain than in the EU will not be taken forward.\n\nThe news release states that more than 90 per cent of medical devices registered for use in Great Britain currently carry a CE mark, and that the UK will not require an additional approval route for devices already approved for the EU market. The UKCA mark remains the domestic route and is being modernised through the pre-market statutory instrument. Manufacturers of CE-marked devices placed on the Great Britain market must continue to appoint a UK responsible person if based outside the UK, register the devices with the MHRA, meet the strengthened post-market surveillance requirements that came into force in June 2025, keep technical documentation and the certificate of conformity in English, and comply with enforcement notices under the Medicines and Medical Devices Act 2021.\n\nIn the section addressing pelvic-mesh respondents, the response says the government is taking measures, broadly aligned with EU MDR and IVDR, that include ‘the formulation of “pre-market” legislation for UKCA marked devices, which will contain measures to improve the traceability of implanted devices including use of Unique Device Identifiers (UDI) and implant cards’. Next steps say the MHRA will introduce legislative changes reflecting the two adopted proposals, and that, subject to parliamentary approval, those changes will be made prior to the end of the earliest relevant transition period, which is 30 June 2028. The proposed approach applies to Great Britain; Northern Ireland continues to apply EU MDR and IVDR under the Windsor Framework. The response says indefinite CE recognition in Great Britain supports UK-wide supply because manufacturers can place the same product on the UK-wide market.",
-      "why_it_matters_to_gs1": "This is a market-access lock-in with a traceability consequence, not a new GS1 mandate. Devices that already carry an EU UDI – typically a GS1 GTIN as the UDI-DI and, under the EU model, a GMN as the Basic UDI-DI – can now stay on the Great Britain market indefinitely without a second UKCA conformity assessment. That is the identifier that will sit on the large majority of GB-registered packs for the rest of the decade, unless a manufacturer chooses the UKCA route. The response does not designate GS1, HIBCC, ICCBBA or IFA as a GB issuing entity. The GS1 Global Office UDI page, read this week, still lists the EU, the USA and a set of other jurisdictions; Great Britain is not on that list.\n\nTwo traps sit in this week’s text. First, indefinite CE recognition is not a reason to invent a second GB-only device number. Members who already ship the same SKU to the EU should keep the UDI-DI they hold. Second, UDI and implant cards are explicitly parked on the UKCA pre-market statutory instrument – the December file already reported last week – not on the CE-recognition instrument that will be made before June 2028. A member who treats 21 October as ‘UDI day’ will reprint early; a member who treats it as ‘no identifier work until 2028’ will arrive at the June 2027 UKCA UDI clock, if that SI is adopted, with no Basic UDI-DI and no tested scan. If GS1 UK does nothing, the December SI will still be debated without a clear UK mapping from Basic UDI-DI to GMN, from UDI-DI to GTIN, and from the UDI carrier to GS1 DataMatrix – the mapping NHS Scan4Safety trusts already use on CE-marked devices. If members do nothing, they will treat recognition as colour and discover too late that MHRA registration, UK responsible-person duties and post-market surveillance still key on a persistent device identifier. The ABHI / GS1 UK ‘Understanding GB UDI’ session listed for 27 November is now the place to walk the dual-route reality: EU UDI on the CE path, GB UDI still un-designated on the UKCA path.",
-      "gs1_standards_implicated": [
-        "GTIN as the usual UDI-DI already carried on CE-marked MDR/IVDR devices",
-        "GMN as the usual Basic UDI-DI under the EU model the UKCA pre-market SI has been aligned with",
-        "GS1 DataMatrix as the usual UDI carrier on devices and higher-level packaging",
-        "GDSN / productDNA as the catalogue feed into MHRA registration and a future GB UDI database",
-        "GLN for manufacturer, UK Responsible Person and healthcare-organisation locations in the registration chain"
-      ],
-      "affected_stakeholders": [
-        "Medical-device and IVD manufacturers placing CE-marked or UKCA-marked products on the Great Britain market",
-        "UK Responsible Persons and authorised representatives",
-        "NHS trusts and independent providers that scan devices at the point of care under Scan4Safety",
-        "NHS Supply Chain and MDOR submitters who need a stable device identifier across CE and UKCA routes",
-        "MHRA, as the body that must still make the CE-recognition SI, adopt the December pre-market SI and designate issuing entities"
-      ],
-      "key_dates": [
-        {
-          "date": "2026-02-16",
-          "label": "Targeted CE-recognition consultation opened"
-        },
-        {
-          "date": "2026-04-10",
-          "label": "Consultation closed (1,056 responses)"
-        },
-        {
-          "date": "2026-10-21",
-          "label": "Government response published: indefinite CE recognition confirmed"
-        },
-        {
-          "date": "2026-11-27",
-          "label": "ABHI / GS1 UK ‘Understanding GB UDI’ webinar (listed, not held this week)"
-        },
-        {
-          "date": "2026-12-01",
-          "label": "Draft pre-market SI still indicated for adoption in December 2026; this is the file that will carry UDI and implant cards for the UKCA route"
-        },
-        {
-          "date": "2027-06-01",
-          "label": "UDI still indicated to enter into force in June 2027 for the UKCA route, subject to the pre-market SI"
-        },
-        {
-          "date": "2028-06-30",
-          "label": "CE-recognition legislative changes to be made before this date, subject to parliamentary approval"
-        },
-        {
-          "date": "2028-12-31",
-          "label": "Current EU MDD transition end date, now also the GB recognition end date for MDD-certified devices"
-        }
-      ],
-      "next_steps": [
-        {
-          "audience": "gs1_uk",
-          "action": "Issue a short dual-route note: CE-marked devices keep the EU UDI they already carry; the December UKCA pre-market SI is still the file that will impose GB UDI and implant cards; GS1 is not designated",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Do not allocate a new GB-only device number on the back of this recognition decision; keep the UDI-DI you already use for the EU and wait for the pre-market SI and the issuing-entity designation",
-          "priority": "now"
-        },
-        {
-          "audience": "members",
-          "action": "Confirm MHRA registration, UK responsible-person and June 2025 PMS duties still apply to every CE-marked SKU you place on the Great Britain market; recognition does not waive them",
-          "priority": "now"
-        },
-        {
-          "audience": "gs1_uk",
-          "action": "Take the dual-route map (EU UDI on CE packs; GMN/GTIN/DataMatrix as the candidate UKCA mapping) into the 27 November ABHI session and the December SI engagement",
-          "priority": "next_quarter"
-        },
-        {
-          "audience": "both",
-          "action": "Watch for the CE-recognition instrument (before 30 June 2028) and for adoption of the draft Medical Devices (Amendment) Regulations 2026; this response is not that instrument and is not an issuing-entity designation",
-          "priority": "monitor"
-        }
-      ],
-      "links": [
-        {
-          "url": "https://www.gov.uk/government/news/government-confirms-indefinite-recognition-of-ce-marked-medical-devices",
-          "label": "GOV.UK: Government confirms indefinite recognition of CE marked medical devices (21 October 2026)",
-          "kind": "primary"
-        },
-        {
-          "url": "https://www.gov.uk/government/consultations/medical-devices-regulations-targeted-consultation-on-the-indefinite-recognition-of-ce-marked-devices",
-          "label": "GOV.UK: targeted consultation page, government response published 21 October 2026",
-          "kind": "official"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6ad76f8be9713babfbe3f755/Government_response_to_the_targeted_consultation_on_the_indefinite_recognition_of_CE_marked_medical_devices.pdf",
-          "label": "Government response PDF (21 October 2026) – UDI and implant cards in the UKCA pre-market section",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/implementation-of-the-future-regulation-of-medical-devices/implementation-of-the-future-regulations",
-          "label": "GOV.UK: Implementation of the future regulations – pre-market SI still lists UDI",
-          "kind": "guidance"
-        },
-        {
-          "url": "https://www.gov.uk/guidance/medical-devices-eu-regulations-for-mdr-and-ivdr",
-          "label": "GOV.UK: Regulation of medical devices in Northern Ireland",
-          "kind": "guidance"
-        },
-        {
-          "url": "https://www.gs1.org/industries/healthcare/udi",
-          "label": "GS1: Unique Device Identification (UDI) – issuing-agency list does not yet include GB",
-          "kind": "gs1"
-        }
-      ],
-      "confidence": "high",
-      "source_connector": "cursor-automation",
-      "id": "2026-10-26__1",
-      "digest_id": "2026-10-26"
-    },
-    {
-      "url": "https://mhclgdigital.blog.gov.uk/2026/10/22/standardising-construction-product-data-to-improve-building-safety/",
-      "title": "MHCLG digital team opens construction-product data discovery and fortnightly show-and-tells",
-      "publisher": "MHCLG Digital",
-      "issuing_body": "Ministry of Housing, Communities and Local Government",
-      "published_at": "2026-10-22T12:00:00+01:00",
+      "issuing_body": "HM Revenue & Customs",
+      "published_at": "2026-10-28T12:00:00+00:00",
       "change_type": "policy",
       "jurisdiction": "UK",
       "sectors": [
+        "retail",
+        "healthcare",
         "construction"
       ],
-      "primary_sector": "construction",
-      "impact": "medium",
-      "relevance_score": 62,
-      "summary": "On 22 October 2026 MHCLG’s Buildings, Design and Construction digital team published the first detailed public account of its construction-product data discovery. The team is mapping lifecycle information flows, researching existing technical data standards and inviting the sector to fortnightly show-and-tells from 5 November. The blog does not choose a unique identifier, a data carrier or a library back-end, and it does not create a legal duty.",
-      "what_changed": "The Buildings, Design and Construction (BDC) digital team in the Ministry of Housing, Communities and Local Government posted ‘Standardising construction product data to improve building safety’ on the MHCLG Digital blog on 22 October 2026. The post says the team has been working with policy colleagues and stakeholders to support the systemic-reform recommendations in the Construction Products Reform White Paper. It describes the problem as unstructured, inconsistent and poor-quality building and product information, much of it still on paper, so that safety information about products such as cladding, fire doors and steel is unavailable, inaccurate or too ambiguous for designers and safety assessors.\n\nA multidisciplinary discovery team has agreed scope, reviewed existing evidence and begun mapping the entire building lifecycle to show where information is created, maintained and exchanged. The worked example is the journey of a fire door, from sourcing materials through testing, supply, design, installation and maintenance to end of life. The team is also researching existing technical data standards and says that numerous industry standards exist but none are consistently adopted. User-research workshops are now under way to test how construction-product data is created, managed, controlled and exchanged.\n\nThe post says the team is working with the Digital Front Door team and the Construction Products Division, and is learning from MHCLG’s Digital Planning team, which established powers to set data standards for local plans in the Levelling-up and Regeneration Act 2023 and the Planning Data Regulations 2026. Open show-and-tells will run every other Thursday from 11:00 to 12:00, with the next session on 5 November; a Microsoft Forms registration link is published on the post, and a recording of an earlier October show-and-tell is linked. The blog does not announce an Alpha service, a construction-product information library, a unique product identifier, a QR or digital-label duty, or adoption of the Manufacturers’ Information Hub.",
-      "why_it_matters_to_gs1": "This is the week the already-watched MHCLG digital discovery became a public engagement file, not a new GS1 mandate. The White Paper, published in February, already said that over the coming years product information should be available digitally and that product labelling must include unique product identifiers linked to up-to-date information through a digital label such as a QR code. This blog does not repeat that sentence and does not choose the identifier. It does say the team is researching existing technical data standards and that none are consistently adopted. That is the moment to put GTIN, GLN and a GS1 Digital Link URI on the table as options that construction-product manufacturers already hold for retail and healthcare, without claiming they are required.\n\nIf GS1 UK does nothing, the show-and-tells will be filled by BSI Identify, LEXiCON templates, CCPI process marks and proprietary QR schemes, and the later library or GSR instrument will be designed around those. If members do nothing, they will treat a blog post as colour and arrive at a digital-label duty – if one follows the White Paper – with catalogues that have no persistent product identifier and no tested scan from pack to record. Do not reprint construction-product packs or allocate a new construction GTIN on the back of this post. Do attend the 5 November show-and-tell, watch the October recording, and ask the team how a unique product identifier and a digital label would join the fire-door map they have already drawn. The Manufacturers’ Information Hub remains a proof of concept; this discovery has not adopted it.",
+      "primary_sector": "retail",
+      "impact": "high",
+      "relevance_score": 88,
+      "summary": "On 28 October 2026 HMRC published the e-invoicing implementation roadmap at Budget 2026. From 1 April 2029 VAT-registered persons, including public bodies, must issue and receive VAT invoices as structured e-invoices unless a specific exemption applies. Peppol is the UK’s core interoperability framework and HMRC will become the UK Peppol Authority. Every user will need a business identifier as part of their Peppol participant identity; which identifiers the UK will support is still unchosen.",
+      "what_changed": "HM Revenue & Customs published ‘Roadmap for e-invoicing implementation’ on 28 October 2026, alongside a tax information and impact note and enabling-powers language for Finance Bill 2026-27. The Budget document confirms the roadmap. From 1 April 2029, VAT-registered persons – including public-sector bodies – will need to be able to issue and receive VAT invoices as e-invoices, unless a specific exemption applies. An e-invoice is defined as the exchange of structured invoice data directly between buyers’ and suppliers’ financial systems; PDFs, images, HTML emails and fax are explicitly not e-invoices.\n\nAs announced at Tax Update Day 2026 and restated here, the UK will adopt Peppol as the core interoperability framework. Organisations will typically connect through a certified Access Point provided by their software supplier. The UK Peppol Authority function currently sits within NHS Supply Chain; HMRC will take it on. The Finance Bill will confer the functions needed for HMRC to prepare to become the Authority. It is not yet determined when that transfer will take effect. Enabling powers come into force from Royal Assent of Finance Bill 2026-27, expected in spring 2027; secondary legislation setting the operational rules may not conclude until autumn 2028 or early 2029. The government will provide at least 12 months’ notice of the detailed requirements, and aims to publish them between October 2027 and April 2028, including scope, exclusions, standards, guidance, business identifiers and service-provider requirements. A public technical consultation on proposed UK e-invoicing standards is indicated for spring 2027. Digitally excluded VAT-registered persons are expected to have an exemption, with the process set out by April 2028. Existing EDI and legacy systems may continue alongside the framework, but businesses using them will also need to be capable of exchanging e-invoices through it; further guidance is indicated for autumn 2027.\n\nThe roadmap’s business-identifiers chapter says a business identifier acts as a digital address on the Peppol network and forms part of an organisation’s Peppol participant identity. All e-invoicing users will need to register one. Peppol supports a range of identifiers and countries choose which to support nationally. ‘As the UK does not have a single identifier that applies across all organisation types, consideration is being given to how different business identifiers could support a wide range of businesses and sectors.’ The decision on which identifiers will be accepted or supported is intended for publication between October 2027 and April 2028. Annex 2 lists business identifiers among Peppol Authority Specific Requirements, with VAT-registration numbers given as an example, not as the chosen scheme. A separate consultation on e-invoicing digital reporting opened the same day and closes at 23:59 on 20 January 2027. It explores whether HMRC might later receive selected e-invoice data. It does not introduce a reporting duty and does not change the 2029 e-invoicing requirement.",
+      "why_it_matters_to_gs1": "This is the week the already-watched e-invoicing mandate acquired a network, a national authority and an identifier decision-date, not a GS1 mandate. Structured invoice exchange is point 3 of the relevance test; Peppol is already how NHS eProcurement moves invoices, and GLN is already how many NHS organisations and suppliers identify themselves on that network. The roadmap says every user will need a business identifier as part of their Peppol participant identity, and that the UK still has to choose which identifiers to support. That is the opening. It is not a designation of GLN, GTIN, or any other GS1 key. The text gives VAT-registration numbers as an example of a PASR identifier. If GS1 UK treats 28 October as ‘GLN day’, it will over-claim. If it treats the file as colour until 2029, the October 2027–April 2028 decision will be taken around VAT numbers and company-registration numbers without a worked NHS-to-economy mapping.\n\nTwo traps sit in this week’s text. First, Peppol is the network, not the identifier. Members who already hold a GLN for NHS or GDSN work should keep it; they should not invent a second location number on the back of the Budget, and they should not assume the GLN they hold is the identifier HMRC will accept. Second, HMRC will not sit in the invoice flow and will not validate invoices in transit. The Peppol Authority is a governance function. The separate digital-reporting consultation is the place where HMRC might later see selected invoice data; it is not that decision. If GS1 UK does nothing, software providers and HMRC will design participant identity around identifiers they already hold at scale – VAT numbers first – and NHS trusts that already route on GLN will face a dual-identity problem when the economy-wide mandate arrives. If members do nothing, VAT-registered suppliers into retail, construction and the NHS will arrive at the spring 2027 standards consultation with no view on whether GLN should be an accepted Peppol identifier, and with catalogues that cannot be joined to a location identity. Do not reprint packs. Do put GLN on the table as an option that already works on the NHS Peppol network, stating plainly that this roadmap does not require it.",
       "gs1_standards_implicated": [
-        "GTIN as a candidate unique product identifier if a later library or GSR instrument requires one",
-        "GS1 QR Code / GS1 Digital Link URI as a data carrier that could meet the White Paper’s digital-label pattern, if that duty is later made",
-        "GLN for manufacturer, importer, merchant and installation locations on the fire-door lifecycle map",
-        "GDSN / productDNA as a catalogue source for a future construction-product information record",
-        "GS1 Digital Product Passport provisional standard as an interoperability option for an EU construction-product DPP, not a UK legal mandate"
+        "GLN as a candidate Peppol participant identifier, already used in NHS eProcurement, not designated this week",
+        "PEPPOL / e-invoicing as the structured-invoice data-sharing layer the roadmap adopts",
+        "EDI / EANCOM as the legacy invoice channel the roadmap says may continue alongside Peppol",
+        "GTIN as the usual product line on a structured invoice, not a new on-pack duty",
+        "GDSN / productDNA as the catalogue feed that would sit behind invoice lines if buyers match on GTIN"
       ],
       "affected_stakeholders": [
-        "Construction-product manufacturers, importers and distributors, including builders’ merchants",
-        "Designers, contractors, principal designers and building-safety assessors who consume product information",
-        "MHCLG Buildings, Design and Construction digital and policy teams",
-        "OPSS as the national regulator for construction products",
-        "Industry schemes already in the standards landscape: CCPI, PAS 2000, BSI Identify, Manufacturers’ Information Hub"
+        "VAT-registered businesses, sole traders, partnerships, charities and public bodies that issue or receive VAT invoices",
+        "NHS trusts, NHS Supply Chain and NHS Shared Business Services, where Peppol is already in use and the Peppol Authority currently sits",
+        "Construction-product manufacturers, merchants and contractors that issue or receive VAT invoices",
+        "Software providers, Peppol Access Point operators and existing EDI providers",
+        "HMRC and the Department for Business, Innovation, Science and Trade, as joint programme owners"
       ],
       "key_dates": [
         {
-          "date": "2026-02-25",
-          "label": "Construction Products Reform White Paper published (unique product identifiers and digital labels already indicated)"
+          "date": "2026-10-28",
+          "label": "Budget 2026: e-invoicing implementation roadmap, tax information and impact note, and digital-reporting consultation published"
         },
         {
-          "date": "2026-10-22",
-          "label": "MHCLG Digital discovery blog published"
+          "date": "2027-01-20",
+          "label": "E-invoicing digital-reporting consultation closes at 23:59"
         },
         {
-          "date": "2026-11-05",
-          "label": "Next open show-and-tell, 11:00–12:00, then every other Thursday"
+          "date": "2027-03-01",
+          "label": "Public technical consultation on proposed UK e-invoicing standards indicated for spring 2027; Finance Bill 2026-27 Royal Assent still indicated for spring 2027"
+        },
+        {
+          "date": "2027-10-01",
+          "label": "Window opens for publication of detailed requirements, including business identifiers (to April 2028)"
+        },
+        {
+          "date": "2028-04-01",
+          "label": "Detailed e-invoicing requirements, exemptions, standards, guidance and software-provider rules aimed to be published; communications campaign then runs"
+        },
+        {
+          "date": "2028-06-01",
+          "label": "Readiness testing with software providers indicated for summer 2028"
+        },
+        {
+          "date": "2028-12-01",
+          "label": "Infrastructure and governance arrangements indicated to be operational in winter 2028; secondary legislation may run into autumn 2028 or early 2029"
+        },
+        {
+          "date": "2029-04-01",
+          "label": "VAT e-invoicing requirement takes effect"
         }
       ],
       "next_steps": [
         {
           "audience": "gs1_uk",
-          "action": "Register for the 5 November show-and-tell and put GTIN, GLN and GS1 Digital Link on the fire-door map as options, stating plainly that the blog does not mandate them",
+          "action": "Write to HMRC’s e-invoicing engagement mailbox setting out GLN as a candidate Peppol participant identifier already used on the NHS network, stating plainly that the roadmap does not designate it",
           "priority": "now"
         },
         {
           "audience": "members",
-          "action": "Do not reprint construction-product packs or allocate a new construction identifier on the back of this blog; watch the October recording and join a show-and-tell if you supply safety-critical products",
+          "action": "Do not allocate a new location or invoice identifier on the back of Budget 2026; keep any GLN you already use for NHS, GDSN or EDI and wait for the business-identifier decision",
           "priority": "now"
         },
         {
+          "audience": "members",
+          "action": "If you are VAT-registered, note the 1 April 2029 clock, speak to your software or EDI provider about Peppol Access Point plans, and do not implement before the detailed requirements are published",
+          "priority": "next_quarter"
+        },
+        {
           "audience": "gs1_uk",
-          "action": "Prepare a short discovery briefing that maps existing GS1 keys used by construction members to the White Paper’s unique-identifier and digital-label language, for use if Alpha or a library prototype follows",
+          "action": "Prepare a short evidence note for the spring 2027 technical consultation mapping GLN to Peppol participant identity and GTIN to invoice lines, including the NHS Supply Chain transfer",
           "priority": "next_quarter"
         },
         {
           "audience": "both",
-          "action": "Watch for an Alpha service, a library prototype, a GSR instrument or any MHCLG choice of identifier or data carrier; this blog is none of those",
+          "action": "Watch the business-identifier decision (October 2027–April 2028), the Peppol Authority transfer from NHS Supply Chain to HMRC, and the digital-reporting consultation outcome; this roadmap is none of those",
           "priority": "monitor"
         }
       ],
       "links": [
         {
-          "url": "https://mhclgdigital.blog.gov.uk/2026/10/22/standardising-construction-product-data-to-improve-building-safety/",
-          "label": "MHCLG Digital: Standardising construction product data to improve building safety (22 October 2026)",
+          "url": "https://www.gov.uk/government/publications/e-invoicing-implementation-roadmap/roadmap-for-e-invoicing-implementation",
+          "label": "GOV.UK: Roadmap for e-invoicing implementation (28 October 2026)",
           "kind": "primary"
         },
         {
-          "url": "https://www.gov.uk/government/consultations/construction-products-reform-white-paper",
-          "label": "GOV.UK: Construction Products Reform White Paper",
+          "url": "https://www.gov.uk/government/publications/e-invoicing-implementation-roadmap",
+          "label": "GOV.UK: E-invoicing implementation Roadmap landing page",
           "kind": "official"
         },
         {
-          "url": "https://mhclgdigital.blog.gov.uk/2026/04/22/data-standards-laying-the-groundwork-for-an-open-faster-data-driven-planning-system/",
-          "label": "MHCLG Digital: planning data-standards powers the construction team says it is learning from",
-          "kind": "guidance"
+          "url": "https://www.gov.uk/government/publications/vat-electronic-invoicing/e-invoicing-requirements",
+          "label": "GOV.UK: E-invoicing requirements – tax information and impact note (28 October 2026)",
+          "kind": "official"
         },
         {
-          "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=EGg0v32c3kOociSi7zmVqIKo_xbl-wBKiytW2zoGpaNUM1RISVI4V1FGOU9FN0pWM0xLWjlWREowOC4u",
-          "label": "MHCLG: construction-product data show-and-tell registration form",
-          "kind": "other"
+          "url": "https://www.gov.uk/government/publications/vat-electronic-invoicing",
+          "label": "GOV.UK: VAT: electronic invoicing – enabling powers and Peppol Authority functions",
+          "kind": "official"
         },
         {
-          "url": "https://youtu.be/j2MrdAalkAg",
-          "label": "MHCLG: recording of the earlier October show-and-tell",
+          "url": "https://www.gov.uk/government/consultations/e-invoicing-digital-reporting",
+          "label": "GOV.UK: E-invoicing digital reporting consultation (closes 20 January 2027)",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+          "label": "GOV.UK: Budget 2026 HTML – e-invoicing roadmap announcement",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sbs.nhs.uk/supplier-information/einvoicing/",
+          "label": "NHS Shared Business Services: eInvoicing – existing NHS Peppol practice cited in the roadmap",
           "kind": "other"
         }
       ],
       "confidence": "high",
       "source_connector": "cursor-automation",
-      "id": "2026-10-26__2",
-      "digest_id": "2026-10-26"
+      "id": "2026-11-02__1",
+      "digest_id": "2026-11-02"
+    },
+    {
+      "url": "https://exchangeforchange.co.uk/news/exchange-for-change-publishes-first-list-of-certified-reverse-vending-machines-and-artwork-guidelines/",
+      "title": "Exchange for Change publishes first certified RVM list after October delays",
+      "publisher": "Exchange for Change",
+      "issuing_body": "Exchange for Change",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "change_type": "industry_scheme",
+      "jurisdiction": "UK",
+      "sectors": [
+        "retail"
+      ],
+      "primary_sector": "retail",
+      "impact": "medium",
+      "relevance_score": 63,
+      "summary": "On 29 October 2026 Exchange for Change published the first list of reverse-vending machines certified for the UK Deposit Return Scheme, after two reported delays in October. Independent assessment by PPS tests each machine against 77 requirements, including identification and acceptance of eligible containers. The on-pack barcode rules did not change. Product-testing guidelines for non-standard containers remain unpublished.",
+      "what_changed": "Exchange for Change published ‘Exchange For Change publishes first list of certified Reverse Vending Machines and Artwork Guidelines’ on 29 October 2026, with Newsletter 16 the same day. A nine-page PDF, last-modified on 30 October, lists certified machine families. Certification is an independent assessment by PPS against the Exchange for Change RVM specification. Each submitted machine is tested against 77 requirements covering identification and acceptance of eligible containers, fraud prevention, connectivity with scheme systems, accessibility, and secure handling of transaction data. The process remains open and the list will be updated as further machines are certified. The PDF states that certification confirms the machine meets the requirements; it does not guarantee performance, and retailers remain responsible for agreeing performance terms with their supplier.\n\nThe PDF groups certified families as TOMRA Essential, Flow Standalone, Flow Flexible and Flow Multifeed; RVM Systems X2, Mega (Bulk) and Proline; EcoVend Eco Series and X Series; Recyclever RVM 5; Envipco Compact, Flex and Optima; Sielaff SiCompact and SiVario; and Ripet Plast-C and R80, with named models under each family. letsrecycle, reporting the same day, lists those seven suppliers. Exchange for Change also published RVM Artwork Guidelines (PDF last-modified 29 October) setting approved branding, signage and consumer instructions for certified models, for use alongside a retailer’s own branding. Russell Davies, chief executive, said the list is intended to help retailers of all sizes make informed decisions ahead of the 1 October 2027 launch, and pointed to a grant scheme for eligible small independent retailers. The Federation of Independent Retailers said it would monitor the list and noted a £6,000 grant with an application process launching in January 2027; Exchange for Change FAQs still say full grant details will be published in due course.\n\nThe underlying barcode duty is unchanged. Scheme containers must still carry a barcode registered on the Scheme Article List, compliant with the GS1 General Specifications or equivalent. The February 2026 RVM specification, still the published hardware standard, requires machines to store the Article List, validate the barcode read, read barcodes at up to 30 degrees tilt with at least 99.5 per cent recognition of undamaged barcodes, read EAN-8, EAN-13 and UPC, and read 2D Data Matrix and QR codes. FAQs still say the product-testing process for non-standard container formats ‘will be published in due course’.",
+      "why_it_matters_to_gs1": "This is the week the already-watched certified RVM list became a public buying file, not a new GS1 mandate and not a change to on-pack GTIN allocation. Return-point machines are how the scheme barcode is captured. Certification against identification of eligible containers is Exchange for Change acting on barcoding: a machine that cannot read the registered EAN, UPC, Data Matrix or QR against the Article List cannot pay the deposit. Retailers who buy an uncertified machine now do so against a published list. That is the member risk.\n\nDo not read the artwork guidance as an on-pack change. It is machine livery and consumer signage. Do not read certification as a new 2D duty. The RVM specification already required 2D Data Matrix and QR readability; this list confirms which families have passed the 77-test pack, including that read. Sunrise 2027 QR codes powered by GS1 remain an industry POS target, not a DRS legal requirement. If GS1 UK does nothing, retailers will buy from the PDF without asking whether the certified read includes GS1 Digital Link URIs or only linear EAN/UPC plus generic 2D, and producers will still lack the product-testing protocol promised for September. If members do nothing, they will specify an uncertified RVM, or a certified model whose Article List API and barcode-grade assumptions they have not tested against their own pack, and discover the failure at counting-centre or return-point trial rather than in artwork. Do not change GTINs on the back of this list. Do check any RVM you are procuring against the certified PDF, and keep pressing for the product-testing guidelines.",
+      "gs1_standards_implicated": [
+        "GTIN carried in EAN-13, EAN-8, UPC-A or UPC-E as the scheme return code registered on the Article List",
+        "GS1 General Specifications, already required by the material specification for scheme barcodes",
+        "GS1 DataMatrix and GS1 QR Code / QR codes powered by GS1 as 2D carriers the RVM specification already requires machines to read",
+        "ISO/IEC 15416 Grade 1.5 barcode quality already required for RVM acceptance",
+        "Scheme Article List as the identifier-keyed registry RVMs must store and update"
+      ],
+      "affected_stakeholders": [
+        "Grocery retailers, convenience stores and newsagents procuring reverse-vending machines as return-point operators",
+        "Independent retailers considering the small-retailer RVM grant",
+        "RVM manufacturers and distributors seeking certification",
+        "Drinks producers whose registered barcodes those machines must read",
+        "Exchange for Change, as Deposit Management Organisation"
+      ],
+      "key_dates": [
+        {
+          "date": "2026-10-29",
+          "label": "First certified RVM list and RVM artwork guidelines published"
+        },
+        {
+          "date": "2027-01-01",
+          "label": "Phase 2 DRS registration indicated from January 2027; independent-retailer RVM grant applications indicated to launch the same month"
+        },
+        {
+          "date": "2027-07-09",
+          "label": "Existing in-scope products still due on the Scheme Article List (12 weeks before go-live)"
+        },
+        {
+          "date": "2027-10-01",
+          "label": "DRS go-live for England, Scotland and Northern Ireland; Wales still aiming to align"
+        }
+      ],
+      "next_steps": [
+        {
+          "audience": "gs1_uk",
+          "action": "Issue a short retailer note: buy only from the certified list; certification is not an on-pack barcode change; ask suppliers whether the 2D read includes GS1 Digital Link URIs",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Retailers procuring an RVM should check the certified-suppliers PDF before signing, and agree performance terms including Article List updates and barcode-grade handling; do not change GTINs on the back of this list",
+          "priority": "now"
+        },
+        {
+          "audience": "members",
+          "action": "Producers should keep allocating DRS-specific GTINs to the material specification and press Exchange for Change for the still-unpublished product-testing protocol for non-standard packs",
+          "priority": "next_quarter"
+        },
+        {
+          "audience": "both",
+          "action": "Watch for updates to the certified list, publication of product-testing guidelines, Phase 2 registration and the independent-retailer grant rules; this announcement is none of those",
+          "priority": "monitor"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://exchangeforchange.co.uk/news/exchange-for-change-publishes-first-list-of-certified-reverse-vending-machines-and-artwork-guidelines/",
+          "label": "Exchange for Change: first list of certified Reverse Vending Machines and Artwork Guidelines (29 October 2026)",
+          "kind": "primary"
+        },
+        {
+          "url": "https://exchangeforchange.co.uk/wp-content/uploads/2026/10/Certified-RVM-Suppliers.pdf",
+          "label": "Exchange for Change: Certified RVM Suppliers and Machine Families PDF",
+          "kind": "official"
+        },
+        {
+          "url": "https://exchangeforchange.co.uk/wp-content/uploads/2026/10/EFC_RVM_Guidelines.pdf",
+          "label": "Exchange for Change: RVM Artwork Guidelines PDF",
+          "kind": "official"
+        },
+        {
+          "url": "https://exchangeforchange.co.uk/faqs/",
+          "label": "Exchange for Change FAQs – product-testing process still ‘in due course’",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf",
+          "label": "Exchange for Change: UK DMO RVM Specification – barcode and 2D read requirements",
+          "kind": "guidance"
+        },
+        {
+          "url": "https://www.letsrecycle.com/news/exchange-for-change-publishes-first-list-of-certified-rvms/",
+          "label": "letsrecycle: Exchange For Change publishes first list of certified RVMs (29 October 2026)",
+          "kind": "news"
+        }
+      ],
+      "confidence": "high",
+      "source_connector": "cursor-automation",
+      "id": "2026-11-02__2",
+      "digest_id": "2026-11-02"
     }
   ],
   "error": null,
-  "id": "2026-10-26",
-  "created_at": "2026-10-26T08:00:00+00:00",
-  "completed_at": "2026-10-26T08:00:00+00:00",
+  "id": "2026-11-02",
+  "created_at": "2026-11-02T08:00:00+00:00",
+  "completed_at": "2026-11-02T08:00:00+00:00",
   "item_count": 2,
   "sector_counts": [
     {
       "sector": "retail",
-      "total": 0,
-      "high": 0
+      "total": 2,
+      "high": 1
     },
     {
       "sector": "construction",
       "total": 1,
-      "high": 0
+      "high": 1
     },
     {
       "sector": "healthcare",
       "total": 1,
-      "high": 0
+      "high": 1
     }
   ]
 }
