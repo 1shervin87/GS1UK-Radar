@@ -1,0 +1,101 @@
+{
+  "window_start": "2026-11-02T08:00:00+00:00",
+  "window_end": "2026-11-09T08:00:00+00:00",
+  "status": "completed",
+  "trigger": "automation",
+  "is_sample": false,
+  "headline": "No identifier keep this week; TAXUD restates a live PID duty and MHCLG’s first show-and-tell produced no published choice",
+  "executive_summary": "This Monday-to-Monday week produced no keep. Nothing published or materially updated between 2 and 9 November passed the GS1 UK identifier, data-carrier or structured-product-data test at 55 or above. On 3 November TAXUD posted a news note that product identifiers for EU distance-sale imports are now mandatory; that restates the 1 November duty already covered on 12 October and left off last week’s keep list because HMRC has still issued no UK-exporter note and the Commission’s Annex B amendment is still outstanding. Irish Revenue’s temporary ‘PID not available’ tolerance still runs to 31 January 2027. MHCLG’s first public construction-product show-and-tell was scheduled for 5 November; the 22 October discovery blog still points to that session and to later November dates, but no identifier, data-carrier or library choice has been published. Exchange for Change published no further DRS barcode, Article List or product-testing text after 29 October’s certified RVM list. Healthcare produced no UDI, implant-card or Scan4Safety instrument; GS1 is still not listed as a GB issuing entity. Official Journal citation of EN 18239 and EN 18246 has still not appeared, even though the Commission’s indicative timeline still places that decision in November. PackUK’s 2026/27 confirmed fees remain indicated by the end of the month. Zero items in a sector is the finding, not a gap.",
+  "cross_sector_themes": [
+    "A Commission restatement that a live identifier duty is being enforced is not a new GS1 mandate, and HMRC has still not translated the PID rules for UK exporters",
+    "MHCLG is now holding public show-and-tells on construction-product data, but an open session is not an identifier, data-carrier or library decision",
+    "UDI, implant cards, DRS product-testing guidelines, PackUK year-2 fees and Official Journal citation of EN 18239 and EN 18246 remain draft, discovery or outstanding",
+    "Clocks that did not move this week still bind members: DRS Article List by 9 July 2027, battery QR and passport from 18 February 2027, EUDR from 30 December 2026, VAT e-invoicing identifiers still unchosen until 2027–28"
+  ],
+  "sector_overviews": [
+    {
+      "sector": "retail",
+      "headline": "No retail identifier keep; TAXUD’s 3 November PID note restates a duty that is already live",
+      "summary": "Retail produced no item that passed the identifier test. TAXUD published, on 3 November, a news note that product identifiers must now be declared for distance-sale imports into the EU. It restates the three identifiers already in the 5 October guidance: a merchant product identifier, a non-standardised manufacturer identifier, and a standardised manufacturer identifier that is usually an EAN, UPC or ISBN printed as a barcode, with an exemption code if none exists. Enforcement from 1 November was already live last week. HMRC has still published no UK-exporter note. The Commission’s amendment of UCC-DA Annex B to confine the duty to consignments of EUR 150 or less is still outstanding. Irish Revenue e-commerce information notice 23/2026 still gives a temporary ‘PID not available’ tolerance until 31 January 2027. Exchange for Change published no news after 29 October; product-testing guidelines for non-standard containers remain ‘in due course’ on the FAQs; Phase 2 registration is still January 2027; existing-product registration on the Scheme Article List is still due by 9 July 2027. Wales DRS logistics and processing contracts are still unawarded. PackUK has still not published confirmed 2026/27 fees or notices of liability; the operational plan still aims for the end of November. The FSA’s 3 November allergen-guidance update only replaced two graphics. The 5 November NI food-contact-materials consultation is plastics, BPA and PFAS enforcement, not barcodes. SPIMM category-of-goods guidance was updated on 6 November for sanctions and steel, not ‘Not for EU’ on-pack marks. Last week’s Budget Peppol roadmap and certified RVM list are not repeated.",
+      "top_priorities": [],
+      "watchlist": [
+        "HMRC business-identifier decision for Peppol participant identity, still due October 2027 to April 2028; Spring 2027 technical consultation on UK e-invoicing standards",
+        "E-invoicing digital-reporting consultation open until 20 January 2027; no decision to introduce reporting has been taken",
+        "TAXUD product-identifier duty live from 1 November 2026; Commission 3 November news note restates EAN/UPC/ISBN as the usual S-PID but changes no rule; Commission amendment of UCC-DA Annex B still outstanding; Irish Revenue temporary tolerance until 31 January 2027; still no HMRC/GOV.UK UK-exporter note",
+        "Exchange for Change product-testing guidelines still unpublished after the September 2026 deadline; FAQs still say the testing process will be published in due course",
+        "Phase 2 DRS registration in January 2027; existing-product registration on the Scheme Article List still due by 9 July 2027",
+        "Wales DRS transition, including glass, still without awarded logistics and processing contracts; regulator decision on unfilled packaging tied to pre-1 October 2027 orders still outstanding",
+        "GS1 UK DRS EDI webinar took place on 6 October 2026; no published recap or EDI specification found (gs1uk.org HTML remains Incapsula-blocked)",
+        "Battery QR code and, for in-scope categories, the battery passport from 18 February 2027; EU battery-passport access-rights draft still open for feedback until 16 November 2026; autumn UK-wide batteries alignment consultation still indicated, not opened",
+        "Toys safety call for evidence closed 23:59 on 6 October 2026 – still no acknowledgement or summary of responses",
+        "UK digital product records: call for evidence closed 21 September 2026 – still no summary of responses",
+        "Official Journal citation of EN 18239 and EN 18246 still outstanding; Commission indicative timeline still says November 2026",
+        "PackUK 2026/27 confirmed fees and notices of liability still indicated by end of November 2026",
+        "Sunrise 2027 retailer POS readiness; EUDR due-diligence for large and medium operators from 30 December 2026"
+      ]
+    },
+    {
+      "sector": "construction",
+      "headline": "No construction identifier keep; the 5 November show-and-tell produced no published identifier or library choice",
+      "summary": "Construction produced no item that passed the identifier test. MHCLG’s Buildings, Design and Construction digital team had scheduled the first of its fortnightly open show-and-tells for 5 November, 11:00–12:00. The 22 October discovery blog, already covered last week, still points to that session and to later November dates, and now refers to show-and-tells ‘held in October and November 2026’. No write-up, slide deck or decision on a unique product identifier, data carrier, GTIN, GS1 Digital Link or construction library has been published. The next session would fall on 19 November if the every-other-Thursday rhythm holds. The Manufacturers’ Information Hub remains at proof-of-concept complete / MVP in development. Government responses to the Construction Products Reform White Paper and the General Safety Requirement consultation are still indicated later in 2026. Official Journal citation of EN 18239 and EN 18246 has still not appeared; the Commission’s indicative timeline still places that decision in November 2026. The EU construction-product DPP delegated act remains indicated for Q2 2027. BSR’s 6 November transparency release is Gateway 2 volumes for August to October, not a product identifier. The Control of Asbestos (Amendment etc.) Regulations 2026 (SI 2026/1153) change who may assess post-work cleanliness from 25 November 2027; they do not create a construction-product identifier. Last week’s MHCLG discovery blog is not repeated.",
+      "top_priorities": [],
+      "watchlist": [
+        "MHCLG show-and-tells every other Thursday after 5 November 2026; next indicated 19 November; watch whether Alpha, a library prototype or an identifier/data-carrier choice follows",
+        "Manufacturers’ Information Hub minimum viable product / early-adopter prototype, still funding-dependent, spring 2027",
+        "Government responses to the White Paper and GSR consultations, later in 2026",
+        "Official Journal citation of EN 18239 and EN 18246, still indicated for November 2026 and not published as of 9 November",
+        "EU construction-product DPP delegated act still indicated Q2 2027",
+        "Approved Document B recommendations expected by March 2027",
+        "PAS 2000:2026 uptake and CCPI alignment"
+      ]
+    },
+    {
+      "sector": "healthcare",
+      "headline": "No healthcare identifier keep; GB UDI is still the December SI and GS1 is still not a GB issuing entity",
+      "summary": "Healthcare produced no new UDI, implant-card or Scan4Safety keep. Unique device identifiers and implant cards remain on the draft Medical Devices (Amendment) Regulations 2026, still indicated for December 2026 adoption and June 2027 force, subject to Parliament. GS1 is still not listed as a GB issuing entity. The Budget e-invoicing roadmap’s transfer of the UK Peppol Authority from NHS Supply Chain to HMRC is not repeated; timing is still not determined. MHRA’s week was MedSafetyWeek (2–8 November), a patient-and-public-involvement plan, field-safety notices, medicines recalls, exceptional-use authorisations and an International Recognition Procedure update; none of those pass the identifier test. DHSC’s 2 November cosmetic-procedures consultation tweak is age-of-consent drafting, not a product identifier. NHS Supply Chain’s Scan4Safety IMS framework, live since June, gained no new identifier rule; a 5 November trade brief that Sonitor is on the 13-supplier list restates a June award. The 17 September GS1 UK / PSC Scan4Safety report is not repeated. A PSC / GS1 UK Scan4Safety webinar is listed for 25 November. The ABHI / GS1 UK ‘Understanding GB UDI’ session remains listed for 27 November.",
+      "top_priorities": [],
+      "watchlist": [
+        "Transfer of the UK Peppol Authority from NHS Supply Chain to HMRC; timing still not determined",
+        "CE-recognition statutory instrument: to be made before 30 June 2028, subject to parliamentary approval",
+        "Draft Medical Devices (Amendment) Regulations 2026: planned adoption December 2026, UDI in force June 2027; still the file that will carry UDI and implant cards for the UKCA route",
+        "MHRA designation of UDI issuing entities and GB UDI database schema – still outstanding",
+        "DHSC / NHS England reaction to the 17 September Scan4Safety report; national adoption target still absent",
+        "NHS Supply Chain Scan4Safety IMS / point-of-care scanning framework uptake beyond the first 19 trusts",
+        "PSC / GS1 UK Scan4Safety webinar listed for 25 November 2026",
+        "NHS Scotland Scan for Safety – still no published materials from the 21 September spotlight",
+        "Medicines GS1 DataMatrix quality on GB packs after FMD; House of Lords medicines-security follow-up",
+        "EAHP/EFPIA unit-dose GS1 DataMatrix roadmap from 2031 – still no UK plan",
+        "ABHI / GS1 UK ‘Understanding GB UDI’ webinar listed for 27 November 2026"
+      ]
+    }
+  ],
+  "stats": {
+    "queries": 118,
+    "pages_reviewed": 214,
+    "items_kept": 0,
+    "note": "Window is 2 November 08:00 Europe/London (GMT) to 9 November 08:00 Europe/London (GMT). All sector and cross-sector query-bank queries were run against GOV.UK (Search API with filter_public_timestamp from 2026-11-02 plus organisation follow-ups for OPSS, Defra, MHRA, MHCLG, BSR, HMRC, DHSC, FSA, DBT/BIST), legislation.gov.uk daily new-instrument lists for each day in the window, Exchange for Change news and FAQs, Commission DPP page, TAXUD PID news, PackUK, Scan4Safety, NHS Supply Chain, MHCLG Digital, and UK trade press. Legislation in the window was screened from SI 2026/1148 through SI 2026/1171; no new identification, labelling or traceability SI was made (Data Use and Access commencement No. 10 is births-and-deaths registers; asbestos SI 1153 is post-work cleanliness; customs SI 1155 is tariff suspensions; export-control SI 1150 is dual-use lists). TAXUD 3 November PID news is a restatement of the 1 November duty, not a keep. MHCLG 5 November show-and-tell produced no published identifier choice. FSA 3 November allergen update replaced graphics only. NI food-contact-materials consultation is chemical safety. SPIMM 6 November update is sanctions and steel. BSR 6 November data are Gateway volumes. Product-testing guidelines still ‘in due course’. Toys CFE and DPR CFE still have no summaries. EN 18239/18246 Official Journal citation still outstanding. Autumn batteries consultation not opened. PackUK fees still indicated by end of November. gs1uk.org HTML remains Incapsula-blocked."
+  },
+  "items": [],
+  "error": null,
+  "id": "2026-11-09",
+  "created_at": "2026-11-09T08:00:00+00:00",
+  "completed_at": "2026-11-09T08:00:00+00:00",
+  "item_count": 0,
+  "sector_counts": [
+    {
+      "sector": "retail",
+      "total": 0,
+      "high": 0
+    },
+    {
+      "sector": "construction",
+      "total": 0,
+      "high": 0
+    },
+    {
+      "sector": "healthcare",
+      "total": 0,
+      "high": 0
+    }
+  ]
+}
